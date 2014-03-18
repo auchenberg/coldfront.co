@@ -16,7 +16,6 @@ app.configure(function(){
   	app.use(app.router);
   	app.use('/assets', express.static(__dirname + '/assets/'));
 
-
 });
 
 app.configure('development', function(){
@@ -29,6 +28,6 @@ app.get('/', function(req, res) {
   	})
 });
 
-app.listen(3000, function(){
+app.listen(app.get('port'), function(){
  	console.log("Express server listening on port %d in %s mode", app.get('port'), app.settings.env);
 });
