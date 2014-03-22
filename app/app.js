@@ -1,7 +1,5 @@
-require('less');
 var express = require('express');
 var app = express();
-
 
 app.configure(function(){
 
@@ -13,13 +11,15 @@ app.configure(function(){
 
   	app.use(express.bodyParser());
   	app.use(express.methodOverride());
-  	app.use(app.router);
   	app.use('/assets', express.static(__dirname + '/assets/'));
 
 });
 
 app.configure('development', function(){
- 	app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+ 	app.use(express.errorHandler({ 
+ 		dumpExceptions: true, 
+ 		showStack: true 
+ 	}));
 });
 
 app.get('/', function(req, res) {
