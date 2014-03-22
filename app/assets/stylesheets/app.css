@@ -5788,8 +5788,7 @@ button.close {
 html,
 body {
     height:100%;
-    width::100%;
-
+    widows: 100%;
     background: #201D1E;
 
     font-size: 20px;
@@ -5800,6 +5799,7 @@ body {
 
 .page { 
     color: #fff;
+    min-width: 320px;
 }
 
 .page .splash {
@@ -5827,13 +5827,9 @@ body {
 
 }
 
-.page .content {
-    padding-top: 60px;
-}
-
 .page section .inner {
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 60px 20px 60px 20px;
     max-width: 600px;    
     text-align: center;
 }
