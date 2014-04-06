@@ -5863,6 +5863,7 @@ body {
 
 .splash .social {
   margin-top: 40px;
+  width: 100%;
 }
 
 .splash .social .fb-like {
@@ -5985,7 +5986,7 @@ a:visited {
 .speakers ul li > .img {
   width: 140px;
   height: 140px;
-  margin-right: 40px;
+  margin-right: 46px;
 }
 
 .speakers ul li img {
