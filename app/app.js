@@ -5,7 +5,7 @@ app.configure(function(){
 
 	app.engine('ejs', require('ejs-locals'));
 
-	app.set('port', process.env.PORT || 3000);
+	app.set('port', process.env.PORT || 8080);
   	app.set('views', __dirname + '/views');
   	app.set('view engine', 'ejs');
 

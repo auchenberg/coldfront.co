@@ -5789,7 +5789,7 @@ html,
 body {
     height:100%;
     widows: 100%;
-    background: #201D1E;
+    background: #000;
 
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -5803,7 +5803,9 @@ body {
 }
 
 .page .splash {
-    background: url('/assets/images/church.jpg');
+    background: url('https://farm6.staticflickr.com/5043/5266907176_f50503af2e_o_d.jpg');
+    background: url('https://farm6.staticflickr.com/5046/5303946969_1df4fc9a2a_o_d.jpg');
+    background: url('/assets/images/cph.jpg');
     background-size: cover;
     background-position: 50% 50%;    
 
@@ -5859,6 +5861,14 @@ body {
     line-height: 40px;
 }
 
+.splash .social {
+  margin-top: 40px;
+}
+
+.splash .social .fb-like {
+  line-height: 16px;
+}
+
 .about {
     background: #000;
     padding: 60px 0;
@@ -5887,7 +5897,7 @@ p.small {
 
 a:link,
 a:visited {
-    color: #52af8c;
+    color: #4188C8;
 }
 
 .page form input {
@@ -5926,3 +5936,98 @@ a:visited {
     -webkit-appearance: button;
     cursor: pointer;
 }
+
+
+.speakers {
+    background: #333 url('/assets/images/grey_bg.png');  
+}
+
+.speakers h2 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.speakers ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.speakers li {
+  width: 100%;
+  text-align: left;
+
+  list-style: none;
+  height: 270px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;  
+
+}
+
+.speakers li .media-body {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 0;
+  -moz-box-flex: 1;
+  -ms-flex: 1 0 0;
+  flex: 1 0 0;  
+}
+
+.speakers li h3 {
+  margin: 0;
+}
+
+.speakers ul li > .img {
+  width: 140px;
+  height: 140px;
+  margin-right: 40px;
+}
+
+.speakers ul li img {
+  border-radius: 140px;
+  height: 140px;
+  width: 140px;
+}
+
+
+.organizers h2 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.organizers ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.organizers li {
+  width: 50%;
+  float: left;
+  text-align: center;
+
+  list-style: none;
+
+
+  height: 270px;
+  overflow: hidden;
+}
+
+.organizers li h3 {
+  margin: 0;
+}
+
+.organizers ul li > img {
+  display: block;
+  border-radius: 140px;
+  height: 140px;
+  width: 140px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
