@@ -5797,6 +5797,14 @@ body {
 
 }
 
+html.safari {
+
+  .page .splash {
+    height: 800px !important;
+  }
+  
+}
+
 .page { 
     color: #fff;
     min-width: 320px;

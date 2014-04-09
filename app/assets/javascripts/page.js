@@ -20,6 +20,8 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));
 
-    viewportUnitsBuggyfill.init();
+    if(/ip.+mobile.+safari/i.test(window.navigator.userAgent)) {
+        document.documentElement.classList.add('safari')
+    }
 
 })();
