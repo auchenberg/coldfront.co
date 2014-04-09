@@ -5797,12 +5797,8 @@ body {
 
 }
 
-html.safari {
-
-  .page .splash {
+html.safari .page .splash {
     height: 800px !important;
-  }
-  
 }
 
 .page { 
