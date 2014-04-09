@@ -20,7 +20,7 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));
 
-    if(/ip.+mobile.+safari/i.test(window.navigator.userAgent)) {
+    if(/(iPhone|iPod|iPad).*AppleWebKit/i.test(navigator.userAgent)) {
         document.documentElement.classList.add('safari')
     }
 
