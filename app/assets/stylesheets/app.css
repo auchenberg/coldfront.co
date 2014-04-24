@@ -5840,6 +5840,11 @@ html.safari .page .splash {
     text-align: center;
 }
 
+.page section h2 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
 .page .logo {
     display: block;
     margin: 0 auto;
@@ -5888,8 +5893,11 @@ html.safari .page .splash {
     padding: 60px 0;
 }
 
-.tickets h2 {
+section.tickets h2 {
     margin-bottom: 40px;
+    font-size: 35px;
+}
+
 .location {
   background: #494f65;
 }
@@ -5952,11 +5960,6 @@ a:visited {
 
 .speakers {
     background: #333 url('/assets/images/grey_bg.png');  
-}
-
-.speakers h2 {
-  font-size: 50px;
-  margin-bottom: 60px;
 }
 
 .speakers ul {
