@@ -6025,7 +6025,7 @@ a:visited {
 }
 
 .speakers ul {
-  margin: 0;
+  margin: 40px 0 0 0;
   padding: 0;
   overflow: hidden;
 }
@@ -6096,6 +6096,17 @@ a:visited {
   height: 200px;
   width: 200px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+
+  .speakers ul li {
+    width: 100%;
+    float: none;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
 }
 
 
@@ -6264,4 +6275,6 @@ footer .inner {
     -moz-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
     transform: translateY(-15px); } }
+
+
 
