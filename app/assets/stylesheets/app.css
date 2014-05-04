@@ -5863,6 +5863,19 @@ html.safari .page .splash {
   width: 100%;
 }
 
+
+.splash .credits {
+    position: absolute;
+    bottom: 20px;
+    left: 20px; 
+
+    font-size: 10px;
+}
+
+.splash .credits a {
+    color: #fff;
+}
+
 .splash .arrow {
   
   -webkit-animation: bounce 2s infinite;
