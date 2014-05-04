@@ -1,37 +1,84 @@
 <div class="page">
 
 	<section class="splash">
-		<div class="inner">	      
-	    	<img alt="ColdFront logo" class="logo" src="/assets/images/logo.svg" />
-		  	<h1>ColdFront</h1>
-		  	<h2>4. Sep 2014 · Copenhagen</h2>	 
-		  	<h3>ColdFront is a one-day front-end conference in Copenhagen.</h3>
+		<div class="wrapper vertical-center-align">	      
+			<div class="inner">	      
+		    	<img alt="ColdFront logo" class="logo" src="/assets/images/logo_3.png" />
+			  	<h3>ColdFront is a new single-day and single-track front-end conference in Copenhagen.</h3>	 
+			  	<h2>4. Sep 2014</h2>
 
-		    <div class="social">
-	    	    <a href="https://twitter.com/coldfrontconf" class="twitter-follow-button" data-show-count="true">Follow @coldfrontconf</a>
-	    	    <a href="https://twitter.com/share?url=http://coldfrontconf.com" class="twitter-share-button" data-text="ColdFront Conference, one-day front-end conference in Copenhagen. 4th September 2014." data-via="coldfrontconf" data-related="coldfrontconf">Tweet</a>
-
-				<div class="fb-like" data-href="http://coldfrontconf.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-		    </div>
-
+			  	<div class="arrow">
+			  		<img src="/assets/images/arrow.png">
+			  	</div>
+	 		</div>
  		</div>
 	</section>
 
-	<section class="about">
+	<section class="speakers">
 		<div class="inner">
-	  		
-			<p>ColdFront is a new single-day and single-track conference focused on front-end in Copenhagen.</p>
-		
+
+			<h2>Speakers</h2>
+			<h3>Sit back and get inspired.</h3>
+
+			<ul>
+
+			<% speakers.forEach(function(speaker) { %>
+
+				<li class="media">	
+
+					<div class="img">
+						<% if (speaker.url.length) { %>
+							<a class="web" href="<%= speaker.url %>" target="_blank"><i class="fa fa-link"></i></a>
+						<% } else { %>
+							<span class="spacer"></span>
+						<% } %>
+
+						<img src="<%= speaker.avatar %>">
+
+						<% if (speaker.twitter.length) { %>
+							<a class="twitter" href="<%= speaker.twitter %>" target="_blank"><i class="fa fa-twitter"></i></a>
+						<% } else { %>
+							<span class="spacer"></span>
+						<% } %>
+					</div>
+					<div class="media-body">
+						<h3><%= speaker.name %></h3>
+						<p><%= speaker.title %></p>
+						<p><%= speaker.intro %></p>
+					</div>
+				</li>
+			<% }) %>
+
+
+			</ul>
+
+		</div>
+	</section>
+
+	<section class="tickets">
+		<div class="inner">
+			<h2>Tickets</h2>
 			<p>We are building upon the <a href="http://copenhagenjs.dk" target="_blank">CopenhagenJS</a> and <a href="http://thewcdc.net" target="_blank">TheWCDC.</a> communities to create a unique day, where we focus on what it takes to build for the web.</p>
-		  	
+			<p>A ticket for ColdFront will include lunch, tea/coffee/water and plenty of beer in the night. A early-bid ticket will set you back 1500 DKK + VAT, Regular bird will be 2000 DKK + VAT, and for the late birds the price will be 2500,- DKK.</p>
+			<p>To get you in the ColdFront-mood we are also organizing jam-sessions on the night before the conference. </p>
+			<p>This means two nights full of talks and fun - all included with your ticket! </p>
+			<iframe allowtransparency="true" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="true" src="http://billetto.dk/en/events/44757/widget/" vspace="0" width="100%" height="287"></iframe>
 		</div>
 	</section>
 
 	<section class="location">
 		<div class="inner">
+			<h2>Location</h2>
+			<p>Our awesome loaction is going to be announced soon.</p>			
+		</div>
+	</section>
+
+
+	<section class="copenhagen">
+		<div class="inner">
 			<h2>Why Copenhagen?</h2>
-			<p>Scandinavia, or “The Cold North” has a great tradition of design, architecture, and computer science, but in the recent years Copenhagen, as a city, has been booming.</p>
-			<p>Actually, last week Monocle recognized this, and named Copenhagen the most liveable city of the world:</p>
+			<p>Scandinavia, and Denmark <a href="http://en.wikipedia.org/wiki/Danish_design">in particular</a> has a great tradition of design, architecture.</p>
+			<p>In the recent years Copenhagen, as a city, has been booming, and last year Monocle recognized this, by naming Copenhagen the most liveable city of the world:</p>
 
 			<iframe src="//player.vimeo.com/video/68365144?api=1" width="560" height="354" frameborder="0" title="Most liveable city: Copenhagen" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" class="video"></iframe>
 
@@ -44,99 +91,11 @@
 		</div>
 	</section>
 	
-
-	<section class="speakers">
-		<div class="inner">
-
-			<h2>Speakers</h2>
-
-			<ul>
-
-				<li class="media">		
-					<div class="img"><img src="/assets/images/speakers/kasper_lund.jpg" /></div>
-					<div class="media-body">
-						<h3>Kasper Lund</h3>
-						<p>Google V8 and Dart Engineer.</p>
-						<p>Kasper has been deeply involved in many innovations behind Google V8's engine like Crankshaft. Currently working on Google Dart.</p>
-						<p><a href="http://verdich.dk/kasper/" target="_blank">verdich.dk</a></p>
-					</div>
-				</li>
-
-				<li class="media">			
-					<div class="img"><img src="/assets/images/speakers/erik_bryn.jpg" /></div>
-					<div class="media-body">
-						<h3>Erik Bryn</h3>
-						<p>Ember.js core team member. </p>
-						<p>Erik has been helping companies like Netflix, Mozilla, Square, Zendesk, Zoho and LiveNation to build and optimize their Ember applications.</p>
-						<p><a href="http://erikbryn.com" target="_blank">erikbryn.com</a></p>
-					</div>
-				</li>	
-
-				<li class="media">		
-					<div class="img"><img src="/assets/images/speakers/peter_hedenskog.jpg" /></div>
-					<div class="media-body">
-						<h3>Peter Hedenskog</h3>
-						<p>sitespeed.io author</p>
-						<p>Peter has been working with web performance for the past many years, and his latests project is a web performance analyser called sitespeed.io.</p> 
-						
-						<p><a href="http://www.peterhedenskog.com/" target="_blank">peterhedenskog.com</a></p>
-					</div>
-				</li>
-
-				<li class="media">		
-					<div class="img"><img src="/assets/images/speakers/guillermo_rauch.png" /></div>
-					<div class="media-body">
-						<h3>Guillermo Rauch </h3>
-						<p>socket.io author</p>
-						<p>Guillermo has been focusing on the realtime web for a while, and is the brain behind popular the socket.io framework.</p>
-						<p><a href="http://www.devthought.com/" target="_blank">devthought.com</a></p>
-					</div>
-				</li>
-
-				<li class="media">		
-					<div class="img"><img src="/assets/images/speakers/nataliabuckley.jpg" /></div>
-					<div class="media-body">
-						<h3>Nat Buckley</h3>
-						<p>MakeShift engineer</p>
-						<p>Nat has been working with creative usages of the web, connected hardware, running <a href="http://fcc.ntlk.net/">Friday Code Club</a> and teaching HTML/CSS at University of London</p>
-						<p><a href="http://natbuckley.co.uk/" target="_blank">natbuckley.co.uk</a></p>
-					</div>
-				</li>
-
-				<li class="media">		
-					<div class="img"><img src="/assets/images/speakers/phil_hawksworth.jpg" /></div>
-					<div class="media-body">
-						<h3>Phil Hawksworth</h3>
-						<p>Technical Director at R/GA in London.</p>
-						<p>Phil is a JavaScript developer who has been developing for the Web since the late 90s. He focuses on unobtrusive JavaScript, open web standards and tasty browser shenanigan.</p>
-						<p><a href="http://hawksworx.com" target="_blank">hawksworx.com </a></p>
-					</div>
-				</li>	
-
-				<li class="media">		
-					<div class="img"><img src="/assets/images/speakers/placeholder2.png" /></div>
-					<div class="media-body">
-						<h3>To be announced</h3>
-					</div>
-				</li>
-
-				<li class="media">		
-					<div class="img"><img src="/assets/images/speakers/placeholder1.png" /></div>
-					<div class="media-body">
-						<h3>To be announced</h3>
-					</div>
-				</li>
-
-			</ul>
-
-
-
-		</div>
-	</section>
-
 	<section class="organizers">
 		<div class="inner">
-			<h2>Organizers</h2>
+			<h2>Organizers & Sponsors</h2>
+			
+			<h3>Making it all possible:</h3>
 
 			<ul>
 				<li>		
@@ -154,26 +113,35 @@
 						<p><a href="http://twitter.com/danielovich" target="_blank">@danielovich‎</a></p>
 					</div>
 				</li>	
-
 			</ul>
 
+			<h3>Helping us to making the conference more awesome:</h3>
+
+			<ul class="sponsors">
+				<li class="vertical-center-align">		
+					<a href="https://moc.net/" target="_blank">
+						<img src="/assets/images/sponsors/moc.png" width="200" />
+					</a>
+
+				</li>	
+			</ul>
+
+
 		</div>
 	</section>
 
-	<section class="tickets">
-		<div class="inner">
+	<footer class="social">
+	    <div class="inner">
+	    	<h3>Contact and follow ColdFront</h3>
 
-			<h2>Sign up to be notified when more speakers are announced, and tickets go on sale.</h2>
+			<p><a href="mailto:hello@coldfrontconf.com">hello@coldfrontconf.com</a></p>
+			<p>or</p>
 
-			<form action="http://coldfrontconf.us8.list-manage.com/subscribe/post?u=cc078fd6eb28f04be591da615&amp;id=32e87080fd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<input type="text" value="" placeholder="Your name"  name="LNAME" class="required" id="mce-LNAME">
-				<input type="email" value="" placeholder="Your email" name="EMAIL" class="required email" id="mce-EMAIL">
-				<input type="submit" value="Okay, dokay!" name="subscribe" id="mc-embedded-subscribe" class="button">
-			</form>
+    	    <a href="https://twitter.com/coldfrontconf" class="twitter-follow-button" data-show-count="true">Follow @coldfrontconf</a>
+    	    <a href="https://twitter.com/share?url=http://coldfrontconf.com" class="twitter-share-button" data-text="ColdFront Conference, one-day front-end conference in Copenhagen. 4th September 2014." data-via="coldfrontconf" data-related="coldfrontconf">Tweet</a>
 
-		</div>
-	</section>
-
-
+			<div class="fb-like" data-href="http://coldfrontconf.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+	    </div>
+	</footer>
 
  </div>

@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 
+var speakers = require('./speakers.json')
+
 app.configure(function(){
 
 	app.engine('ejs', require('ejs-locals'));
@@ -24,7 +26,8 @@ app.configure('development', function(){
 
 app.get('/', function(req, res) {
  	res.render('index', {
-  		_layoutFile: 'layout'
+  		_layoutFile: 'layout',
+  		speakers: speakers
   	})
 });
 

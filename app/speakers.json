@@ -1,0 +1,66 @@
+[
+	{
+		"name" : "Kasper Lund",
+		"title" : "Google V8 and Dart Engineer.",
+		"avatar" : "/assets/images/speakers/kasper_lund.jpg",
+		"intro" : "Kasper has been deeply involved in many innovations behind Google V8's engine like Crankshaft. Currently working on Google Dart.",
+		"url"   : "http://verdich.dk/kasper/",
+		"twitter" : ""
+	},
+	{
+		"name" : "Erik Bryn",
+		"title" : "Ember.js core team member.",
+		"avatar" : "/assets/images/speakers/erik_bryn.jpg",
+		"intro" : "Erik has been helping companies like Netflix, Mozilla, Square, Zendesk, Zoho and LiveNation to build and optimize their Ember applications.",
+		"url"   : "http://erikbryn.com",
+		"twitter" : "ebryn‎"
+	},
+	{
+		"name" : "Peter Hedenskog",
+		"title" : "sitespeed.io author",
+		"avatar" : "/assets/images/speakers/peter_hedenskog.jpg",
+		"intro" : "Peter has been working with web performance for the past many years, and his latests project is a web performance analyser called sitespeed.io.",
+		"url"   : "http://peterhedenskog.com",
+		"twitter" : "soulislove‎"
+	},
+	{
+		"name" : "Guillermo Rauch",
+		"title" : "socket.io author",
+		"avatar" : "/assets/images/speakers/guillermo_rauch.png",
+		"intro" : "Guillermo has been focusing on the realtime web for a while, and is the brain behind popular the socket.io framework.",
+		"url"   : "http://devthought.com",
+		"twitter" : "rauchg"
+	},
+	{
+		"name" : "Nat Buckley",
+		"title" : "MakeShift engineer",
+		"avatar" : "/assets/images/speakers/nataliabuckley.jpg",
+		"intro" : "Nat has been working with creative usages of the web, connected hardware, running <a href=http://fcc.ntlk.net/>Friday Code Club</a> and teaching HTML/CSS at University of London",
+		"url"   : "http://natbuckley.co.uk",
+		"twitter" : "ntlk"
+	},	
+	{
+		"name" : "Phil Hawksworth",
+		"title" : "Technical Director at R/GA in London.",
+		"avatar" : "/assets/images/speakers/phil_hawksworth.jpg",
+		"intro" : "Phil is a JavaScript developer who has been developing for the Web since the late 90s. He focuses on unobtrusive JavaScript, open web standards and tasty browser shenanigan.",
+		"url"   : "http://hawksworx.com",
+		"twitter" : "philhawksworth‎"
+	},
+	{
+		"name" : "To be announced",
+		"title" : "",
+		"avatar" : "/assets/images/speakers/placeholder2.png",
+		"intro" : "",
+		"url"   : "",
+		"twitter" : ""
+	},
+	{
+		"name" : "To be announced",
+		"title" : "",
+		"avatar" : "/assets/images/speakers/placeholder1.png",
+		"intro" : "",
+		"url"   : "",
+		"twitter" : ""
+	}
+]
