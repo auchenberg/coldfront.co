@@ -5821,8 +5821,8 @@ body {
 
 }
 
-html.safari .page .splash {
-    height: 800px !important;
+h3 {
+  line-height: 1.5rem;
 }
 
 .page { 
@@ -5910,6 +5910,7 @@ html.safari .page .splash {
     display: block;
     margin: 0 auto 30px auto;
     width: 300px;
+    max-width: 300px;
 }
 
 .splash h1 {
@@ -6036,7 +6037,7 @@ a:visited {
   float: left;
 
   list-style: none;
-  height: 400px;
+  height: 450px;
   overflow: hidden; 
   margin-bottom: 40px;
 
@@ -6085,7 +6086,6 @@ a:visited {
 
 .speakers ul li > .img {
   display: block;
-  height: 200px;
   margin: 0 auto 40px auto;
   position: relative; 
   padding: 0 40px; 
@@ -6100,11 +6100,57 @@ a:visited {
 
 @media (max-width: 900px) {
 
+  .page .logo {
+    width: 100%;
+  }
+
+  .page section h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .page section .inner {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .splash {
+    height: 600px;
+  }
+
+  .splash h3 {
+    font-size: 18px;
+  }
+
+  .splash .arrow {
+    display: none;
+  }
+
+  .speakers li:nth-child(even),
+  .speakers li:nth-child(even) {
+    padding: 0;
+  }
+
   .speakers ul li {
+    display: table;
     width: 100%;
     float: none;
     max-width: 600px;
     margin: 0 auto;
+
+    height: auto;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .speakers ul li > .img {
+      display: table-footer-group;
+      margin-bottom: 20px;
+  }
+
+  .speakers ul li > .meta {
+    display: table-footer-group;    
   }
 
 }

@@ -28,8 +28,7 @@
 
 			<% speakers.forEach(function(speaker) { %>
 
-				<li class="media">	
-
+				<li>	
 					<div class="img">
 						<% if (speaker.url.length) { %>
 							<a class="web" href="<%= speaker.url %>" target="_blank"><i class="fa fa-link"></i></a>
@@ -45,9 +44,13 @@
 							<span class="spacer"></span>
 						<% } %>
 					</div>
-					<div class="media-body">
+
+					<div class="meta">
 						<h3><%- speaker.name %></h3>
 						<p><%- speaker.title %></p>
+					</div>
+
+					<div class="intro">
 						<p><%- speaker.intro %></p>
 					</div>
 				</li>
@@ -76,7 +79,6 @@
 			<p>Our awesome location is going to be announced soon. Expect old historic venue in the inner city of Copenhagen</p>			
 		</div>
 	</section>
-
 
 	<section class="copenhagen">
 		<div class="inner">
@@ -129,7 +131,6 @@
 
 				</li>	
 			</ul>
-
 
 		</div>
 	</section>
