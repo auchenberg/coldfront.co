@@ -13,7 +13,7 @@
 		"avatar" : "/assets/images/speakers/erik_bryn.jpg",
 		"intro" : "Erik has been helping companies like Netflix, Mozilla, Square, Zendesk, Zoho and LiveNation to build and optimize their Ember applications.",
 		"url"   : "http://erikbryn.com",
-		"twitter" : "ebryn‎"
+		"twitter" : "ebryn"
 	},
 	{
 		"name" : "Peter Hedenskog",
@@ -21,7 +21,7 @@
 		"avatar" : "/assets/images/speakers/peter_hedenskog.jpg",
 		"intro" : "Peter has been working with web performance for the past many years, and his latests project is a web performance analyser called sitespeed.io.",
 		"url"   : "http://peterhedenskog.com",
-		"twitter" : "soulislove‎"
+		"twitter" : "soulislove"
 	},
 	{
 		"name" : "Guillermo Rauch",
@@ -45,7 +45,7 @@
 		"avatar" : "/assets/images/speakers/phil_hawksworth.jpg",
 		"intro" : "Phil is a JavaScript developer who has been developing for the Web since the late 90s. He focuses on unobtrusive JavaScript, open web standards and tasty browser shenanigan.",
 		"url"   : "http://hawksworx.com",
-		"twitter" : "philhawksworth‎"
+		"twitter" : "philhawksworth"
 	},
 	{
 		"name" : "To be announced",
