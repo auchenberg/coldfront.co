@@ -5861,6 +5861,7 @@ h3 {
   background: rgba(0,0,0, 0.5);  
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 
@@ -6147,6 +6148,11 @@ a:visited {
   .speakers ul li > .img {
       display: table-footer-group;
       margin-bottom: 20px;
+  }
+
+  .speakers ul li img {
+      width: 160px;
+      height: 160px;
   }
 
   .speakers ul li > .meta {
