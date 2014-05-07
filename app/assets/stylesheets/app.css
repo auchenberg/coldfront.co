@@ -6202,20 +6202,27 @@ a:visited {
     margin: 0 auto;
 }
 
-.organizers ul.sponsors li {
-    float: none;
-    display: inline-block;
-
-    height: auto;
-    
-}
-
 .organizers ul.sponsors  {
     margin-top: 40px;
 }
 
+.organizers ul.sponsors li {
+    float: none;
+    display: inline-block;
+    height: auto;
+    margin-right: 20px;
+}
+
 .organizers ul.sponsors li img {
-    width: 100px;
+    width: 200px;
+}
+
+.organizers ul.sponsors li a {
+    display: block;
+}
+
+.organizers ul.sponsors li.falcon img {
+    width: 250px;
 }
 
 .social {
