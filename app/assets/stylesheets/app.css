@@ -5831,9 +5831,7 @@ h3 {
 }
 
 .page .splash {
-    background: url('https://farm6.staticflickr.com/5043/5266907176_f50503af2e_o_d.jpg');
-    //background: url('https://farm6.staticflickr.com/5046/5303946969_1df4fc9a2a_o_d.jpg');
-    background: url('https://farm8.staticflickr.com/7026/6834462007_84f6a31666_o_d.jpg');
+    background: url('/assets/images/splash.jpg');
     background-size: cover;
     background-position: 50% 50%;    
 
