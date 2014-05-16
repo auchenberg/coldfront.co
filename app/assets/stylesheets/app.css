@@ -6121,6 +6121,10 @@ a:visited {
 
 @media (max-width: 900px) {
 
+  .splash .tickets-badge {
+    display: none;
+  }
+
   .page .logo {
     width: 100%;
   }
