@@ -1,7 +1,7 @@
 [
 	{
 		"name" : "Kasper Lund",
-		"title" : "Google V8 and Dart Engineer.",
+		"title" : "V8 and Dart Engineer, Google.",
 		"avatar" : "/assets/images/speakers/kasper_lund.jpg",
 		"intro" : "Kasper has been deeply involved in many innovations behind Google V8's engine like Crankshaft. Currently working on Google Dart.",
 		"url"   : "http://verdich.dk/kasper/",
@@ -9,15 +9,15 @@
 	},
 	{
 		"name" : "Bruce Lawson",
-		"title" : "Open Web Standards evangelist for Opera",
+		"title" : "Open Web Standards evangelist, Opera",
 		"avatar" : "/assets/images/speakers/bruce_lawson.jpg",
 		"intro" : "Bruce Lawson is an Open Web Standards evangelist for Opera. He is co-author of Introducing HTML5 and one of the HTML5 Doctors.",
-		"url"   : "",
-		"twitter" : ""
+		"url"   : "http://www.brucelawson.co.uk/",
+		"twitter" : "brucel"
 	},		
 	{
 		"name" : "Phil Hawksworth",
-		"title" : "Technical Director at R/GA in London.",
+		"title" : "Technical Director, R/GA.",
 		"avatar" : "/assets/images/speakers/phil_hawksworth.jpg",
 		"intro" : "Phil is a JavaScript developer who has been developing for the Web since the late 90s. He focuses on unobtrusive JavaScript, open web standards and tasty browser shenanigan.",
 		"url"   : "http://hawksworx.com",
