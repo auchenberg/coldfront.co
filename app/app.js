@@ -38,6 +38,12 @@ app.get('/speakers', function(req, res) {
     })
 });
 
+app.get('/become-a-partner', function(req, res) {
+  res.render('sponsors', {
+      _layoutFile: 'layout'
+    })
+});
+
 
 app.listen(app.get('port'), function(){
  	console.log("Express server listening on port %d in %s mode", app.get('port'), app.settings.env);

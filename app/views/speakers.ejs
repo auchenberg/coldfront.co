@@ -1,0 +1,89 @@
+<style>
+
+	body {
+		background: #fff;
+		height: auto;
+
+	}
+
+	.speakers-list {
+	  overflow: hidden;
+	  padding: 50px;
+	}
+
+	.speakers-list li {
+	  width: 1000px;
+	  text-align: left;
+
+	  list-style: none;
+	  overflow: hidden; 
+	  margin-bottom: 40px;
+	  text-align: center; 
+	  overflow: hidden; 
+	}
+
+	.speakers-list li .inner {
+	  //border: 1px solid #ebebeb;
+	  height: 100%;
+	}
+
+	.speakers-list li .spacer {
+	    display: inline-block;
+	    width: 40px;
+	}
+
+	.speakers-list li h3 {
+	  margin: 0;
+	}
+
+	.speakers-list li > .img {
+	  display: block;
+	  margin: 0 auto 40px auto;
+	  position: relative; 
+	  padding: 0 40px; 
+	  float: left;
+	}
+
+	.speakers-list li img {
+	  border-radius: 400px;
+	  height: 400px;
+	  width: 400px;
+	  margin-bottom: 20px;
+	}
+
+	.speakers-list li .logo {
+		position: relative;
+		top: -200px;
+		height: 250px;
+	}
+
+	.speakers-list li .meta {
+		margin-top: 150px;
+		text-align: left;
+		font-size: 30px;
+	}
+
+	.speakers-list li .meta h3 {
+		font-size: 50px;
+		margin-bottom: 20px;
+	}
+
+</style>
+
+<ul class="speakers-list">
+	<% speakers.forEach(function(speaker) { %>
+
+		<li>	
+			<div class="img">
+				<img src="<%= speaker.avatar %>">
+			</div>
+
+			<div class="meta">
+				<h3><%- speaker.name %></h3>
+				<p><%- speaker.title %></p>
+			</div>
+		</li>
+	<% }) %>
+</ul>
+
+
