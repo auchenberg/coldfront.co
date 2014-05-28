@@ -76,6 +76,7 @@
 	.packages {
 		overflow: hidden;
 		height: auto;
+		position: relative;
 	}
 
 	.packages .img {			
@@ -94,6 +95,7 @@
 		text-align: left;
 
 		padding: 40px;
+		position: relative;
 	}
 
 	.sponsor-list .packages .inner ul {
@@ -141,6 +143,34 @@
 	.job .img {
 		background: url(assets/images/office.jpg) no-repeat 0 0;
 		background-size: cover;
+	}
+
+	.coffee .img {
+		background: url(assets/images/coffee.jpg) no-repeat 0 0;
+		background-size: cover;
+	}
+
+
+	.taken .overlay {
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		right: 0;
+		left:0;
+		z-index: 2;
+
+		background: rgba(255,255,255, 0.9);
+		
+	}
+
+	.taken .company {
+		position: absolute;
+		top: 200px;
+		left:0;
+		right: 0;
+		z-index: 3;
+
+		text-align: center;
 	}
 
 	.contact {
@@ -233,10 +263,28 @@
 		</div>	
 	</section>
 
-	<section class="packages cupcake">
+	<section class="packages coffee">
 		<div class="img"></div>
 		<div class="inner">
-				<h2>Package 3: Cupcake sponsor</h2>
+				<h2>Package 3: Coffee sponsor</h2>
+				<p>People drink coffee, so why don't you make sure we get some great coffee, and in return we'll do this for you.</p>
+				<ul>
+					<li>Presented on stage before first session</li>
+					<li>Logo with link to website</li>
+					<li>2 x Mentions in emails/tweets during the next 12 months</li>
+					<li>1 x Roll-up at venue</li>
+					<li>2 x Conference tickets</li>
+				</ul>
+				
+				<p>Price: 15.000 DKK</p>	
+		</div>	
+	</section>
+
+
+	<section class="packages cupcake right">
+		<div class="img"></div>
+		<div class="inner">
+				<h2>Package 4: Cupcake sponsor</h2>
 				<p>Cupcakes are fun, and we'll print your logo along with ours on them, and in return we'll do this for you:</p>
 				<ul>
 					<li>Presented on stage before first session</li>
@@ -250,10 +298,13 @@
 		</div>	
 	</section>
 
-	<section class="packages beer right">
+	<section class="packages beer taken">
+		<div class="overlay"></div>
 		<div class="img"></div>
 		<div class="inner">
-				<h2>Package 4: Beer sponsor</h2>
+				<div class="company">Sponsored by <p><img src="/assets/images/sponsors/umbraco.png" /></p> </div>
+
+				<h2>Package 5: Beer sponsor</h2>
 				<p>We drink beer, and lots of it. So if you make sure we all get a couple of pints and a bunch of salt-sticks, and in return we’ll do this for you:</p>
 				<ul>
 					<li>Presented on stage before first session</li>
@@ -267,10 +318,10 @@
 		</div>	
 	</section>
 
-	<section class="packages swag">
+	<section class="packages swag right">
 		<div class="img"></div>
 		<div class="inner">
-				<h2>Package 5: Swag sponsor</h2>
+				<h2>Package 6: Swag sponsor</h2>
 				<p>Swag can be fun, so if you have something cool to share people will love it, and in return we'll do this for you:</p>
 				<ul>
 					<li>Presented on stage before first session</li>
@@ -284,10 +335,10 @@
 		</div>	
 	</section>
 
-	<section class="packages ice right">
+	<section class="packages ice">
 		<div class="img"></div>	
 		<div class="inner">
-				<h2>Package 6: Ice cream sponsor</h2>
+				<h2>Package 7: Ice cream sponsor</h2>
 				<p>We need a bit of tasteful sugar during the conference, and since we are organizing "ColdFront". Why not serve ice-creme to all the attendees. In return we'll do this for you:</p>
 				<ul>
 					<li>Presented on stage before first session</li>
