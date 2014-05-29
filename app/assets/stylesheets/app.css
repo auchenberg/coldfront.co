@@ -6255,6 +6255,16 @@ a:visited {
 }
 
 
+.organizers ul.sponsors li.iconfinder {
+    width: 300px;
+    position: relative;
+    top: -10px;
+} 
+
+.organizers ul.sponsors li.iconfinder img {
+    width: 290px;
+}
+
 .social {
 
 }
