@@ -16,7 +16,9 @@
 			  	</div>
 
 			  	<div class="tickets-badge">
-			  		<a href="#tickets">Buy your tickets here</a>
+			  		<div class="content">
+			  			<a href="#tickets">Grab your tickets now</a>
+			  		</div>
 			  	</div>
 	 		</div>
  		</div>
@@ -54,9 +56,16 @@
 						<p><%- speaker.title %></p>
 					</div>
 
+					<div class="session">
+						<h4>talks about</h4>
+						<h3><%- speaker.session_title %></h3>
+					</div>
+	
 					<div class="intro">
 						<p><%- speaker.intro %></p>
 					</div>
+
+
 				</li>
 			<% }) %>
 

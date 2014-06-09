@@ -5,7 +5,9 @@
 		"avatar" : "/assets/images/speakers/kasper_lund.jpg",
 		"intro" : "Kasper has been deeply involved in many innovations behind Google V8's engine like Crankshaft. Currently working on Google Dart.",
 		"url"   : "http://verdich.dk/kasper/",
-		"twitter" : ""
+		"twitter" : "",
+		"session_title": "Google's next-generation langauge for the web is Dart, but what is it all about?",
+		"session_desc": "Dart is , but what's Dart really about?"
 	},
 	{
 		"name" : "Bruce Lawson",
@@ -13,7 +15,9 @@
 		"avatar" : "/assets/images/speakers/bruce_lawson.jpg",
 		"intro" : "Bruce Lawson is an Open Web Standards evangelist for Opera. He is co-author of Introducing HTML5 and one of the HTML5 Doctors.",
 		"url"   : "http://www.brucelawson.co.uk/",
-		"twitter" : "brucel"
+		"twitter" : "brucel",
+		"session_title": "Where our browsers are coming from, and where we headed with Blink and Chromium.",
+		"session_desc": "Bruce will take us though the browser history, and about why Blink/ Chromium is different then the IE history, and what Opera is doing with Blink"		
 	},		
 	{
 		"name" : "Phil Hawksworth",
@@ -21,7 +25,9 @@
 		"avatar" : "/assets/images/speakers/phil_hawksworth.jpg",
 		"intro" : "Phil is a JavaScript developer who has been developing for the Web since the late 90s. He focuses on unobtrusive JavaScript, open web standards and tasty browser shenanigan.",
 		"url"   : "http://hawksworx.com",
-		"twitter" : "philhawksworth"
+		"twitter" : "philhawksworth",
+		"session_title": "How you can embrace static site generation, and why it will simply your life.",
+		"session_desc": "Are we over-engineering? What is the real effort in developing, hosting and maintaining sites which have many moving parts? The cost of serving static sites has never been lower. And front-end development practices have never been richer. Couldn't we harness these better and make life simpler without dumbing down?"
 	},
 	{
 		"name" : "Erik Bryn",
@@ -29,7 +35,9 @@
 		"avatar" : "/assets/images/speakers/erik_bryn.jpg",
 		"intro" : "Erik has been helping companies like Netflix, Mozilla, Square, Zendesk, Zoho and LiveNation to build and optimize their Ember applications.",
 		"url"   : "http://erikbryn.com",
-		"twitter" : "ebryn"
+		"twitter" : "ebryn",
+		"session_title": "Ember.js, and why the frameworks helps you unlocking unprecedented productivity.",
+		"session_desc": ""		
 	},
 	{
 		"name" : "Peter Hedenskog",
@@ -37,7 +45,9 @@
 		"avatar" : "/assets/images/speakers/peter_hedenskog.jpg",
 		"intro" : "Peter has been working with web performance for the past many years, and his latests project is a web performance analyser called sitespeed.io.",
 		"url"   : "http://peterhedenskog.com",
-		"twitter" : "soulislove"
+		"twitter" : "soulislove",
+		"session_title": "Giving you ways to increase, but also explain site performance to your boss.",
+		"session_desc": "Fast sites makes the user happier, gives your company more money and yourself a larger salary. We all know that. But how do you know that your site isfast enough? How do you keep track of your sites performance? And how do you explain performance to your boss? Peter will answer those questions and give you hands-on tips and neat tricks to make your site as fast as lightning!"			
 	},
 	{
 		"name" : "Guillermo Rauch",
@@ -45,7 +55,9 @@
 		"avatar" : "/assets/images/speakers/guillermo_rauch.png",
 		"intro" : "Guillermo has been focusing on the realtime web for a while, and is the brain behind popular the socket.io framework.",
 		"url"   : "http://devthought.com",
-		"twitter" : "rauchg"
+		"twitter" : "rauchg",
+		"session_title": "How to build the modern, optimistic and reactive user interface, we all want.",
+		"session_ditle": "API-driven rich client-side applications are here to stay. This talk explores the unique advantages that this model offers in terms of increasing speed, and the perception of speed."		
 	},
 	{
 		"name" : "Nat Buckley",
@@ -53,7 +65,9 @@
 		"avatar" : "/assets/images/speakers/nataliabuckley.jpg",
 		"intro" : "Nat has been working with creative usages of the web, connected hardware, running <a href=http://fcc.ntlk.net/>Friday Code Club</a> and teaching HTML/CSS at University of London",
 		"url"   : "http://natbuckley.co.uk",
-		"twitter" : "ntlk"
+		"twitter" : "ntlk",
+		"session_title": "Stop. You're breaking the web.",
+		"session_desc": ""		
 	},	
 	{
 		"name" : "To be announced",
@@ -61,6 +75,8 @@
 		"avatar" : "/assets/images/speakers/placeholder3.png",
 		"intro" : "",
 		"url"   : "",
-		"twitter" : ""
+		"twitter" : "",
+		"session_title": "",
+		"session_ditle": ""		
 	}
 ]
