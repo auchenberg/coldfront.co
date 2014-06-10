@@ -6,7 +6,7 @@
 		"intro" : "Kasper has been deeply involved in many innovations behind Google V8's engine like Crankshaft. Currently working on Google Dart.",
 		"url"   : "http://verdich.dk/kasper/",
 		"twitter" : "",
-		"session_title": "Why Google thinks you should drop everything you do and pick up their next-generation langauge Dart.",
+		"session_title": "Why Google thinks you should drop everything you do and pick up their next-generation language Dart.",
 		"session_desc": "Dart is , but what's Dart really about?"
 	},
 	{
@@ -36,7 +36,7 @@
 		"intro" : "Erik has been helping companies like Netflix, Mozilla, Square, Zendesk, Zoho and LiveNation to build and optimize their Ember applications.",
 		"url"   : "http://erikbryn.com",
 		"twitter" : "ebryn",
-		"session_title": "Ember.js, and why the frameworks helps you unlocking unprecedented productivity.",
+		"session_title": "Ember.js, and why the framework helps you unlocking unprecedented productivity.",
 		"session_desc": ""		
 	},
 	{
@@ -46,7 +46,7 @@
 		"intro" : "Peter has been working with web performance for the past many years, and his latests project is a web performance analyser called sitespeed.io.",
 		"url"   : "http://peterhedenskog.com",
 		"twitter" : "soulislove",
-		"session_title": "Giving you ways to increase, but also explain site performance to your boss.",
+		"session_title": "Giving you ways to increase, but also explain site performance, to your boss.",
 		"session_desc": "Fast sites makes the user happier, gives your company more money and yourself a larger salary. We all know that. But how do you know that your site isfast enough? How do you keep track of your sites performance? And how do you explain performance to your boss? Peter will answer those questions and give you hands-on tips and neat tricks to make your site as fast as lightning!"			
 	},
 	{
