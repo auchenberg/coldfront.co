@@ -6,7 +6,7 @@
 		"intro" : "Kasper has been deeply involved in many innovations behind Google V8's engine like Crankshaft. Currently working on Google Dart.",
 		"url"   : "http://verdich.dk/kasper/",
 		"twitter" : "",
-		"session_title": "Google's next-generation langauge for the web is Dart, but what is it all about?",
+		"session_title": "Why Google thinks you should drop everything you do and pick up their next-generation langauge Dart.",
 		"session_desc": "Dart is , but what's Dart really about?"
 	},
 	{
@@ -16,7 +16,7 @@
 		"intro" : "Bruce Lawson is an Open Web Standards evangelist for Opera. He is co-author of Introducing HTML5 and one of the HTML5 Doctors.",
 		"url"   : "http://www.brucelawson.co.uk/",
 		"twitter" : "brucel",
-		"session_title": "Where our browsers are coming from, and where we headed with Blink and Chromium.",
+		"session_title": "How the makers of your browser, sees your future, and what you should prepare for.",
 		"session_desc": "Bruce will take us though the browser history, and about why Blink/ Chromium is different then the IE history, and what Opera is doing with Blink"		
 	},		
 	{
@@ -26,7 +26,7 @@
 		"intro" : "Phil is a JavaScript developer who has been developing for the Web since the late 90s. He focuses on unobtrusive JavaScript, open web standards and tasty browser shenanigan.",
 		"url"   : "http://hawksworx.com",
 		"twitter" : "philhawksworth",
-		"session_title": "How you can embrace static site generation, and why it will simply your life.",
+		"session_title": "How to simplify your life by embracing static site generation",
 		"session_desc": "Are we over-engineering? What is the real effort in developing, hosting and maintaining sites which have many moving parts? The cost of serving static sites has never been lower. And front-end development practices have never been richer. Couldn't we harness these better and make life simpler without dumbing down?"
 	},
 	{
@@ -66,7 +66,7 @@
 		"intro" : "Nat has been working with creative usages of the web, connected hardware, running <a href=http://fcc.ntlk.net/>Friday Code Club</a> and teaching HTML/CSS at University of London",
 		"url"   : "http://natbuckley.co.uk",
 		"twitter" : "ntlk",
-		"session_title": "Stop. You're breaking the web.",
+		"session_title": "Stop what you are doing. You're breaking the web.",
 		"session_desc": ""		
 	},	
 	{
