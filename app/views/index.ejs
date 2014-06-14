@@ -1,10 +1,10 @@
 <div class="page">
 
 	<section class="splash">
-		<div class="wrapper vertical-center-align">	      
-			<div class="inner">	      
+		<div class="wrapper vertical-center-align">
+			<div class="inner">
 		    	<img alt="ColdFront logo" class="logo" src="/assets/images/logo.svg" />
-			  	<h3>ColdFront is a new single-day and single-track front-end conference in Copenhagen.</h3>	 
+			  	<h3>ColdFront is a new single-day and single-track front-end conference in Copenhagen.</h3>
 			  	<h2>4. Sep 2014</h2>
 
 			  	<div class="arrow">
@@ -20,6 +20,7 @@
 			  			<a href="#tickets">Grab your tickets now</a>
 			  		</div>
 			  	</div>
+
 	 		</div>
  		</div>
 	</section>
@@ -34,7 +35,7 @@
 
 			<% speakers.forEach(function(speaker) { %>
 
-				<li>	
+				<li>
 					<div class="img">
 						<% if (speaker.url.length) { %>
 							<a class="web" href="<%= speaker.url %>" target="_blank"><i class="fa fa-link"></i></a>
@@ -60,7 +61,7 @@
 						<h4>talks about</h4>
 						<h3><%- speaker.session_title %></h3>
 					</div>
-	
+
 					<div class="intro">
 						<p><%- speaker.intro %></p>
 					</div>
@@ -93,11 +94,11 @@
 			<a name="venue"></a>
 			<h2>Venue</h2>
 			<p>Coldfront will be held in one of the oldest cinemas in Copenhagen, <a href="http://www.grandteatret.dk/om_grand/om_grand_teatret/" target="_blank">The Grand Theater</a>.</p>
-			<p>The Grand Theater was build in 1913, and is located in a small sidestreet to the famous shopping street Strøget, in very center of old historic Copenhagen.  
-			<p><img src="assets/images/venue/grand_side.jpg" width="100%"/></p>		
+			<p>The Grand Theater was build in 1913, and is located in a small sidestreet to the famous shopping street Strøget, in very center of old historic Copenhagen.
+			<p><img src="assets/images/venue/grand_side.jpg" width="100%"/></p>
 			<p></p>
 			<p></p>
-			
+
 			<p></p>
 			<p></p>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17997.335708525457!2d12.570239795615604!3d55.67739125819352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525311f57117a3%3A0xaefb4407a4078bea!2sGrand+Teatret!5e0!3m2!1sen!2s!4v1399483448435" width="100%" height="300" frameborder="0" style="border:0"></iframe>
@@ -117,21 +118,21 @@
 			<p>
 				<i>"World-conquering urban quality of life requires the trickiest of balancing acts between progress and preservation, stimulation and security, global and local. Perfection is unobtainable but Copenhagen is striking one of the best deals right now. </i>
 			</p>
-			
+
 			<p>Now is the time to visit Copenhagen!</p>
-			
+
 		</div>
 	</section>
-	
+
 	<section class="organizers">
 		<div class="inner">
 			<a name="organizers"></a>
 			<h2>Organizers & Partners</h2>
-			
+
 			<h3>Making it all possible:</h3>
 
 			<ul>
-				<li>		
+				<li>
 					<img src="/assets/images/organizers/kenneth.png" />
 					<div class="media-body">
 						<h3>Kenneth Auchenberg</h3>
@@ -139,45 +140,45 @@
 					</div>
 				</li>
 
-				<li>			
+				<li>
 					<img src="/assets/images/organizers/daniel.jpg" />
 					<div class="media-body">
 						<h3>Daniel Frost</h3>
 						<p><a href="http://twitter.com/danielovich" target="_blank">@danielovich‎</a></p>
 					</div>
-				</li>	
+				</li>
 			</ul>
 
 			<h3>Helping us to making the conference more awesome:</h3>
 
 			<ul class="sponsors">
-				<li class="vertical-center-align">		
+				<li class="vertical-center-align">
 					<a href="https://moc.net/" target="_blank">
 						<img src="/assets/images/sponsors/moc.png" width="200" />
 					</a>
 				</li>
-				<li class="vertical-center-align falcon">		
+				<li class="vertical-center-align falcon">
 					<a href="https://falconsocial.com" target="_blank">
 						<img src="/assets/images/sponsors/falcon_social.svg" />
 					</a>
 				</li>
-				<li class="vertical-center-align shift">		
+				<li class="vertical-center-align shift">
 					<a href="http://shiftcph.dk" target="_blank">
 						<img src="/assets/images/sponsors/shift.png" />
 					</a>
-				</li>	
+				</li>
 
-				<li class="vertical-center-align umbraco">		
+				<li class="vertical-center-align umbraco">
 					<a href="http://umbraco.com" target="_blank">
 						<img src="/assets/images/sponsors/umbraco.png" />
 					</a>
 				</li>
 
-				<li class="vertical-center-align iconfinder">		
+				<li class="vertical-center-align iconfinder">
 					<a href="http://iconfinder.com" target="_blank">
 						<img src="/assets/images/sponsors/iconfinder.svg" />
 					</a>
-				</li>	
+				</li>
 
 			</ul>
 
@@ -192,6 +193,12 @@
 			<p>or</p>
 
     	    <a href="https://twitter.com/coldfrontconf" class="twitter-follow-button" data-show-count="true">Follow @coldfrontconf</a>
+
+			<iframe class="conferize" src="http://cl.ly/code/0o3k0T1G2O1k/coldconf-followbutton.html" scrolling="no" frameborder="0" height="26" width="204">never miss a conference</iframe>
+
+			<br />
+			<br />
+
     	    <a href="https://twitter.com/share?url=http://coldfrontconf.com" class="twitter-share-button" data-text="ColdFront Conference, one-day front-end conference in Copenhagen. 4th September 2014." data-via="coldfrontconf" data-related="coldfrontconf">Tweet</a>
 
 			<div class="fb-like" data-href="http://coldfrontconf.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>

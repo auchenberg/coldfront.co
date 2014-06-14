@@ -5799,7 +5799,7 @@ button.close {
     -webkit-justify-content: center;
     -moz-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;    
+    justify-content: center;
 }
 
 
@@ -5825,7 +5825,7 @@ h3 {
   line-height: 1.5rem;
 }
 
-.page { 
+.page {
     color: #fff;
     min-width: 320px;
 }
@@ -5833,7 +5833,7 @@ h3 {
 .page .splash {
     background: url('/assets/images/splash.jpg');
     background-size: cover;
-    background-position: 50% 50%;    
+    background-position: 50% 50%;
 
     height: 100vh;
 
@@ -5856,7 +5856,7 @@ h3 {
 }
 
 .splash .wrapper {
-  background: rgba(0,0,0, 0.5);  
+  background: rgba(0,0,0, 0.5);
   height: 100%;
   width: 100%;
   position: relative;
@@ -5875,7 +5875,7 @@ h3 {
   text-align: center;
 }
 
-.splash .tickets-badge:before, 
+.splash .tickets-badge:before,
 .splash .tickets-badge:after {
   width: 150px;
   height: 150px;
@@ -5929,7 +5929,7 @@ h3 {
 .splash .credits {
     position: absolute;
     bottom: 20px;
-    left: 20px; 
+    left: 20px;
 
     font-size: 10px;
 }
@@ -5939,7 +5939,7 @@ h3 {
 }
 
 .splash .arrow {
-  
+
   -webkit-animation: bounce 2s infinite;
   -moz-animation: bounce 2s infinite;
   -ms-animation: bounce 2s infinite;
@@ -5953,13 +5953,13 @@ h3 {
 }
 
 .splash .arrow img {
-  width: 62px;  
+  width: 62px;
 }
 
 .page section .inner {
     margin: 0 auto;
     padding: 60px 20px 60px 20px;
-    max-width: 900px;    
+    max-width: 900px;
     text-align: center;
 }
 
@@ -6014,7 +6014,7 @@ h3 {
 
 .location {
   background: #fff;
-  color: #000000; 
+  color: #000000;
 }
 
 .copenhagen {
@@ -6069,10 +6069,10 @@ a:visited {
     background-color: #FFF;
     color: #404040;
     text-align: center;
-    letter-spacing: 2px;   
+    letter-spacing: 2px;
 
     padding: 0 30px;
-    
+
     -webkit-appearance: button;
     cursor: pointer;
 }
@@ -6080,7 +6080,7 @@ a:visited {
 
 .speakers {
     background: #fff;
-    color: #000000; 
+    color: #000000;
 }
 
 .speakers p {
@@ -6100,13 +6100,13 @@ a:visited {
 
   list-style: none;
   height: 600px;
-  overflow: hidden; 
+  overflow: hidden;
   margin-bottom: 40px;
 
   border-right: 1px dashed #bebebe;
 
   text-align: center;
-  
+
 }
 
 .speakers li:nth-child(odd) {
@@ -6149,7 +6149,7 @@ a:visited {
 .speakers li .twitter,
 .speakers li .web {
     font-size: 35px;
-} 
+}
 
 .speakers li .twitter {
     margin-left: 20px;
@@ -6166,8 +6166,8 @@ a:visited {
 .speakers ul li > .img {
   display: block;
   margin: 0 auto 40px auto;
-  position: relative; 
-  padding: 0 40px; 
+  position: relative;
+  padding: 0 40px;
 }
 
 .speakers ul li img {
@@ -6238,7 +6238,7 @@ a:visited {
   }
 
   .speakers ul li > .meta {
-    display: table-footer-group;    
+    display: table-footer-group;
   }
 
 }
@@ -6317,7 +6317,7 @@ a:visited {
     width: 300px;
     position: relative;
     top: -10px;
-} 
+}
 
 .organizers ul.sponsors li.iconfinder img {
     width: 290px;
@@ -6339,16 +6339,20 @@ a:visited {
     line-height: 16px;
 }
 
+.social .conferize {
+  line-height: 20px;
+}
+
 footer  {
     border-top: 1px solid #ebebeb;
     background: #f6f6f6;
-        color: #000000; 
+        color: #000000;
 }
 
 footer .inner {
     margin: 0 auto;
     padding: 60px 20px 60px 20px;
-    max-width: 900px;    
+    max-width: 900px;
     text-align: center;
 }
 
