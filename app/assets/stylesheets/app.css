@@ -6348,6 +6348,16 @@ a:visited {
     display: block;
 }
 
+.organizers ul.sponsors li.moc {
+  width: 300px;
+}
+
+.organizers ul.sponsors li.moc img {
+    width: 190px;
+}
+
+
+
 .organizers ul.sponsors li.falcon img {
     width: 250px;
 }
@@ -6366,6 +6376,17 @@ a:visited {
 .organizers ul.sponsors li.iconfinder img {
     width: 290px;
 }
+
+.organizers ul.sponsors li.citrix {
+    width: 300px;
+    position: relative;
+    top: 15px;
+}
+
+.organizers ul.sponsors li.citrix img {
+    width: 220px;
+}
+
 
 .social {
 
