@@ -1,5 +1,15 @@
 [
 	{
+		"name" : "Christian Heilmann",
+		"title" : "Developer Evangelist, Mozilla.",
+		"avatar" : "/assets/images/speakers/christian_heilmann.png",
+		"intro" : "Christian is the face of Mozilla, and is well-known in our community. He doesn't need any further introduction.",
+		"url"   : "http://christianheilmann.com/",
+		"twitter" : "codepo8",
+		"session_title": "The web in a mobile world dominated by native.",
+		"session_desc": ""
+	},
+	{
 		"name" : "Kasper Lund",
 		"title" : "V8 and Dart Engineer, Google.",
 		"avatar" : "/assets/images/speakers/kasper_lund.jpg",
@@ -17,8 +27,8 @@
 		"url"   : "http://www.brucelawson.co.uk/",
 		"twitter" : "brucel",
 		"session_title": "How the makers of your browser, sees your future, and what you should prepare for.",
-		"session_desc": "Bruce will take us though the browser history, and about why Blink/ Chromium is different then the IE history, and what Opera is doing with Blink"		
-	},		
+		"session_desc": "Bruce will take us though the browser history, and about why Blink/ Chromium is different then the IE history, and what Opera is doing with Blink"
+	},
 	{
 		"name" : "Phil Hawksworth",
 		"title" : "Technical Director, R/GA.",
@@ -37,7 +47,7 @@
 		"url"   : "http://erikbryn.com",
 		"twitter" : "ebryn",
 		"session_title": "Ember.js, and why the framework helps you unlocking unprecedented productivity.",
-		"session_desc": ""		
+		"session_desc": ""
 	},
 	{
 		"name" : "Peter Hedenskog",
@@ -47,7 +57,7 @@
 		"url"   : "http://peterhedenskog.com",
 		"twitter" : "soulislove",
 		"session_title": "Giving you ways to increase, but also explain site performance, to your boss.",
-		"session_desc": "Fast sites makes the user happier, gives your company more money and yourself a larger salary. We all know that. But how do you know that your site isfast enough? How do you keep track of your sites performance? And how do you explain performance to your boss? Peter will answer those questions and give you hands-on tips and neat tricks to make your site as fast as lightning!"			
+		"session_desc": "Fast sites makes the user happier, gives your company more money and yourself a larger salary. We all know that. But how do you know that your site isfast enough? How do you keep track of your sites performance? And how do you explain performance to your boss? Peter will answer those questions and give you hands-on tips and neat tricks to make your site as fast as lightning!"
 	},
 	{
 		"name" : "Guillermo Rauch",
@@ -57,7 +67,7 @@
 		"url"   : "http://devthought.com",
 		"twitter" : "rauchg",
 		"session_title": "How to build the modern, optimistic and reactive user interface, we all want.",
-		"session_ditle": "API-driven rich client-side applications are here to stay. This talk explores the unique advantages that this model offers in terms of increasing speed, and the perception of speed."		
+		"session_ditle": "API-driven rich client-side applications are here to stay. This talk explores the unique advantages that this model offers in terms of increasing speed, and the perception of speed."
 	},
 	{
 		"name" : "Nat Buckley",
@@ -67,16 +77,6 @@
 		"url"   : "http://natbuckley.co.uk",
 		"twitter" : "ntlk",
 		"session_title": "Stop what you are doing. You're breaking the web.",
-		"session_desc": ""		
-	},	
-	{
-		"name" : "To be announced",
-		"title" : "",
-		"avatar" : "/assets/images/speakers/placeholder3.png",
-		"intro" : "",
-		"url"   : "",
-		"twitter" : "",
-		"session_title": "",
-		"session_ditle": ""		
+		"session_desc": ""
 	}
 ]
