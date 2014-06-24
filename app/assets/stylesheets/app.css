@@ -5857,7 +5857,7 @@ button.close {
 html,
 body {
     height:100%;
-    widows: 100%;
+    width: 100%;
     background: #000;
 
     font-family: "Open Sans";
@@ -5880,12 +5880,26 @@ h3 {
     min-width: 320px;
 }
 
+.navbar {
+  background: #000;
+  color: #fff;
+  border: 0;
+}
+
+.navbar-nav {
+  float: none;
+  width: 700px;
+  margin: 0 auto;
+}
+
 .page .splash {
     background: url('/assets/images/splash.jpg');
     background-size: cover;
     background-position: 50% 50%;
 
-    height: 100vh;
+    margin-top: 50px;
+
+    height: 550px;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -5903,6 +5917,10 @@ h3 {
     -ms-flex-pack: center;
     justify-content: center;
 
+}
+
+.page .splash .inner {
+  padding-top: 0;
 }
 
 .splash .wrapper {
