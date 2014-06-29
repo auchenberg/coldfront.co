@@ -1,0 +1,129 @@
+[
+	{
+		"name" : "Registration",
+		"time" : "07:00 - 08:00",
+		"avatar" : "/images/registration.png",
+		"speaker" : false
+	},
+	{
+		"name" : "Kasper Lund",
+		"time" : "08:00 - 08:50",
+		"title" : "V8 and Dart Engineer, Google.",
+		"avatar" : "/images/speakers/kasper_lund.jpg",
+		"intro" : "Kasper has been deeply involved in many innovations behind Google V8's engine like Crankshaft. Currently working on Google Dart.",
+		"url"   : "http://verdich.dk/kasper/",
+		"twitter" : "",
+		"session_title": "Why Google thinks you should drop everything you do and pick up their next-generation language Dart.",
+		"session_desc": "Dart is , but what's Dart really about?",
+		"speaker" : true
+	},
+	{
+		"name" : "Erik Bryn",
+		"time" : "08:50 - 09:40",
+		"title" : "Ember.js Core Team",
+		"avatar" : "/images/speakers/erik_bryn.jpg",
+		"intro" : "Erik has been helping companies like Netflix, Mozilla, Square, Zendesk, Zoho and LiveNation to build and optimize their Ember applications.",
+		"url"   : "http://erikbryn.com",
+		"twitter" : "ebryn",
+		"session_title": "Ember.js, and why the framework helps you unlocking unprecedented productivity.",
+		"session_desc": "",
+		"speaker" : true
+	},
+	{
+		"name" : "Break",
+		"time" : "09:40 - 09:55",
+		"avatar" : "/images/break.png",
+		"speaker" : false
+	},
+	{
+		"name" : "Bruce Lawson",
+		"time" : "09:55 - 10:45",
+		"title" : "Open Web Standards evangelist, Opera",
+		"avatar" : "/images/speakers/bruce_lawson.jpg",
+		"intro" : "Bruce Lawson is an Open Web Standards evangelist for Opera. He is co-author of Introducing HTML5 and one of the HTML5 Doctors.",
+		"url"   : "http://www.brucelawson.co.uk/",
+		"twitter" : "brucel",
+		"session_title": "How the makers of your browser, sees your future, and what you should prepare for.",
+		"session_desc": "Bruce will take us though the browser history, and about why Blink/ Chromium is different then the IE history, and what Opera is doing with Blink",
+		"speaker" : true
+	},
+	{
+		"name" : "Phil Hawksworth",
+		"time" : "10:45 - 11:35",
+		"title" : "Technical Director, R/GA.",
+		"avatar" : "/images/speakers/phil_hawksworth.jpg",
+		"intro" : "Phil is a JavaScript developer who has been developing for the Web since the late 90s. He focuses on unobtrusive JavaScript, open web standards and tasty browser shenanigan.",
+		"url"   : "http://hawksworx.com",
+		"twitter" : "philhawksworth",
+		"session_title": "How to simplify your life by embracing static site generation",
+		"session_desc": "Are we over-engineering? What is the real effort in developing, hosting and maintaining sites which have many moving parts? The cost of serving static sites has never been lower. And front-end development practices have never been richer. Couldn't we harness these better and make life simpler without dumbing down?",
+		"speaker" : true
+	},
+	{
+		"name" : "Lunch",
+		"time" : "11:35 - 12:30",
+		"avatar" : "/images/lunch.png",
+		"speaker" : false
+	},
+	{
+		"name" : "Natalie Buckley",
+		"time" : "12:30 - 13:20",
+		"title" : "Freelance Technologist.",
+		"avatar" : "/images/speakers/nataliabuckley.jpg",
+		"intro" : "Nat has been working with creative usages of the web, connected hardware, running <a href=http://fcc.ntlk.net/>Friday Code Club</a> and teaching HTML/CSS at University of London",
+		"url"   : "http://natbuckley.co.uk",
+		"twitter" : "ntlk",
+		"session_title": "Stop what you are doing. You're breaking the web.",
+		"session_desc": "",
+		"speaker" : true
+	},
+	{
+		"name" : "Guillermo Rauch",
+		"time" : "13:20 - 14:10",
+		"title" : "socket.io author",
+		"avatar" : "/images/speakers/guillermo_rauch.png",
+		"intro" : "Guillermo has been focusing on the realtime web for a while, and is the brain behind popular the socket.io framework.",
+		"url"   : "http://devthought.com",
+		"twitter" : "rauchg",
+		"session_title": "How to build the modern, optimistic and reactive user interface, we all want.",
+		"session_ditle": "API-driven rich client-side applications are here to stay. This talk explores the unique advantages that this model offers in terms of increasing speed, and the perception of speed.",
+		"speaker" : true
+	},
+	{
+		"name" : "Break",
+		"time" : "14:10 - 14:25",
+		"avatar" : "/images/break.png",
+		"speaker" : false
+	},
+	{
+		"name" : "Peter Hedenskog",
+		"time" : "14:25 - 15:15",
+		"title" : "sitespeed.io author",
+		"avatar" : "/images/speakers/peter_hedenskog.jpg",
+		"intro" : "Peter has been working with web performance for the past many years, and his latests project is a web performance analyser called sitespeed.io.",
+		"url"   : "http://peterhedenskog.com",
+		"twitter" : "soulislove",
+		"session_title": "Giving you ways to increase, but also explain site performance, to your boss.",
+		"session_desc": "Fast sites makes the user happier, gives your company more money and yourself a larger salary. We all know that. But how do you know that your site isfast enough? How do you keep track of your sites performance? And how do you explain performance to your boss? Peter will answer those questions and give you hands-on tips and neat tricks to make your site as fast as lightning!",
+		"speaker" : true
+	},
+	{
+		"name" : "Christian Heilmann",
+		"time" : "15:15 - 16:00",
+		"title" : "Developer Evangelist, Mozilla.",
+		"avatar" : "/images/speakers/christian_heilmann.png",
+		"intro" : "Christian is the face of Mozilla, and is well-known in our community. He doesn't need any further introduction.",
+		"url"   : "http://christianheilmann.com/",
+		"twitter" : "codepo8",
+		"session_title": "The web in a mobile world dominated by native platforms.",
+		"session_desc": "",
+		"speaker" : true
+	},
+	{
+		"name" : "Afterparty",
+		"time" : "16:30 - 24:00",
+		"intro" : "Networking and beer at TabHouse!",
+		"avatar" : "/images/party.png",
+		"speaker" : false
+	}
+]

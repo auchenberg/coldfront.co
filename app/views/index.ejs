@@ -3,11 +3,11 @@
 	<section class="splash">
 		<div class="wrapper vertical-center-align">
 			<div class="inner">
-		    	<img alt="ColdFront logo" class="logo" src="/assets/images/logo.svg" />
-			  	<h3>ColdFront is a new single-day and single-track front-end conference in Copenhagen on Sep 4th 2014.</h3>
+		    	<img alt="ColdFront logo" class="logo" src="/images/logo.svg" />
+			  	<h3>ColdFront is a single-day front-end conference in Copenhagen taking place September 4th 2014.</h3>
 
 			  	<div class="arrow">
-			  		<a href="#speakers"><img src="/assets/images/arrow.png"></a>
+			  		<a href="#speakers"><img src="/images/arrow.png"></a>
 			  	</div>
 
 			  	<div class="credits">
@@ -16,7 +16,7 @@
 
 			  	<div class="community">
 
-			  		<a href="http://www.conferize.com/conferences/coldfront-conference/track" target="_blank">Join our online community on </br> <img src="/assets/images/conferize.png" /></a>
+			  		<a href="http://www.conferize.com/conferences/coldfront-conference/track" target="_blank">Join our online community on </br> <img src="/images/conferize.png" /></a>
 
 			  	</div>
 
@@ -27,48 +27,58 @@
 	<section class="speakers">
 		<a name="speakers"></a>
 		<div class="inner">
-			<h2>Speakers</h2>
+			<h2>Speakers &amp; Schedule</h2>
 			<h3>Sit back and get inspired.</h3>
 
 			<ul>
 
-			<% speakers.forEach(function(speaker) { %>
+			<% schedule.forEach(function(item) { %>
 
-				<li>
-					<div class="img">
-						<% if (speaker.url.length) { %>
-							<a class="web" href="<%= speaker.url %>" target="_blank"><i class="fa fa-link"></i></a>
+				<li class="<%- item.speaker === true ? 'state-speaker' : '' %>">
+
+			        <span class="date vertical-center-align"><%- item.time %></span>
+
+			        <div class="image">
+			            <img src="<%= item.avatar %>">
+			        </div>
+
+
+			        <div class="intro vertical-center-align">
+						<h3><%- item.name %></h3>
+			        </div>
+
+					<% if (item.speaker === true) { %>
+			        <div class="session-info ">
+
+						<% if (item.url) { %>
+							<a class="web" href="<%= item.url %>" target="_blank"><i class="fa fa-link"></i></a>
 						<% } else { %>
 							<span class="spacer"></span>
 						<% } %>
 
-						<img src="<%= speaker.avatar %>">
 
-						<% if (speaker.twitter.length) { %>
-							<a class="twitter" href="https://twitter.com/<%= speaker.twitter %>" target="_blank"><i class="fa fa-twitter"></i></a>
+
+						<% if (item.twitter) { %>
+							<a class="twitter" href="https://twitter.com/<%= item.twitter %>" target="_blank"><i class="fa fa-twitter"></i></a>
 						<% } else { %>
 							<span class="spacer"></span>
 						<% } %>
-					</div>
 
-					<div class="meta">
-						<h3><%- speaker.name %></h3>
-						<p><%- speaker.title %></p>
-					</div>
+						<p><%- item.title %></p>
 
-					<div class="session">
-						<h4>talks about</h4>
-						<h3><%- speaker.session_title %></h3>
-					</div>
+						<div class="session">
+							<h4>talks about</h4>
+							<h3><%- item.session_title %></h3>
+						</div>
 
-					<div class="intro">
-						<p><%- speaker.intro %></p>
-					</div>
+						<div class="profile">
+							<p><%- item.intro %></p>
+						</div>
+			        </div>
 
-
+			        <% } %>
 				</li>
 			<% }) %>
-
 
 			</ul>
 
@@ -80,7 +90,8 @@
 		<div class="inner">
 			<h2>Tickets</h2>
 			<p>We are building upon the <a href="http://copenhagenjs.dk" target="_blank">CopenhagenJS</a> and <a href="http://thewcdc.net" target="_blank">TheWCDC.</a> communities to create a unique day, where we focus on what it takes to build for the web.</p>
-			<p>A ticket for ColdFront will include lunch, tea/coffee/water and plenty of beer in the night. Due to some great sponsorships we are able to keep the ticket prices low, and offer our original "early-bird ticket" price to everyone. </p>
+			<p>A ticket for ColdFront will include lunch, tea/coffee/water and plenty of beer in the night. </p>
+			<p>Due to some great sponsorships we are able to keep the ticket prices low, while keeping the awesomeness. </p>
 			<p>This means an ticket for ColdFront will set you back just 1500 DKK + VAT!</p>
 
 			<p>One day. One track. Two parties. - all included with your ticket! </p>
@@ -111,7 +122,7 @@
 			<h2>Venue</h2>
 			<p>Coldfront will be held in one of the oldest cinemas in Copenhagen, <a href="http://www.grandteatret.dk/om_grand/om_grand_teatret/" target="_blank">The Grand Theater</a>.</p>
 			<p>The Grand Theater was build in 1913, and is located in a small sidestreet to the famous shopping street Strøget, in very center of old historic Copenhagen.
-			<p><img src="assets/images/venue/grand_side.jpg" width="100%"/></p>
+			<p><img src="/images/venue/grand_side.jpg" width="100%"/></p>
 			<p></p>
 			<p></p>
 
@@ -131,7 +142,7 @@
 
 			<ul>
 				<li>
-					<img src="/assets/images/organizers/kenneth.png" />
+					<img src="/images/organizers/kenneth.png" />
 					<div class="media-body">
 						<h3>Kenneth Auchenberg</h3>
 						<p><a href="http://twitter.com/auchenberg" target="_blank">@auchenberg</a></p>
@@ -139,7 +150,7 @@
 				</li>
 
 				<li>
-					<img src="/assets/images/organizers/daniel.jpg" />
+					<img src="/images/organizers/daniel.jpg" />
 					<div class="media-body">
 						<h3>Daniel Frost</h3>
 						<p><a href="http://twitter.com/danielovich" target="_blank">@danielovich‎</a></p>
@@ -153,41 +164,41 @@
 
 				<li class="vertical-center-align citrix">
 					<a href="http://citrix.com" target="_blank">
-						<img src="/assets/images/sponsors/citrix.png" />
+						<img src="/images/sponsors/citrix.png" />
 					</a>
 				</li>
 
 				<li class="vertical-center-align moc">
 					<a href="https://moc.net/" target="_blank">
-						<img src="/assets/images/sponsors/moc.png" width="200" />
+						<img src="/images/sponsors/moc.png" width="200" />
 					</a>
 				</li>
 				<li class="vertical-center-align falcon">
 					<a href="https://falconsocial.com" target="_blank">
-						<img src="/assets/images/sponsors/falcon_social.svg" />
+						<img src="/images/sponsors/falcon_social.svg" />
 					</a>
 				</li>
 				<li class="vertical-center-align shift">
 					<a href="http://shiftcph.dk" target="_blank">
-						<img src="/assets/images/sponsors/shift.png" />
+						<img src="/images/sponsors/shift.png" />
 					</a>
 				</li>
 
 				<li class="vertical-center-align umbraco">
 					<a href="http://umbraco.com" target="_blank">
-						<img src="/assets/images/sponsors/umbraco.png" />
+						<img src="/images/sponsors/umbraco.png" />
 					</a>
 				</li>
 
 				<li class="vertical-center-align iconfinder">
 					<a href="http://iconfinder.com" target="_blank">
-						<img src="/assets/images/sponsors/iconfinder.svg" />
+						<img src="/images/sponsors/iconfinder.svg" />
 					</a>
 				</li>
 
 				<li class="vertical-center-align iconfinder">
 					<a href="http://zendesk.com" target="_blank">
-						<img src="/assets/images/sponsors/zendesk.png" />
+						<img src="/images/sponsors/zendesk.png" />
 					</a>
 				</li>
 
