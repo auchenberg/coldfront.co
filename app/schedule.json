@@ -8,9 +8,9 @@
 	{
 		"name" : "Kasper Lund",
 		"time" : "08:00 - 08:50",
-		"title" : "V8 and Dart Engineer, Google.",
+		"title" : "Software engineer, Google",
 		"avatar" : "/images/speakers/kasper_lund.jpg",
-		"intro" : "Kasper has been deeply involved in many innovations behind Google V8's engine like Crankshaft. Currently working on Google Dart.",
+		"intro" : "Kasper is the co-founder of the Dart project at Google, but before starting that project he worked on adaptive optimizations in V8.",
 		"url"   : "http://verdich.dk/kasper/",
 		"twitter" : "",
 		"session_title": "Why Google thinks you should drop everything you do and pick up their next-generation language Dart.",
