@@ -43,7 +43,7 @@
 		"intro" : "Bruce Lawson is an Open Web Standards evangelist for Opera. He is co-author of Introducing HTML5 and one of the HTML5 Doctors.",
 		"url"   : "http://www.brucelawson.co.uk/",
 		"twitter" : "brucel",
-		"session_title": "How the makers of your browser, sees your future, and what you should prepare for.",
+		"session_title": "We all used to love IE6 which gave us web monoculture. Are repeating the same mistakes again with Blink?",
 		"session_desc": "Bruce will take us though the browser history, and about why Blink/ Chromium is different then the IE history, and what Opera is doing with Blink",
 		"speaker" : true
 	},
