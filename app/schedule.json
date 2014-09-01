@@ -36,14 +36,14 @@
 		"speaker" : false
 	},
 	{
-		"name" : "Bruce Lawson",
+		"name" : "Mathias Buus",
 		"time" : "09:55 - 10:45",
-		"title" : "Open Web Standards evangelist, Opera",
-		"avatar" : "/images/speakers/bruce_lawson.jpg",
-		"intro" : "Bruce Lawson is an Open Web Standards evangelist for Opera. He is co-author of Introducing HTML5 and one of the HTML5 Doctors.",
-		"url"   : "http://www.brucelawson.co.uk/",
-		"twitter" : "brucel",
-		"session_title": "We all loved IE6 which gave us web monoculture. Are repeating the same mistakes again with Blink?",
+		"title" : "node.js hacker / mad scientist",
+		"avatar" : "/images/speakers/mathias_buus.jpg",
+		"intro" : "Mathias is a Copenhagen based JavaScript hacker who loves open source and is the author of more than 200 node modules",
+		"url"   : "https://github.com/mafintosh",
+		"twitter" : "mafintosh",
+		"session_title": "Pushing the limits of JavaScript with P2P and streaming BitTorrent",
 		"session_desc": "Bruce will take us though the browser history, and about why Blink/ Chromium is different then the IE history, and what Opera is doing with Blink",
 		"speaker" : true
 	},
