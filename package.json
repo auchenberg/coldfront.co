@@ -4,9 +4,10 @@
   "dependencies": {
     "ejs": "~0.8.5",
     "ejs-locals": "~1.0.2",
-    "express": "~3.4.8",
+    "express": "~4.0.0",
     "express-autoprefixer": "0.0.7",
-    "less-middleware": "^1.0.3"
+    "less-middleware": "^1.0.3",
+    "vhost": "~3.0.0"
   },
   "scripts": {
     "start": "server.js"
