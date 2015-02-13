@@ -11,7 +11,7 @@
     "express-ejs-layouts": "~1.1.0"
   },
   "scripts": {
-    "start": "server.js"
+    "start": "node server.js"
   },
   "engines": {
     "node": "0.10.24",

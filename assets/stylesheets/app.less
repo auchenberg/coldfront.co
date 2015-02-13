@@ -37,6 +37,12 @@ footer {
     right: 0;
     left: 0;
     z-index: 10;
+
+    text-align: center;
+
+    nav {
+        display: inline-block;
+    }
 }
 
 .navbar {
@@ -50,12 +56,16 @@ footer {
 
 .nav > li {
 
+    display: inline-block;
     padding: 10px 0;
     float: none;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
 
     > a {
-        color: rgba(255,255,255, 0.8);
+        color: rgba(255,255,255, 0.75);
 
         &:hover,
         &:focus {
@@ -78,27 +88,54 @@ footer {
 }
 
 .splash {
-    
-    background: url('/images/splash.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-
-    height: 100%;
 
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+
+    .image {
+
+        background: url('/images/splash.jpg');
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: blur(1px);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
 
     .inner {
         margin: 0 auto;
-        padding: 60px 20px 60px 20px;
+        padding: 0 20px 60px 20px;
         max-width: 640px;
         text-align: center;
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            max-width: 470px;
+            margin: 0 auto 20px auto;
+        }
         
+
+        .btn-tickets {
+            color: #fff;
+            border-radius: 0;
+            border: 2px solid #fff;
+            font-size: 30px;
+            padding: 10px 25px;
+            margin-top: 20px;
+
+        }
     }
 
     .wrapper {
-        background: rgba(0,0,0, 0.5);
+        background: rgba(0,0,0, 0.75);
         height: 100%;
         width: 100%;
         position: relative;
@@ -186,7 +223,8 @@ footer {
 
 
 .newsletter {
-    
+    display: none;
+
     position: absolute;
     left: 30px;
     bottom: 10px;
@@ -231,25 +269,15 @@ footer {
 }
 
 .social {
-    
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    z-index: 20;
-
-    text-align: right;
+    margin-top: 30px;
 
     .fb-like {
-        margin-bottom: 10px;
+        line-height: 14px;
     }
 
 }
 
 @media (max-width: 720px) {
-
-    .page {
-        height: auto;
-    }
 
     header {
         position: absolute;
