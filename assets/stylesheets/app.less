@@ -144,7 +144,7 @@ footer {
 
     .logo {
         display: block;
-        margin: 0 auto 30px auto;
+        margin: 40px auto 30px auto;
         width: 300px;
         max-width: 300px;
     }
@@ -168,60 +168,13 @@ footer {
         padding: 0 30px;
 
         font-size: 30px;
-        line-height: 40px;
+        line-height: 2rem;
     }
 
     h4 {
         line-height: 1.5rem;
     }
 }
-
-.organizers {
-    margin-top: 50px;
-
-    ul {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        text-align: center;
-
-        li {
-            display: inline-block;
-            padding-top: 10px;
-            margin-right: 40px;
-
-            list-style: none;
-            color: #fff;
-            overflow: hidden;
-            font-size: 14px;
-
-            &:last-child {
-                margin-right: 0;
-            }
-
-            h6 {
-                margin: 0;
-                font-size: 14px;
-            }    
-
-            p {
-                margin: 0;
-            }
-
-            > img {
-                display: block;
-                height: 60px;
-                width: 60px;
-                margin: 0 auto 20px auto;
-
-                border-radius: 60px;
-                box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-            }
-
-        }        
-    }
-}
-
 
 .newsletter {
     display: none;
@@ -280,12 +233,8 @@ footer {
 
 @media (max-width: 720px) {
 
-    header {
-        position: absolute;
-    }
-
-    footer {
-        position: static;
+    .page {
+        height: auto;
     }
 
     .splash {
@@ -303,25 +252,5 @@ footer {
         }
 
     }
-
-    .organizers {
-        margin-bottom: 30px;
-    }
-
-    .newsletter {
-        position: static;
-        text-align: center;
-
-        margin-bottom: 30px;
-
-        form {
-            margin: 0 auto;
-        }
-    }
-
-    .social {
-        position: static;
-        text-align: center;
-    }    
 
 }
