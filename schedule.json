@@ -1,0 +1,58 @@
+[
+	{
+		"name" : "Jeremy Keith",
+		"time" : "",
+		"title" : "",
+		"avatar" : "/images/speakers/jeremy_keith.jpg",
+		"intro" : "Jeremy is respected voice within our industry, having spoken at notable conferences such as An Event Apart, Mobilism, Web Directions, SXSW, DIBI and Build. He has also written three books on Javascript and HTML5..",
+		"url"   : "http://adactio.com",
+		"twitter" : "adactio",
+		"session_title": "",
+		"session_desc": "",
+		"speaker" : true
+	},
+	{
+		"name" : "Vitaly Friedman",
+		"time" : "",
+		"title" : "Vitaly Friedman loves beautiful content and doesn’t like to give in easily. Vitaly is writer, speaker, author and editor-in-chief of Smashing Magazine. He runs responsive Web design workshops and loves solving complex performance problems",
+		"avatar" : "/images/speakers/vitaly_friedman.jpg",
+		"intro" : "",
+		"url"   : "http://www.smashingmagazine.com/",
+		"twitter" : "smashingmag",
+		"session_title": "",
+		"session_desc": "",
+		"speaker" : true
+	},
+	{
+		"name" : "Patrick Hamann",
+		"avatar" : "/images/speakers/patrick_hamann.jpg",
+		"intro" : "Patrick is a lead client-side engineer at the Guardian in London where – amongst other things – he is helping to build the next generation of their web platform, and is a well-known performance expert.",
+		"speaker" : true
+	},
+	{
+		"name" : "Alex Feyerke",
+		"avatar" : "/images/speakers/alex_feyerke.jpg",
+		"intro" : "Huge advocate for Offline First. Part of the Hood.ie team, and loves spending time with friends in parks, riding his bike and always enjoys a good bouldering session.",
+		"speaker" : true
+	},
+	{
+		"name" : "To be announced",
+		"avatar" : "",
+		"speaker" : true
+	},
+	{
+		"name" : "To be announced",
+		"avatar" : "",
+		"speaker" : true
+	},
+	{
+		"name" : "To be announced",
+		"avatar" : "",
+		"speaker" : true
+	},
+	{
+		"name" : "To be announced",
+		"avatar" : "",
+		"speaker" : true
+	}
+]

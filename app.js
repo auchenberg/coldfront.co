@@ -16,7 +16,9 @@ server.use(autoprefixer({
 server.use(express.static(__dirname + '/assets'));
 
 server.get('/', function(req, res) {
- 	res.render('index');
+ 	res.render('index', {
+ 		schedule: require('./schedule')
+ 	});
 });
 
 module.exports = server;

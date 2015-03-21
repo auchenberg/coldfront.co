@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Coldfront, single-day front-end conference, September 3rd 2015, in Copenhagen. </title>
+    <title>Coldfront, single-day front-end conference, September 3rd 2015, in Copenhagen.</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
 
     <link rel="shortcut icon" href="/images/favicon.png" sizes="16x16 32x32 64x64 128x128 256x256" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/app.css" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" type="text/css">
+
+    <script src="/javascripts/jquery-2.1.3.min.js"></script>
+    <script src="/javascripts/jquery.scrollTo.min.js"></script>
     <script src="/javascripts/page.js" defer async></script>
 
     <meta name="description" content="" />
@@ -30,6 +32,26 @@
   </head>
 
   <body>
+
+    <header>
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="#speakers">Speakers</a></li>
+                <li class="highlight"><a href="https://ti.to/coldfrontconf/2015">Tickets</a></li>
+                <li><a href="#workshop">Workshop</a></li>
+                <li><a href="#venue">Venue</a></li>
+                <li><a href="#partners">Partners</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <%- body %>
 
