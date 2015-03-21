@@ -39,12 +39,14 @@
 
     $(function($) {
 
-        $('header a').click(function() {
+        $('header a').click(function(e) {
+            
             $('#nav-trigger').prop('checked', false);
-            $.scrollTo(this.hash, 5000, {});
+        
+            $.scrollTo(this.hash, 500);
         });
 
-        $('.venues').on('mousedown', function() {
+        $('.venue').on('mousedown', function() {
             $(this).find('iframe').css('pointerEvents', 'all');
         });
 
