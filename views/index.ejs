@@ -1,218 +1,218 @@
 <div class="page">
 
-	<section class="splash">
-		<div class="image"></div>
-		<div class="wrapper vertical-center-align">	
-			<div class="inner">
+    <section class="splash">
+        <div class="image"></div>
+        <div class="wrapper vertical-center-align"> 
+            <div class="inner">
                 <img alt="ColdFront logo" class="logo" src="/images/logo.svg" />
                 <h3>The front-end conference in Copenhagen.</h3>
                 
                 <p>We had a blast in 2014, so we are repeating ColdFront. This time bigger, better and a bit more fun!</p>
                 <p>The next ColdFront arrives <br /> <strong class="date">September 3rd 2015</strong>.<p>
-	 		</div>
+            </div>
 
-	 		<div class="mask"></div>
- 		</div>
-	</section>
+            <div class="mask"></div>
+        </div>
+    </section>
 
-	<section class="white speakers">
-		<a name="speakers"></a>
-		<div class="inner">
-			<h2>Speakers</h2>
-			<h3>Sit back and get inspired.</h3>
+    <section class="white speakers">
+        <a name="speakers"></a>
+        <div class="inner">
+            <h2>Speakers</h2>
+            <h3>Sit back and get inspired.</h3>
 
-			<ul>
+            <ul>
 
-			<% schedule.forEach(function(item) { %>
+            <% schedule.forEach(function(item) { %>
 
-				<li class="<%- item.speaker === true ? 'state-speaker' : '' %>">
+                <li class="<%- item.speaker === true ? 'state-speaker' : '' %>">
 
-					<% if (item.avatar) { %>
-			        <div class="image">
-			            <img src="<%= item.avatar %>">
-			        </div>
-			       	<% } %>
+                    <% if (item.avatar) { %>
+                    <div class="image">
+                        <img src="<%= item.avatar %>">
+                    </div>
+                    <% } %>
 
-			        <div class="intro vertical-center-align">
-						<h3><%- item.name %></h3>
-			        </div>
+                    <div class="intro vertical-center-align">
+                        <h3><%- item.name %></h3>
+                    </div>
 
-					<% if (item.speaker === true) { %>
-			        <div class="session-info ">
+                    <% if (item.speaker === true) { %>
+                    <div class="session-info ">
 
-						<p><%- item.title %></p>
+                        <p><%- item.title %></p>
 
-						<div class="profile">
-							<p><%- item.intro %></p>
-						</div>
-			        </div>
+                        <div class="profile">
+                            <p><%- item.intro %></p>
+                        </div>
+                    </div>
 
-			        <% } %>
-				</li>
-			<% }) %>
+                    <% } %>
+                </li>
+            <% }) %>
 
-			</ul>
+            </ul>
 
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<section class="white ticket">
-		<h2>Tickets</h2>
+    <section class="white ticket">
+        <h2>Tickets</h2>
 
-		<div class="inner">
-			<p>
-				Your ticket for ColdFront holds the power of gettin inspired by great content, supporting your community and that feeling of being proper educated.
-			</p>
+        <div class="inner">
+            <p>
+                Your ticket for ColdFront holds the power of getting inspired by great speakers, supporting your community and that feeling of being proper educated.
+            </p>
 
-			<div class="info">
-				<h2>What you get from your ColdFront ticket ?</h2>
+            <div class="info">
+                <h2>What you get from your ColdFront ticket ?</h2>
 
-				<div class="intro">
-					<img src="images/ticket.jpg" />
+                <div class="intro">
+                    <img src="images/ticket.jpg" />
 
-					<div class="body">
-						<p>
-							Your ticket includes a full day of sessions. There will be 8 in total. We will be serving a light breakfast and a great lunch. Like last year we have put our logo on freshly made icecream and there will be cold beers during the afternoon.
-							You will be treated well in the surroundings of an old theater, so don't worry about a thing and show up.
-						</p>
-					</div>
-				</div>
+                    <div class="body">
+                        <p>
+                            Your ticket includes a full day of sessions. There will be 8 in total. We will be serving a light breakfast and a great lunch. Like last year we several "cold" snacks, and in the afternoon there will be plenty of cold beers too!
+                            You will be treated well in the surroundings of an old theater, so don't worry about a thing, buy your ticket and clean back in a comfy seat.
+                        </p>
+                    </div>
+                </div>
 
-				<div class="text">
-					<p>
-						In 2014 we started ColdFront with a goal of being the web front-end conference of copenhagen. You should understand that we do this merely out of love and passion for the community and the web as a platform.
-					</p>
-					<h3>Registration and price</h3>
-					<p>The price of an early bird ticket is 2500DKK and includes all of the above.</p>
-					<p>
-						<a class="register" target="_blank" href="https://ti.to/coldfrontconf/2015">
-							<strong>Register for ColdFront →</strong>
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+                <div class="text">
+                    <p>
+                       We started ColdFront in 2014 with a goal of being the web front-end conference in Copenhagen. We don't belive in big commerical conferences, and we make ColdFront merely out of love and passion for the community, and the web as a platform.
+                    </p>
+                    <h3>Registration and price</h3>
+                    <p>The price of an early bird ticket is 2500DKK and includes all of the above.</p>
+                    <p>
+                        <a class="register" target="_blank" href="https://ti.to/coldfrontconf/2015">
+                            <strong>Register for ColdFront →</strong>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-	<section class="white workshop">
-		<a name="workshop" id="workshop"></a>
+    <section class="white workshop">
+        <a name="workshop" id="workshop"></a>
 
-		<div class="inner">
-			<h2>Workshop</h2>
-			<p>This year, we are trying something new. The day before the conference, we are running a workshop, and we are so happy to be able offer this workshop in collaboration with <a href="http://www.smashingmagazine.com/">Smashing Magazine</a>.</p>
-						
-				<div class="info">      
-				      
-				    <h2>Responsive Design: Clever Tips, Tricks And Techniques</h2>
+        <div class="inner">
+            <h2>Workshop</h2>
+            <p>This year, we are trying something new. The day before the conference, we are running a workshop, and we are so happy to be able offer this workshop in collaboration with <a href="http://www.smashingmagazine.com/">Smashing Magazine</a>.</p>
+                        
+                <div class="info">      
+                      
+                    <h2>Responsive Design: Clever Tips, Tricks And Techniques</h2>
 
-					<p class="workshop-duration">Wednesday September 2nd 2015 • Full-day workshop</p>
-			     	
-			     	<div class="intro">
-			        	<img src="images/workshop-vitaly-friedman.jpg" />
+                    <p class="workshop-duration">Wednesday September 2nd 2015 • Full-day workshop</p>
+                    
+                    <div class="intro">
+                        <img src="images/workshop-vitaly-friedman.jpg" />
 
-			        	<div class="body">
-			        		<p>In this full-day workshop, Vitaly Friedman, editor-in-chief of Smashing Magazine, will present practical techniques, clever tricks and useful strategies you need to be aware of when working on any responsive design project. The techniques are borrowed from mid-size and large-scale <strong>real-life projects</strong>, such as large eCommerce projects, online magazines and Web applications.</p>
-			        	</div>
+                        <div class="body">
+                            <p>In this full-day workshop, Vitaly Friedman, editor-in-chief of Smashing Magazine, will present practical techniques, clever tricks and useful strategies you need to be aware of when working on any responsive design project. The techniques are borrowed from mid-size and large-scale <strong>real-life projects</strong>, such as large eCommerce projects, online magazines and Web applications.</p>
+                        </div>
 
-			      	</div>
+                    </div>
 
-			      	<div class="text">
-			        	<p>The workshop provides a  comprehensive overview of smart responsive design patterns, advanced front-end techniques, clever UX patterns, optimization for critical rendering path and robust performance tricks — a treasure of actionable, hands-on takeaways to apply in your project. We'll be looking at <strong>many case studies and real-life examples</strong> of projects using these techniques effectively today.</p>
+                    <div class="text">
+                        <p>The workshop provides a  comprehensive overview of smart responsive design patterns, advanced front-end techniques, clever UX patterns, optimization for critical rendering path and robust performance tricks — a treasure of actionable, hands-on takeaways to apply in your project. We'll be looking at <strong>many case studies and real-life examples</strong> of projects using these techniques effectively today.</p>
 
-						<p>The workshop has <strong>two main parts</strong>:</p>
+                        <p>The workshop has <strong>two main parts</strong>:</p>
 
-						<ul>
-							<li>the first half of the day is dedicated to <strong>design/UX</strong>, the RWD workflow ("designing systems"), content choreography, design patterns, responsive components (tables, calendars, navigations, forms etc.) and delightful UX,</li>
-							<li>the second half covers <strong>technical considerations</strong>, front-end techniques, performance strategies and optimization for the critical rendering path.</li>
-						</ul>
+                        <ul>
+                            <li>the first half of the day is dedicated to <strong>design/UX</strong>, the RWD workflow ("designing systems"), content choreography, design patterns, responsive components (tables, calendars, navigations, forms etc.) and delightful UX,</li>
+                            <li>the second half covers <strong>technical considerations</strong>, front-end techniques, performance strategies and optimization for the critical rendering path.</li>
+                        </ul>
 
-						<p>In this workshop, you'll learn:</p>
+                        <p>In this workshop, you'll learn:</p>
 
-						<ul>
-							<li>Effective <strong>tools and techniques</strong> that can support and enhance your personal workflow when working on any responsive design project,</li>
-							<li>An overview of clever practical techniques for improving UX of responsive sites,</li>
-							<li><strong>Front-end strategies</strong> for scalable, resolution-independent graphics and maintainable CSS code with SVG and icon fonts,</li>
-							<li><strong>Responsive design patterns</strong> and innovative approaches to designing "responsive modules" such as tables, calendars, multi-level menus, maps and Web forms,</li>
-							<li><strong>Clever performance tricks</strong>, smart lazy loading and dealing with Web fonts,</li>
-							<li>Testing, debugging and maintenance techniques for responsive sites as well as lessons learned from Smashing Magazine's own redesign in 2012,</li>
-							<li>Technical issues (and solutions) for responsive advertising and <strong>responsive email newsletters</strong>,</li>
-							<li>How the design processes should adapt in terms of the project management, <strong>deliverables</strong>, performance budgets, team organization and strategy.</li>
-						</ul>
+                        <ul>
+                            <li>Effective <strong>tools and techniques</strong> that can support and enhance your personal workflow when working on any responsive design project,</li>
+                            <li>An overview of clever practical techniques for improving UX of responsive sites,</li>
+                            <li><strong>Front-end strategies</strong> for scalable, resolution-independent graphics and maintainable CSS code with SVG and icon fonts,</li>
+                            <li><strong>Responsive design patterns</strong> and innovative approaches to designing "responsive modules" such as tables, calendars, multi-level menus, maps and Web forms,</li>
+                            <li><strong>Clever performance tricks</strong>, smart lazy loading and dealing with Web fonts,</li>
+                            <li>Testing, debugging and maintenance techniques for responsive sites as well as lessons learned from Smashing Magazine's own redesign in 2012,</li>
+                            <li>Technical issues (and solutions) for responsive advertising and <strong>responsive email newsletters</strong>,</li>
+                            <li>How the design processes should adapt in terms of the project management, <strong>deliverables</strong>, performance budgets, team organization and strategy.</li>
+                        </ul>
 
-						<p>This workshop is intended for professional designers, developers and everybody else who is dealing with responsive design regularly or wants to better understand responsive design in general. You should at least be familiar with some basics of responsive design, HTML5 and CSS.</p>
+                        <p>This workshop is intended for professional designers, developers and everybody else who is dealing with responsive design regularly or wants to better understand responsive design in general. You should at least be familiar with some basics of responsive design, HTML5 and CSS.</p>
 
-						<h3>What hardware/software do you need?</h3>
-						<p>To get the most out of the workshop, you might want to bring a laptop but it's not absolutely necessary.</p>
-						
-						<h3>Location and venue</h3>
-						<p>This workshop will be hosted at <a href="https://republikken.net/">Republikken</a>, which is a 10min walk from the conference venue. Further details will follow when we get closer.</p>
-				    
-				    	<h3>Registration and price</h3>
-				    	<p>We think workshops should be affortable, so we are able to offer this workshop for just <strong>1.800 DKK + VAT</strong>, which we think is quite a scoop!</p>
-				    	<p>We have a limited number of seats, so grab a seat, while you can.</p>
-				    	<p><a href="https://ti.to/coldfrontconf/2015" class="register"><strong>Register for this workshop →</strong></a>
-				  	</div>
+                        <h3>What hardware/software do you need?</h3>
+                        <p>To get the most out of the workshop, you might want to bring a laptop but it's not absolutely necessary.</p>
+                        
+                        <h3>Location and venue</h3>
+                        <p>This workshop will be hosted at <a href="https://republikken.net/">Republikken</a>, which is a 10min walk from the conference venue. Further details will follow when we get closer.</p>
+                    
+                        <h3>Registration and price</h3>
+                        <p>We think workshops should be affortable, so we are able to offer this workshop for just <strong>1.800 DKK + VAT</strong>, which we think is quite a scoop!</p>
+                        <p>We have a limited number of seats, so grab a seat, while you can.</p>
+                        <p><a href="https://ti.to/coldfrontconf/2015" class="register"><strong>Register for this workshop →</strong></a>
+                    </div>
 
-    			</div>
-		</div>
-	</section>
+                </div>
+        </div>
+    </section>
 
-	<section class="light venue">
-		<a name="venue"></a>
-		<div class="inner">
-			<h2>Venue</h2>
-			<p>We are proud of giving Coldfront the possibility of being held in the famous teater, <a href="http://www.brementeater.dk/" target="_blank">Bremen</a> in Copenhagen. Public transport goes straight to the door and the neighborhood offers many other cool spots for a good time out.</p>
-			
-			<p class="photo"><img src="/images/bremen1.jpg" width="100%"/>
-			<p class="photo"><img src="/images/bremen2.jpg" width="100%"/>
+    <section class="light venue">
+        <a name="venue"></a>
+        <div class="inner">
+            <h2>Venue</h2>
+            <p>We are proud of giving Coldfront the possibility of being held in the famous teater, <a href="http://www.brementeater.dk/" target="_blank">Bremen</a> in Copenhagen. Public transport goes straight to the door and the neighborhood offers many other cool spots for a good time out.</p>
+            
+            <p class="photo"><img src="/images/bremen1.jpg" width="100%"/>
+            <p class="photo"><img src="/images/bremen2.jpg" width="100%"/>
 
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2249.6984364190785!2d12.561114!3d55.676843999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652530bf8630f5b%3A0x5351780951f2cede!2sBremen!5e0!3m2!1sen!2s!4v1426840605578" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2249.6984364190785!2d12.561114!3d55.676843999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652530bf8630f5b%3A0x5351780951f2cede!2sBremen!5e0!3m2!1sen!2s!4v1426840605578" width="100%" height="300" frameborder="0" style="border:0"></iframe>
 
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<section class="white organizers">
-		<a name="partners"></a>
-		<div class="inner container">
-			<h2>Organizers & Partners</h2>
+    <section class="white organizers">
+        <a name="partners"></a>
+        <div class="inner container">
+            <h2>Organizers & Partners</h2>
 
-			<h3>Making it all possible:</h3>
+            <h3>Making it all possible:</h3>
 
-			<ul>
-				<li>
-					<img src="/images/organizers/kenneth.png" />
-					<div class="media-body">
-						<h3>Kenneth Auchenberg</h3>
-						<p><a href="http://twitter.com/auchenberg" target="_blank">@auchenberg</a></p>
-					</div>
-				</li>
+            <ul>
+                <li>
+                    <img src="/images/organizers/kenneth.png" />
+                    <div class="media-body">
+                        <h3>Kenneth Auchenberg</h3>
+                        <p><a href="http://twitter.com/auchenberg" target="_blank">@auchenberg</a></p>
+                    </div>
+                </li>
 
-				<li>
-					<img src="/images/organizers/daniel.jpg" />
-					<div class="media-body">
-						<h3>Daniel Frost</h3>
-						<p><a href="http://twitter.com/danielovich" target="_blank">@danielovich‎</a></p>
-					</div>
-				</li>
-			</ul>
+                <li>
+                    <img src="/images/organizers/daniel.jpg" />
+                    <div class="media-body">
+                        <h3>Daniel Frost</h3>
+                        <p><a href="http://twitter.com/danielovich" target="_blank">@danielovich‎</a></p>
+                    </div>
+                </li>
+            </ul>
 
-			<p>Interested in becoming a partner?</p>
-			<p>Contact us at <a href="mailto:hello@coldfrontconf.com">hello@coldfrontconf.com</a></p>
+            <p>Interested in becoming a partner?</p>
+            <p>Contact us at <a href="mailto:hello@coldfrontconf.com">hello@coldfrontconf.com</a></p>
 
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<footer class="white social">
-	    <div class="inner">
-	    	<h3>ColdFront Conference</h3>
+    <footer class="white social">
+        <div class="inner">
+            <h3>ColdFront Conference</h3>
 
-    	    <a href="https://twitter.com/coldfrontconf" class="twitter-follow-button" data-show-count="true">Follow @coldfrontconf</a>
+            <a href="https://twitter.com/coldfrontconf" class="twitter-follow-button" data-show-count="true">Follow @coldfrontconf</a>
 
-    	    <a href="https://twitter.com/share?url=http://coldfrontconf.com" class="twitter-share-button" data-text="ColdFront Conference, one-day front-end conference in Copenhagen. 4th September 2014." data-via="coldfrontconf" data-related="coldfrontconf">Tweet</a>
-			<div class="fb-like" data-href="http://coldfrontconf.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+            <a href="https://twitter.com/share?url=http://coldfrontconf.com" class="twitter-share-button" data-text="ColdFront Conference, one-day front-end conference in Copenhagen. 4th September 2014." data-via="coldfrontconf" data-related="coldfrontconf">Tweet</a>
+            <div class="fb-like" data-href="http://coldfrontconf.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
-	    </div>
-	</footer>
+        </div>
+    </footer>
 
  </div>
