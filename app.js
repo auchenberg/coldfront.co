@@ -21,4 +21,9 @@ server.get('/', function(req, res) {
  	});
 });
 
+server.get('/partners', function(req, res) {
+    res.render('partners')
+});
+
+
 module.exports = server;
