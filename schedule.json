@@ -36,8 +36,9 @@
 		"speaker" : true
 	},
 	{
-		"name" : "To be announced",
-		"avatar" : "",
+		"name" : "David Rousset",
+		"avatar" : "/images/speakers/david_rousset.jpg",
+		"intro" : "David Rousset is a Senior Program Manager at Microsoft, in charge of driving adoption of HTML5 standards. He’s the co-author of the WebGL Babylon.js open-source engine.",
 		"speaker" : true
 	},
 	{
