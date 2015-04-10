@@ -3,7 +3,7 @@ var lessMiddleware = require('less-middleware');
 var autoprefixer = require('express-autoprefixer');
 var expressLayouts = require('express-ejs-layouts')
 var compression = require('compression')
-
+var staticAsset = require('static-asset');
 
 var server = express();
 
@@ -18,9 +18,8 @@ server.use(autoprefixer({
     options: 'last 2 versions'
 }));
 
-server.use(express.static(__dirname + '/assets', {
-	maxAge: 86400000
-}));
+server.use(staticAsset(__dirname + "/assets") );
+server.use(express.static(__dirname + '/assets'));
 
 server.get('/', function(req, res) {
  	res.render('index', {

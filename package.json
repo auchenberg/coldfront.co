@@ -9,6 +9,7 @@
     "express-autoprefixer": "0.0.7",
     "express-ejs-layouts": "~1.1.0",
     "less-middleware": "^1.0.3",
+    "static-asset": "^0.6.0",
     "vhost": "~3.0.0"
   },
   "scripts": {
