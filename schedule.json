@@ -42,8 +42,9 @@
 		"speaker" : true
 	},
 	{
-		"name" : "To be announced",
-		"avatar" : "",
+		"name" : "Lea Verou",
+		"avatar" : "/images/speakers/lea_verou.jpg",
+		"intro": "Lea is a speaker, author of \"CSS Secrets\", and an Invited Expert in the CSS Working Group. She worked as a Developer Advocate for the W3C and is currently a Research Assistant at MIT.",
 		"speaker" : true
 	},
 	{
