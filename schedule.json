@@ -4,7 +4,7 @@
 		"time" : "",
 		"title" : "",
 		"avatar" : "/images/speakers/jeremy_keith.jpg",
-		"intro" : "Jeremy is respected voice within our industry, having spoken at notable conferences such as An Event Apart, Mobilism, Web Directions, SXSW, DIBI and Build. He has also written three books on Javascript and HTML5..",
+		"intro" : "Jeremy is a respected voice within our industry, having spoken at notable conferences such as An Event Apart, Mobilism, Web Directions, SXSW, DIBI and Build. He has also written three books on Javascript and HTML5.",
 		"url"   : "http://adactio.com",
 		"twitter" : "adactio",
 		"session_title": "",
@@ -14,7 +14,7 @@
 	{
 		"name" : "Vitaly Friedman",
 		"time" : "",
-		"title" : "Vitaly Friedman loves beautiful content and doesn’t like to give in easily. Vitaly is writer, speaker, author and editor-in-chief of Smashing Magazine. He runs responsive Web design workshops and loves solving complex performance problems",
+		"title" : "Vitaly Friedman loves beautiful content and doesn’t like to give in easily. Vitaly is writer, speaker, author and editor-in-chief of Smashing Magazine. He runs responsive Web design workshops and loves solving complex performance problems.",
 		"avatar" : "/images/speakers/vitaly_friedman.jpg",
 		"intro" : "",
 		"url"   : "http://www.smashingmagazine.com/",
