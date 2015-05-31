@@ -29,11 +29,104 @@ header {
     right: 0;
     left: 0;
     z-index: 10;
+    user-select: none;
 
     .navbar-nav {
         float: none;
         text-align: center;
+        margin: 0;
     }
+
+    .navbar {
+        background: #000;
+        color: #fff;
+        border: 0;
+        z-index: 10;
+        text-align: center;
+    }
+
+    .nav > li {
+        display: inline-block;
+        padding: 10px 0;
+        float: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px;
+
+        &.highlight > a {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        > a {
+            color: rgba(255,255,255, 0.75);
+
+            &:hover,
+            &:focus {
+                background: none;
+            }
+        }
+    }    
+
+    nav {
+        transition: all 0.1s;
+    }
+
+    .nav-trigger {
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    label[for="nav-trigger"] {
+        position: absolute;
+        right: 25px; 
+        top: 25px;
+        z-index: 2;
+
+        display: none;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' fill='#fff' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+        background-size: contain;
+    }
+
+    .nav-trigger:checked ~ nav {
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        height: 350px;
+        padding: 20px;
+        opacity: 1;
+        background: rgba(0,0,0, 0.8);
+        
+        li {
+            display: block;
+            font-size: 30px;
+            padding: 0 0 20px 0;
+
+            &.highlight > a {
+                color: #fff;
+                font-size: inherit;
+            }               
+        }
+
+    }
+
+    @media (max-width: 650px) {
+
+        nav {
+            opacity: 0;
+        }
+        
+        label[for="nav-trigger"] {
+            display: block;
+        }
+
+    }  
+
 }
 
 footer {
@@ -44,38 +137,6 @@ footer {
 
     nav {
         display: inline-block;
-    }
-}
-
-.navbar {
-    background: #000;
-    color: #fff;
-    border: 0;
-    z-index: 10;
-    text-align: center;
-}
-
-.nav > li {
-    display: inline-block;
-    padding: 10px 0;
-    float: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-
-    &.highlight > a {
-        color: #fff;
-        font-size: 16px;
-    }
-
-    > a {
-        color: rgba(255,255,255, 0.75);
-
-        &:hover,
-        &:focus {
-            background: none;
-        }
     }
 }
 
@@ -557,7 +618,7 @@ section.black {
             }
 
             .intro {
-                margin: 0 auto 20px auto;
+                margin: 0 auto 0 auto;
                 font-size: 16px;
 
                 p {
