@@ -23,12 +23,21 @@ server.use(express.static(__dirname + '/assets'));
 
 server.get('/', function(req, res) {
  	res.render('index', {
- 		schedule: require('./schedule')
+ 		schedule: require('./schedule'),
+ 		pageClass: ''
  	});
 });
 
 server.get('/partners', function(req, res) {
-    res.render('partners')
+    res.render('partners', {
+    	pageClass: ''
+    })
+});
+
+server.get('/workshop', function(req, res) {
+    res.render('workshop', {
+    	pageClass: 'workshop'
+    })
 });
 
 
