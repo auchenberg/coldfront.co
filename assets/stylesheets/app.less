@@ -67,7 +67,7 @@ header {
                 background: none;
             }
         }
-    }    
+    }
 
     nav {
         transition: all 0.1s;
@@ -80,7 +80,7 @@ header {
 
     label[for="nav-trigger"] {
         position: absolute;
-        right: 25px; 
+        right: 25px;
         top: 25px;
         z-index: 2;
 
@@ -101,7 +101,7 @@ header {
         padding: 20px;
         opacity: 1;
         background: rgba(0,0,0, 0.8);
-        
+
         li {
             display: block;
             font-size: 30px;
@@ -110,7 +110,7 @@ header {
             &.highlight > a {
                 color: #fff;
                 font-size: inherit;
-            }               
+            }
         }
 
     }
@@ -120,12 +120,12 @@ header {
         nav {
             opacity: 0;
         }
-        
+
         label[for="nav-trigger"] {
             display: block;
         }
 
-    }  
+    }
 
 }
 
@@ -183,7 +183,7 @@ section {
 
 .page {
     color: #fff;
-    
+
     .register {
         background-color: #333;
         padding: 20px;
@@ -280,6 +280,22 @@ section {
 
     .date {
         font-size: 24px;
+    }
+
+     @keyframes pulsate {
+        from {
+            background: transparent;
+        }
+        to {
+            background: #333;
+        }
+    }
+
+    .register {
+        border: 1px solid rgba(255,255,255,0.3);
+        padding: 15px 30px;
+
+        animation: pulsate 1s linear 0s infinite alternate;
     }
 
     .mask {
@@ -876,9 +892,9 @@ section.black {
 .workshop {
 
     .page {
-        margin-top: 80px;   
+        margin-top: 80px;
     }
-    
+
     header {
         background: #000;
     }
