@@ -9,7 +9,8 @@
 		"twitter" : "adactio",
 		"session_title": "",
 		"session_desc": "",
-		"speaker" : true
+		"speaker" : true,
+		"category": "Web Platform"
 	},
 	{
 		"name" : "Vitaly Friedman",
@@ -21,41 +22,49 @@
 		"twitter" : "smashingmag",
 		"session_title": "",
 		"session_desc": "",
-		"speaker" : true
+		"speaker" : true,
+		"category": "Performance"
 	},
 	{
 		"name" : "Patrick Hamann",
 		"avatar" : "/images/speakers/patrick_hamann.jpg",
 		"intro" : "Patrick is a front-end engineer at the Financial Times in London where – amongst other things – he is helping to build the next generation of their web platform. Prior to the FT he spent the last 3 years developing theguardian.com. When not speaking or ranting about performance he enjoys spending his spare time discovering new food and craft beer.",
-		"speaker" : true
+		"speaker" : true,
+		"category": "Performance"
 	},
 	{
 		"name" : "Alex Feyerke",
 		"avatar" : "/images/speakers/alex_feyerke.jpg",
 		"intro" : "Huge advocate for Offline First. Part of the Hood.ie team, and loves spending time with friends in parks, riding his bike and always enjoys a good bouldering session.",
-		"speaker" : true
+		"speaker" : true,
+		"category": "Offline-first"
 	},
 	{
 		"name" : "David Rousset",
 		"avatar" : "/images/speakers/david_rousset.jpg",
 		"intro" : "David Rousset is a Senior Program Manager at Microsoft, in charge of driving adoption of HTML5 standards. He’s the co-author of the WebGL Babylon.js open-source engine.",
-		"speaker" : true
+		"speaker" : true,
+		"category": "Browsers"
 	},
 	{
 		"name" : "Lea Verou",
 		"avatar" : "/images/speakers/lea_verou.jpg",
 		"intro": "Lea is a speaker, author of \"CSS Secrets\", and an Invited Expert in the CSS Working Group. She worked as a Developer Advocate for the W3C and is currently a Research Assistant at MIT.",
-		"speaker" : true
+		"speaker" : true,
+		"category": "CSS"
 	},
 	{
 		"name" : "Paul Kinlan",
 		"avatar" : "/images/speakers/paul_kinlan.jpg",
 		"intro": "Paul is a Developer Advocate on the Google Chrome team. He's working on getting the web to work well on mobile. He once did this thing called Web Intents that someday will change the web for good.",
-		"speaker" : true
+		"speaker" : true,
+		"category": "Mobile"
 	},
 	{
-		"name" : "To be announced",
-		"avatar" : "",
-		"speaker" : true
+		"name" : "Feross Aboukhadijeh",
+		"avatar" : "/images/speakers/feross.jpg",
+		"intro" : "Ferros is a well-known name in the WebRTC world. Been building PeerCDN, a peer-to-peer CDN and is currently busy with WebTorrent, a streaming BitTorrent client for the browser, powered by WebRTC.",
+		"speaker" : true,
+		"category": "Realtime"
 	}
 ]
