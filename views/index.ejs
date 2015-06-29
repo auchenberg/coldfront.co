@@ -31,6 +31,7 @@
 
                 <li class="<%- item.speaker === true ? 'state-speaker' : '' %>">
 
+                    <div class="corner-ribbon top-right sticky blue"><%= item.category %></div>
                     <% if (item.avatar) { %>
                     <div class="image">
                         <img src="<%= item.avatar %>">

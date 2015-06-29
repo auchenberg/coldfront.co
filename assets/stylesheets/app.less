@@ -468,6 +468,10 @@ section.black {
             p {
                 opacity: 1;
             }
+
+            .corner-ribbon {
+                opacity: 0;
+            }
         }
 
         > div {
@@ -476,6 +480,26 @@ section.black {
             bottom: 0;
             right: 0;
             left: 0;
+        }
+
+        .corner-ribbon {
+          width: 200px;
+          height: 50px;
+          background: rgba(42, 149, 197, 0.6);
+          position: absolute;
+          top: 25px;
+          right: -50px;
+          left: auto;
+          bottom: auto;
+          text-align: center;
+          line-height: 50px;
+          font-size: 15px;
+          letter-spacing: 1px;
+          color: #f0f0f0;
+          transform: rotate(45deg);
+          z-index: 2;
+
+          transition: opacity 0.05s;
         }
 
         .session-info {
