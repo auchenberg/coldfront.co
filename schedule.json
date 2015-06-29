@@ -28,7 +28,7 @@
 	{
 		"name" : "Patrick Hamann",
 		"avatar" : "/images/speakers/patrick_hamann.jpg",
-		"intro" : "Patrick is a front-end engineer at the Financial Times in London where – amongst other things – he is helping to build the next generation of their web platform. Prior to the FT he spent the last 3 years developing theguardian.com. When not speaking or ranting about performance he enjoys spending his spare time discovering new food and craft beer.",
+		"intro" : "Patrick is a front-end engineer at the Financial Times in London where – amongst other things – he is helping to build the next generation of their web platform. Prior to the FT he spent the last 3 years developing theguardian.com.",
 		"speaker" : true,
 		"category": "Performance"
 	},
