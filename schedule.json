@@ -23,7 +23,7 @@
 		"session_title": "",
 		"session_desc": "",
 		"speaker" : true,
-		"category": "Performance"
+		"category": "Responsive"
 	},
 	{
 		"name" : "Patrick Hamann",
@@ -65,6 +65,6 @@
 		"avatar" : "/images/speakers/feross.jpg",
 		"intro" : "Ferros is a well-known name in the WebRTC world. Been building PeerCDN, a peer-to-peer CDN and is currently busy with WebTorrent, a streaming BitTorrent client for the browser, powered by WebRTC.",
 		"speaker" : true,
-		"category": "Realtime"
+		"category": "Real-time"
 	}
 ]
