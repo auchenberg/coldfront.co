@@ -19,11 +19,11 @@
         </div>
     </section>
 
-    <section class="white speakers">
-        <a name="speakers"></a>
+    <section class="schedule">
+        <a name="schedule"></a>
         <div class="inner">
-            <h2>Speakers</h2>
-            <p>We are thrilled to have these fantastic speakers for this years ColdFront.</p>
+            <h2>Speakers &amp; Schedule</h2>
+            <h3>Sit back and get inspired.</h3>
 
             <ul>
 
@@ -31,25 +31,45 @@
 
                 <li class="<%- item.speaker === true ? 'state-speaker' : '' %>">
 
-                    <div class="corner-ribbon top-right sticky blue"><%= item.category %></div>
-                    <% if (item.avatar) { %>
+                    <span class="date vertical-center-align"><%- item.time %></span>
+
                     <div class="image">
                         <img src="<%= item.avatar %>">
                     </div>
-                    <% } %>
+
 
                     <div class="intro vertical-center-align">
                         <h3><%- item.name %></h3>
                     </div>
 
-                    <% if (item.speaker === true) { %>
+                    <% if (item.speaker === true || item.info) { %>
                     <div class="session-info ">
 
-                        <p><%- item.title %></p>
+                        <% if (item.speaker === true) { %>
+                            <% if (item.url) { %>
+                                <a class="web" href="<%= item.url %>" target="_blank"><i class="fa fa-link"></i></a>
+                            <% } else { %>
+                                <span class="spacer"></span>
+                            <% } %>
 
-                        <div class="profile">
-                            <p><%- item.intro %></p>
-                        </div>
+                            <% if (item.twitter) { %>
+                                <a class="twitter" href="https://twitter.com/<%= item.twitter %>" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <% } else { %>
+                                <span class="spacer"></span>
+                            <% } %>
+
+                            <p><%- item.title %></p>
+
+                            <div class="session">
+                                <h4>talks about</h4>
+                                <h3><%- item.session_title %></h3>
+
+                                <%- item.session_desc %>
+                            </div>
+                        <% } %>
+
+                        <p><%- item.info %></p>
+
                     </div>
 
                     <% } %>
