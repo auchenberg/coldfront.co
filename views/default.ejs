@@ -32,6 +32,7 @@
 
   <body>
 
+    <% if (typeof noHeader === 'undefined' || !noHeader) { %>
     <header>
 
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -49,9 +50,11 @@
             </ul>
         </nav>
     </header>
+    <% } %>
 
     <%- body %>
 
+    <% if (typeof noFooter === 'undefined' || !noFooter) { %>
     <footer>
         <nav class="" role="navigation">
             <ul class="nav">
@@ -60,6 +63,8 @@
             </ul>
         </nav>
     </footer>
+    <% } %>
+
   </body>
 
   <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>

@@ -40,6 +40,14 @@ server.get('/workshop', function (req, res) {
   })
 })
 
+server.get('/live', function (req, res) {
+  res.render('live', {
+    pageClass: 'page-live',
+    noFooter: true,
+    noHeader: true
+  })
+})
+
 server.get('/speakers', function (req, res) {
   res.render('speakers', {
     pageClass: 'page-speakers',
