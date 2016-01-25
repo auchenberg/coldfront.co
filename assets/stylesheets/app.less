@@ -83,7 +83,6 @@ header {
         right: 25px;
         top: 25px;
         z-index: 2;
-
         display: none;
         height: 20px;
         width: 20px;
@@ -96,7 +95,6 @@ header {
         position: absolute;
         left: 0;
         right: 0;
-
         height: 350px;
         padding: 20px;
         opacity: 1;
@@ -112,7 +110,6 @@ header {
                 font-size: inherit;
             }
         }
-
     }
 
     @media (max-width: 650px) {
@@ -124,9 +121,7 @@ header {
         label[for="nav-trigger"] {
             display: block;
         }
-
     }
-
 }
 
 footer {
@@ -165,10 +160,8 @@ section {
 
     @media (max-width: 720px) {
 
-        padding: 20px;
-
-        h2 {
-            font-size:  35px;
+        padding: 20px; h2 {
+            font-size: 35px;
         }
 
         h3 {
@@ -178,9 +171,7 @@ section {
         p {
             font-size: 16px;
         }
-
     }
-
 }
 
 .page {
@@ -284,10 +275,11 @@ section {
         font-size: 24px;
     }
 
-     @keyframes pulsate {
+    @keyframes pulsate {
         from {
             background: transparent;
         }
+
         to {
             background: #333;
         }
@@ -296,7 +288,6 @@ section {
     .register {
         border: 1px solid rgba(255,255,255,0.3);
         padding: 15px 30px;
-
         animation: pulsate 1s linear 0s infinite alternate;
     }
 
@@ -309,27 +300,27 @@ section {
         z-index: 1000;
     }
 
-    .mask:before, .mask:after {
-        content: ' ';
-        display: block;
-        position: absolute;
-        top: 0;
-        height: 0;
-        border-bottom: 20px solid #E9F0F5;
-        width: 50%;
-    }
+        .mask:before, .mask:after {
+            content: ' ';
+            display: block;
+            position: absolute;
+            top: 0;
+            height: 0;
+            border-bottom: 20px solid #E9F0F5;
+            width: 50%;
+        }
 
-    .mask:before {
-        border-left: 0;
-        border-right: 20px solid rgba(0, 0, 0, 0);
-        left: 0;
-    }
+        .mask:before {
+            border-left: 0;
+            border-right: 20px solid rgba(0, 0, 0, 0);
+            left: 0;
+        }
 
-    .mask:after {
-        right: 0;
-        border-right: 0;
-        border-left: 20px solid rgba(0, 0, 0, 0);
-    }
+        .mask:after {
+            right: 0;
+            border-right: 0;
+            border-left: 20px solid rgba(0, 0, 0, 0);
+        }
 
     @media (max-width: 720px) {
 
@@ -355,8 +346,6 @@ section {
         p {
             font-size: 15px;
         }
-
-
     }
 }
 
@@ -397,7 +386,6 @@ section.black {
 
 
 .social {
-
     background: #000;
     text-align: center;
 
@@ -440,13 +428,10 @@ section.black {
         .photo, iframe {
             margin: 20px 0;
         }
-
     }
-
 }
 
 .speakers {
-
     color: #000;
 
     ul {
@@ -468,7 +453,7 @@ section.black {
         &:hover {
 
             .session-info {
-                background:rgba(108,156,178, 0.6);
+                background: rgba(108,156,178, 0.6);
             }
 
             p {
@@ -489,23 +474,22 @@ section.black {
         }
 
         .corner-ribbon {
-          width: 200px;
-          height: 50px;
-          background: rgba(42, 149, 197, 0.6);
-          position: absolute;
-          top: 25px;
-          right: -50px;
-          left: auto;
-          bottom: auto;
-          text-align: center;
-          line-height: 50px;
-          font-size: 15px;
-          letter-spacing: 1px;
-          color: #f0f0f0;
-          transform: rotate(45deg);
-          z-index: 2;
-
-          transition: opacity 0.05s;
+            width: 200px;
+            height: 50px;
+            background: rgba(42, 149, 197, 0.6);
+            position: absolute;
+            top: 25px;
+            right: -50px;
+            left: auto;
+            bottom: auto;
+            text-align: center;
+            line-height: 50px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #f0f0f0;
+            transform: rotate(45deg);
+            z-index: 2;
+            transition: opacity 0.05s;
         }
 
         .session-info {
@@ -684,9 +668,7 @@ section.black {
                 }
             }
         }
-
     }
-
 }
 
 .ticket {
@@ -704,7 +686,6 @@ section.black {
             margin: 0;
         }
     }
-
 }
 
 .workshop {
@@ -728,13 +709,10 @@ section.black {
         .workshop-duration {
             font-size: 16px;
         }
-
     }
-
 }
 
 .partners {
-
     color: #000;
 
     .intro {
@@ -745,15 +723,7 @@ section.black {
             padding: 100px 20px 60px 20px;
             max-width: 700px;
             text-align: center;
-
-            h3 {
-                margin-bottom: 20px;
-            }
-
-            p {
-                margin: 0 auto 20px auto;
-            }
-
+            z-index: -1;
         }
 
         .wrapper {
@@ -763,8 +733,22 @@ section.black {
             position: relative;
         }
 
+        video {
+            background-size: cover;
+            background-position: 50% 50%;
+            filter: blur(1px);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+        }
+
         .image {
-            background: url('/images/splash.jpg');
+            background: url('/images/2015.mp4');
             background-size: cover;
             background-position: 50% 50%;
             filter: blur(1px);
@@ -779,7 +763,6 @@ section.black {
             width: 30%;
             margin-bottom: 5%;
         }
-
     }
 
     .packages {
@@ -810,10 +793,8 @@ section.black {
         .inner {
             float: right;
             width: 50%;
-
             max-width: 100%;
             text-align: left;
-
             padding: 40px;
             position: relative;
 
@@ -824,11 +805,7 @@ section.black {
             h2 {
                 text-align: center;
             }
-
-
         }
-
-
     }
 
 
@@ -878,20 +855,17 @@ section.black {
         bottom: 0;
         top: 0;
         right: 0;
-        left:0;
+        left: 0;
         z-index: 2;
-
         background: rgba(255,255,255, 0.9);
-
     }
 
     .taken .company {
         position: absolute;
         top: 200px;
-        left:0;
+        left: 0;
         right: 0;
         z-index: 3;
-
         text-align: center;
     }
 
@@ -920,7 +894,6 @@ section.black {
             max-width: 250px;
         }
     }
-
 }
 
 @import '_schedule';
