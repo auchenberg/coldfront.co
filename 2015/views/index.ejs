@@ -1,0 +1,221 @@
+<div class="page">
+
+    <section class="splash">
+        <div class="image"></div>
+        <div class="wrapper vertical-center-align">
+            <div class="inner">
+                <img alt="ColdFront logo" class="logo" src="/images/logo.svg" />
+                <h3>The front-end conference in Copenhagen.</h3>
+
+                <p>We had a blast in 2014, so we are repeating ColdFront. This time bigger, better and a bit more fun!</p>
+                <p>The next ColdFront arrives <br /> <strong class="date">September 3rd 2015</strong>.<p>
+
+                <a class="register" target="" href="/live">
+                    <strong>WATCH THE LIVE STREAM →</strong>
+                </a>
+            </div>
+
+            <div class="mask"></div>
+        </div>
+    </section>
+
+    <section class="schedule">
+        <a name="schedule"></a>
+        <div class="inner">
+            <h2>Speakers &amp; Schedule</h2>
+            <h3>Sit back and get inspired.</h3>
+
+            <ul>
+
+            <% schedule.forEach(function(item) { %>
+
+                <li class="<%- item.speaker === true ? 'state-speaker' : '' %>">
+
+                    <span class="date vertical-center-align"><%- item.time %></span>
+
+                    <div class="image">
+                        <img src="<%= item.avatar %>">
+                    </div>
+
+
+                    <div class="intro vertical-center-align">
+                        <h3><%- item.name %></h3>
+                    </div>
+
+                    <% if (item.speaker === true || item.info) { %>
+                    <div class="session-info ">
+
+                        <% if (item.speaker === true) { %>
+                            <% if (item.url) { %>
+                                <a class="web" href="<%= item.url %>" target="_blank"><i class="fa fa-link"></i></a>
+                            <% } else { %>
+                                <span class="spacer"></span>
+                            <% } %>
+
+                            <% if (item.twitter) { %>
+                                <a class="twitter" href="https://twitter.com/<%= item.twitter %>" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <% } else { %>
+                                <span class="spacer"></span>
+                            <% } %>
+
+                            <p><%- item.title %></p>
+
+                            <div class="session">
+                                <h4>talks about</h4>
+                                <h3><%- item.session_title %></h3>
+
+                                <%- item.session_desc %>
+                            </div>
+                        <% } %>
+
+                        <p><%- item.info %></p>
+
+                    </div>
+
+                    <% } %>
+                </li>
+            <% }) %>
+
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="white ticket info-box">
+        <h2>Tickets</h2>
+
+        <div class="inner">
+            <p>
+                Your ticket for ColdFront holds the power of getting inspired by great speakers, supporting your community and that feeling of being proper educated.
+            </p>
+
+            <div class="info">
+                <h2>What you get from your ColdFront ticket ?</h2>
+
+                <div class="intro">
+                    <img src="images/ticket.jpg" />
+
+                    <div class="body">
+                        <p>
+                            Your ticket includes a <strong>full day of 8 sessions</strong> by international speakers. We will be serving a <strong>light breakfast</strong> and a great lunch. Like last year we several "cold" snacks, and in the afternoon there will be plenty of <strong>cold beers</strong> too!
+                        </p>
+                        <p>
+                            You will be treated well in the surroundings of an old theater, so don't worry about a thing, buy your ticket and lean back in a comfy seat.
+                        </p>
+                    </div>
+                </div>
+
+
+                    <p>
+                       We started ColdFront in 2014 with a goal of being the web front-end conference in Copenhagen. We don't belive in big commerical conferences, and we make ColdFront merely out of <strong>love and passion</strong> for the community, and the web as an open platform.
+                    </p>
+                    <h3>Registration and price</h3>
+                    <p>The price of an early bird ticket is just <strong>2.000 DKK + VAT</strong> and includes all of the above.</p>
+                    <p>
+                        <a class="register" target="_blank" href="https://ti.to/coldfrontconf/2015">
+                            <strong>Register for ColdFront Conference →</strong>
+                        </a>
+                    </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="white workshop info-box">
+        <a name="workshop" id="workshop"></a>
+
+        <div class="inner">
+            <h2>Workshop</h2>
+            <p>This year, we are trying something new. The day before the conference, we are running a workshop, and we are so happy to be able offer this workshop in collaboration with <a href="http://www.smashingmagazine.com/">Smashing Magazine</a>.</p>
+
+                <div class="info">
+
+                    <h2>Responsive Design: Clever Tips, Tricks And Techniques</h2>
+
+                    <p class="workshop-duration">Wednesday September 2nd 2015 • Full-day workshop</p>
+
+                    <div class="intro">
+                        <img src="images/workshop-vitaly-friedman.jpg" />
+
+                        <div class="body">
+                            <p>In this full-day workshop, <a href="https://twitter.com/smashingmag">Vitaly Friedman</a>, editor-in-chief of Smashing Magazine, will present practical techniques, clever tricks and useful strategies you need to be aware of when working on any responsive design project. The techniques are borrowed from mid-size and large-scale <strong>real-life projects</strong>, such as large eCommerce projects, online magazines and Web applications.</p>
+                            <br />
+                            <p>We think workshops should be affortable, so we are able to offer this workshop for just <strong>1.800 DKK + VAT</strong>, which we think is quite a scoop!</p>
+                        </div>
+                    </div>
+
+
+                    <p><a href="/workshop" class="register"><strong>Register and read the full details of workshop →</strong></a>
+
+                </div>
+        </div>
+    </section>
+
+    <section class="light venue">
+        <a name="venue"></a>
+        <div class="inner">
+            <h2>Venue</h2>
+
+            <p>Coldfront will be held in one of the oldest cinemas in Copenhagen, <a href="http://www.grandteatret.dk/om_grand/om_grand_teatret/" target="_blank">The Grand Theater</a>.</p>
+            <p>The Grand Theater was build in 1913, and is located in a small sidestreet to the famous shopping street Strøget, in very center of old historic Copenhagen.
+
+            <p class="photo"><img src="/images/grand.jpg" width="100%"/>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17997.335708525457!2d12.570239795615604!3d55.67739125819352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525311f57117a3%3A0xaefb4407a4078bea!2sGrand+Teatret!5e0!3m2!1sen!2s!4v1399483448435" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+        </div>
+    </section>
+
+    <section class="white organizers">
+        <a name="partners"></a>
+        <div class="inner">
+            <h2>Organizers & Partners</h2>
+
+            <div class="partners">
+                <a href="https://developers.google.com/" target="_blank"><img src="/images/partners/logos/google.png" /></a>
+                <a href="https://iconfinder.com" target="_blank"><img src="/images/partners/logos/iconfinder.svg" width="400" /></a>
+                <a href="http://microsoft.com" target="_blank"><img src="/images/partners/logos/microsoft.png" width="450"  /></a>
+                <br />
+                <a href="https://confwall.com" target="_blank"><img src="/images/partners/logos/confwall.svg" width="200" /></a>
+                <a href="http://zendesk.com" target="_blank"><img src="/images/partners/logos/zendesk.png" width="400"  /></a>
+                <a href="http://founders.as" target="_blank"><img src="/images/partners/logos/foundersas.svg" width="170" /></a>
+                <a href="http://23video.com" target="_blank"><img src="/images/partners/logos/23.svg" width="198" /></a>
+            </div>
+
+            <h3>Making it all possible</h3>
+
+            <ul>
+                <li>
+                    <img src="/images/organizers/kenneth.jpg" />
+                    <div class="media-body">
+                        <h3>Kenneth Auchenberg</h3>
+                        <p><a href="http://twitter.com/auchenberg" target="_blank">@auchenberg</a></p>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="/images/organizers/daniel.jpg" />
+                    <div class="media-body">
+                        <h3>Daniel Frost</h3>
+                        <p><a href="http://twitter.com/danielovich" target="_blank">@danielovich‎</a></p>
+                    </div>
+                </li>
+            </ul>
+
+            <p>Interested in becoming a partner?</p>
+            <p>Read more at our <a href="/partners">partner site</a> or contact us at <a href="mailto:hello@coldfrontconf.com">hello@coldfrontconf.com</a></p>
+
+        </div>
+    </section>
+
+    <section class="social">
+        <div class="inner">
+            <p class="center">ColdFront is run by ColdFront ApS, an danish event company. By attending any of our events (workshops, conferences, etc), you are agreeing to our <a href="http://confcodeofconduct.com/">code of conduct</a></p>
+           	<a href="https://twitter.com/coldfrontconf" class="twitter-follow-button" data-show-count="true">Follow @coldfrontconf</a>
+            <a href="https://twitter.com/share?url=http://coldfrontconf.com" class="twitter-share-button" data-text="ColdFront Conference, one-day front-end conference in Copenhagen. 4th September 2014." data-via="coldfrontconf" data-related="coldfrontconf">Tweet</a>
+            <div class="fb-like" data-href="http://coldfrontconf.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+        </div>
+    </section>
+
+ </div>

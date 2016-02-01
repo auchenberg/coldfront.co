@@ -1,0 +1,127 @@
+[
+	{
+		"name": "Breakfast & registration",
+		"time": "08:00 - 08:45",
+		"avatar": "/images/registration.png",
+		"speaker": false,
+		"info": "We'll be serving coffees and croissants for the early birds, so join us in the morning."
+	},
+	{
+		"name": "Opening",
+		"time": "09:00 - 09:10",
+		"avatar": "/images/welcome.png",
+		"speaker": false
+	},
+	{
+		"name": "Vitaly Friedman",
+		"time": "09:10 - 09:55",
+		"intro": "Vitaly Friedman loves beautiful content and doesn’t like to give in easily. Vitaly is writer, speaker, author and editor-in-chief of Smashing Magazine. He runs responsive Web design workshops and loves solving complex performance problems.",
+		"avatar": "/images/speakers/vitaly_friedman.jpg",
+		"url": "http://www.smashingmagazine.com/",
+		"twitter": "smashingmag",
+		"session_title": "Real-Life Responsive Web Design",
+		"session_desc": "<p>Responsive design is in. Everybody’s talking about it and diligently putting together responsive websites. Yet it’s no easy task to design and build good, fast, and flexible responsive pages.</p><p>How do you achieve your goal faster? Which front-end techniques should you use to build flexible components? What design patterns should you use and how do you deal with complicated tables, maps, forms, and interactive elements?</p>",
+		"speaker": true,
+		"category": "Responsive"
+	},
+	{
+		"name": "Alex Feyerke",
+		"time": "10:00 - 10:45",
+		"avatar": "/images/speakers/alex_feyerke.jpg",
+		"intro": "Huge advocate for Offline First. Part of the Hood.ie team, and loves spending time with friends in parks, riding his bike and always enjoys a good bouldering session.",
+		"speaker": true,
+		"category": "Offline-first",
+		"session_title": "Offline First (Web)Apps",
+		"session_desc": "<p>A couple of years ago, mobile devices became A Thing™, and it took us all a couple more years to realise what the design implications were. From this, we got responsive webdesign. It took a whole lot longer to grasp the structural implications: all of our (web)apps and sites have been potentially distributed systems for quite a while now, running on devices with varying degrees of connectivity.</p><p> However, we've mostly been building them with a pre-2007 desktop understanding of the internet. This has led to widespread frustration, a lot of wasted time, and many stupid error messages. This is a talk both about how that happened and why it's time to change. About what it actually means to design, structure and build an offline-first app. About the benefits, opportunities and challenges of the approach, and how it can make your apps faster, more fun, and more robust.</p>"
+	},
+	{
+		"name": "Break",
+		"time": "10:45 - 11:00",
+		"avatar": "/images/break.png",
+		"speaker": false
+	},
+	{
+		"name": "Feross Aboukhadijeh",
+		"time": "11:00 - 11:45",
+		"avatar": "/images/speakers/feross.jpg",
+		"intro": "Ferros is a well-known name in the WebRTC world. Been building PeerCDN, a peer-to-peer CDN and is currently busy with WebTorrent, a streaming BitTorrent client for the browser, powered by WebRTC.",
+		"speaker": true,
+		"session_title": "Web Apps of the Future",
+		"session_desc": "The ideal app is peer-to-peer, offline, and decentralized. Apps should protect users from censorship, the addition of user-hostile features, and data loss due to business failure. Good news! The future is here early; it's possible to build a service like this today, using WebRTC, Service Workers, Web Crypto, and replicating databases. Welcome to the future!",
+		"category": "Real-time"
+	},
+	{
+		"name": "Patrick Hamann",
+		"time": "11:45 - 12:30",
+		"avatar": "/images/speakers/patrick_hamann.jpg",
+		"intro": "Patrick is a front-end engineer at the Financial Times in London where – amongst other things – he is helping to build the next generation of their web platform. Prior to the FT he spent the last 3 years developing theguardian.com.",
+		"speaker": true,
+		"session_title": "Embracing the network",
+		"session_desc": "<p>The network is intrinsically unreliable. More so, the network is out of your control as a developer. Therefore, we must design systems which embrace the unpredictability of the network and defend against it all costs. How can you prioritise the delivery of your core content? What best-practices can you use to optimise your assets? How are APIs such as ServiceWorker changing the way we think about the network?</p><p>During this talk Patrick will share his experiences delivering high-performance websites to millions of users over the past 3 years at The Guardian and Financial Times. Which – most importantly – are resilient to the network.</p>",
+		"category": "Performance"
+	},
+	{
+		"name": "Lunch",
+		"time": "12:30 - 14:00",
+		"avatar": "/images/lunch.png",
+		"speaker": false,
+		"info": "<p>This year we have teamed up with several streetfood vendors in Copenhagen as we want to provide a atypical conference lunch, that's just a bit better than usual conference sandwich.</p><p>We'll have <a href='http://www.rebelfood.dk/ristet-rug-brd/'>Ristet Rug Brød</a>, <a href='http://www.rebelfood.dk/plsekompagniet/'>Pølsekompagniet</a>, <a href='http://www.rebelfood.dk/maobao/'>MaoBao</a> and <a href='http://www.rebelfood.dk/crazy-chips/'>Crazy Chips</a> who's ready to serve you an amazing lunch.</p>"
+	},
+	{
+		"name": "David Rousset",
+		"time": "14:00 - 14:45",
+		"avatar": "/images/speakers/david_rousset.jpg",
+		"intro": "David Rousset is a Senior Program Manager at Microsoft, in charge of driving adoption of HTML5 standards. He’s the co-author of the WebGL Babylon.js open-source engine.",
+		"speaker": true,
+		"session_title": "Microsoft Edge, a break from the past",
+		"session_desc": "<p>During this session, we will quickly review why we’ve decided to break from the past to build a brand new browser for Windows 10. I’ll share the reasons and our vision for the future. We will then spend some time reviewing some of the features we’ve implemented in our rendering and Chakra engines such our very complete support of ECMAScript 6, asm.js, gamepad, web audio or CSS Filters</p>",
+		"category": "Browsers"
+	},
+	{
+		"name": "Lea Verou",
+		"time": "14:45 - 15:30",
+		"avatar": "/images/speakers/lea_verou.jpg",
+		"intro": "Lea is a speaker, author of \"CSS Secrets\", and an Invited Expert in the CSS Working Group. She worked as a Developer Advocate for the W3C and is currently a Research Assistant at MIT.",
+		"speaker": true,
+		"session_title": "The missing slice",
+		"session_desc": "<p>Think of the humble pie chart. Simple and ubiquitous, yet surprisingly difficult to create with Web technologies in a flexible, maintainable way. Faced with this simple goal, Lea will take you on a colorful interactive journey through several aspects of CSS and SVG and will sweep you off your feet with clever ways to use them.</p><p>At the end, you will have your pie and animate it too, but do not be fooled: the real takeaway of this talk has little to do with pie charts and a lot to do with problem solving via the tools the Open Web Platform offers us today.</p>",
+		"category": "CSS"
+	},
+	{
+		"name": "Break",
+		"time": "15:30 - 15:55",
+		"avatar": "/images/break.png",
+		"speaker": false
+	},
+	{
+		"name": "Paul Kinlan",
+		"time": "16:00 - 16:45",
+		"avatar": "/images/speakers/paul_kinlan.jpg",
+		"intro": "Paul is a Developer Advocate on the Google Chrome team. He's working on getting the web to work well on mobile. He once did this thing called Web Intents that someday will change the web for good.",
+		"speaker": true,
+		"session_title": "The headless web and the future of the web on mobile.",
+		"session_desc": "Mobile is eating the world and it changes the way that users across the globe interact with software and services.  The web is changing too. Technologies such as Service Worker, Physical Web, new device API's and native-app integrated browser shells all add new user touchpoints not only inside the browser, but now outside directly on users devices. As front-end developers we need to change the way that we build our sites and apps today.",
+		"category": "Mobile"
+	},
+	{
+		"name": "Jeremy Keith",
+		"time": "16:45 - 17:30",
+		"title": "",
+		"avatar": "/images/speakers/jeremy_keith.jpg",
+		"intro": "Jeremy is a respected voice within our industry, having spoken at notable conferences such as An Event Apart, Mobilism, Web Directions, SXSW, DIBI and Build. He has also written three books on Javascript and HTML5.",
+		"url": "http://adactio.com",
+		"twitter": "adactio",
+		"session_title": "Resilience",
+		"session_desc": "<p>Web browsers have become so powerful that developers are now treating them as if they were a runtime environment as predictable as any other. But the truth is that we still need to deal with many unknown factors that torpedo our assumptions.</p><p>The web is where Postel's Law meets Murphy's Law. So we can't treat web development is if it were just another flavour of software. Instead we must work with the grain of the web. Fortunately there are tried and tested approaches to building for the web that will result in experiences that are robust, flexible, and resilient.</p>",
+		"speaker": true,
+		"category": "The Web"
+	},
+	{
+		"name": "Afterparty",
+		"time": "18:00 - 24:00",
+		"intro": "Networking and beer at TabHouse!",
+		"avatar": "/images/party.png",
+		"speaker": false,
+		"info": "The after-party is hosted at <a href='http://taphouse.dk'>Taphouse</a>, one of the leading beer bars in Europe with 61 beers on tap. <br /> The brewery is located a <a href='https://www.google.dk/maps/dir/Grand+Teatret,+Mikkel+Bryggers+Gade+8,+1460+K%C3%B8benhavn,+Denmark/Lavendelstr%C3%A6de+15,+K%C3%B8benhavn+K/@55.6763582,12.56896,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x46525311f57117a3:0xaefb4407a4078bea!2m2!1d12.5710229!2d55.6765051!1m5!1m1!1s0x46525312204a61fd:0x4f300e6165979059!2m2!1d12.5715212!2d55.6761792!3e2?hl=en'>1min walk</a> from the venue."
+	}
+]
