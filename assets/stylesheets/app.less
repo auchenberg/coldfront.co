@@ -11,7 +11,7 @@ body {
     background: #fff;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", Arial;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -163,8 +163,21 @@ section {
         font-size: 20px;
     }
 
+    .btn {
+        border: 1px solid #2A95C5;
+        padding: 15px 30px;
+        font-size: 22px;
+        margin: 20px 0 0 0;
+        border-radius: 0;
+    }
+
     .container {
         max-width: 570px;
+    }
+
+    .inner {
+        max-width: 900px;
+        margin: 0 auto;
     }
 
     @media (max-width: 720px) {
@@ -373,6 +386,10 @@ section.white {
     background: #fff;
     text-align: center;
 
+    p {
+        color: #000;
+    }
+
     h1, h2, h3, h4 {
         color: #000;
     }
@@ -391,6 +408,10 @@ section.light {
     }
 }
 
+section.align-left {
+    text-align: left;
+}
+
 section.black {
     background: #000;
     text-align: center;
@@ -404,6 +425,11 @@ section.black {
     }
 }
 
+.about {
+    iframe {
+        margin-top: 40px
+    }
+}
 
 .social {
 
@@ -581,34 +607,22 @@ section.black {
 
 .organizers {
     color: #000;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 
-    ul {
-        margin: 40px 0 50px 0;
-        padding: 0;
-        overflow: hidden;
-        text-align: center;
+    .btn {
+        display: inline-block;
+        border: 1px solid #000;
+        padding: 15px 30px;
+        margin: 0 auto;
     }
 
-    li {
-        display: inline-block;
-        width: 260px;
-        ;
-        list-style: none;
-        color: #fff;
-        overflow: hidden;
+    .team {
+        background: url('/images/team.png');
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
 
-        h3 {
-            margin: 0;
-            font-size: 20px;
-        }
-
-        > img {
-            display: block;
-            height: 140px;
-            width: 140px;
-            margin: 0 auto 20px auto;
-        }
+        height: 400px;
     }
 
     .partners {
