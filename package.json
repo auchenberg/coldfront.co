@@ -2,15 +2,18 @@
   "name": "coldfront",
   "version": "0.0.1",
   "dependencies": {
+    "browserify-middleware": "^7.0.0",
     "compression": "^1.4.3",
     "ejs": "~0.8.5",
     "ejs-locals": "~1.0.2",
     "express": "~4.0.0",
     "express-autoprefixer": "0.0.7",
     "express-ejs-layouts": "~1.1.0",
+    "jquery": "^2.2.0",
     "less-middleware": "^1.0.3",
     "static-asset": "^0.6.0",
-    "vhost": "~3.0.0"
+    "vhost": "~3.0.0",
+    "vivus": "^0.3.0"
   },
   "scripts": {
     "start": "node server.js"

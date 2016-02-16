@@ -4,6 +4,7 @@ var autoprefixer = require('express-autoprefixer')
 var expressLayouts = require('express-ejs-layouts')
 var compression = require('compression')
 var staticAsset = require('static-asset')
+var browserify = require('browserify-middleware')
 
 var server = express()
 
@@ -16,6 +17,11 @@ server.use(compression())
 server.use(lessMiddleware(__dirname + '/assets'))
 server.use(autoprefixer({
   options: 'last 2 versions'
+}))
+
+server.get('/bundle.js', browserify('./assets/javascripts/app.js', {
+  cache: true,
+  precompile: true
 }))
 
 server.use(staticAsset(__dirname + '/assets'))
