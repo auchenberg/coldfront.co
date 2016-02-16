@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Breakfast & registration",
+		"time": "08:00 - 08:45",
+		"avatar": "/images/registration.png",
+		"speaker": false,
+		"info": "We'll be serving coffees and croissants for the early birds, so join us in the morning."
+	},
+	{
+		"name": "Opening",
+		"time": "09:00 - 09:10",
+		"avatar": "/images/welcome.png",
+		"speaker": false
+	}
+]
