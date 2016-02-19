@@ -779,7 +779,6 @@ section.black {
 }
 
 .partners {
-
     color: #000;
 
     .intro {
@@ -790,15 +789,7 @@ section.black {
             padding: 100px 20px 60px 20px;
             max-width: 700px;
             text-align: center;
-
-            h3 {
-                margin-bottom: 20px;
-            }
-
-            p {
-                margin: 0 auto 20px auto;
-            }
-
+            z-index: -1;
         }
 
         .wrapper {
@@ -808,8 +799,22 @@ section.black {
             position: relative;
         }
 
+        video {
+            background-size: cover;
+            background-position: 50% 50%;
+            filter: blur(1px);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+        }
+
         .image {
-            background: url('/images/splash.jpg');
+            background: url('/images/2015.mp4');
             background-size: cover;
             background-position: 50% 50%;
             filter: blur(1px);
@@ -824,7 +829,6 @@ section.black {
             width: 30%;
             margin-bottom: 5%;
         }
-
     }
 
     .packages {
@@ -855,10 +859,8 @@ section.black {
         .inner {
             float: right;
             width: 50%;
-
             max-width: 100%;
             text-align: left;
-
             padding: 40px;
             position: relative;
 
@@ -869,26 +871,22 @@ section.black {
             h2 {
                 text-align: center;
             }
-
-
         }
-
-
     }
 
 
     .cupcake .img {
-        background: url(/images/partners/2015/cupcakes.jpg) no-repeat 0 0;
+        background: url(/images/partners/2016/cups.jpg) no-repeat 0 0;
         background-size: cover;
     }
 
     .lunch .img {
-        background: url(/images/partners/food.jpg) no-repeat 0 0;
+        background: url(/images/partners/2016/food.jpg) no-repeat 0 0;
         background-size: cover;
     }
 
     .video .img {
-        background: url(/images/partners/2015/splash.jpg) no-repeat 0 0;
+        background: url(/images/partners/2016/theater.jpg) no-repeat 0 0;
         background-size: cover;
     }
 
@@ -903,17 +901,22 @@ section.black {
     }
 
     .community .img {
-        background: url(/images/partners/2015/community.jpg) no-repeat 0 0;
+        background: url(/images/partners/2016/community.jpg) no-repeat 0 0;
         background-size: cover;
     }
 
     .job .img {
-        background: url(/images/partners/office.jpg) no-repeat 0 0;
+        background: url(/images/partners/2016/thejob.jpg) no-repeat 0 0;
         background-size: cover;
     }
 
     .party .img {
-        background: url(/images/partners/2015/party.jpg) no-repeat 0 0;
+        background: url(/images/partners/2016/party.jpg) no-repeat 0 0;
+        background-size: cover;
+    }
+
+	.coffee .img {
+        background: url(/images/partners/2016/coffee.jpg) no-repeat 0 0;
         background-size: cover;
     }
 
@@ -923,20 +926,17 @@ section.black {
         bottom: 0;
         top: 0;
         right: 0;
-        left:0;
+        left: 0;
         z-index: 2;
-
         background: rgba(255,255,255, 0.9);
-
     }
 
     .taken .company {
         position: absolute;
         top: 200px;
-        left:0;
+        left: 0;
         right: 0;
         z-index: 3;
-
         text-align: center;
     }
 
@@ -965,7 +965,6 @@ section.black {
             max-width: 250px;
         }
     }
-
 }
 
 @import '_schedule';
