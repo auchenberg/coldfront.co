@@ -8,18 +8,18 @@ var appSplash = require('./splash/app')
 
 var redirect = express()
 
-redirect.get('/', function (req, res) {
-  res.redirect(301, 'https://2016.coldfrontconf.com')
-})
+//redirect.get('/', function (req, res) {
+//  res.redirect(301, 'https://2016.coldfrontconf.com')
+//})
 
 var server = express()
-server.set('port', process.env.PORT || 8000)
+server.set('port', process.env.PORT || 8080)
 
-server.use(vhost('2014.coldfrontconf.com', app2014))
-server.use(vhost('2015.coldfrontconf.com', app2015))
-server.use(vhost('2016.coldfrontconf.com', app2016))
-server.use(vhost('coldfrontconf.com', redirect))
-server.use(vhost('localhost', redirect))
+//server.use(vhost('2014.coldfrontconf.com', app2014))
+//server.use(vhost('2015.coldfrontconf.com', app2015))
+//server.use(vhost('2016.coldfrontconf.com', app2016))
+//server.use(vhost('coldfrontconf.com', redirect))
+server.use(vhost('localhost', app2016))
 
 server.listen(server.get('port'), function () {
   console.log('Express server listening on port %d in %s mode', server.get('port'), server.settings.env)
