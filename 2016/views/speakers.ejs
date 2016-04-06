@@ -1,44 +1,31 @@
 <div class="page">
     <section class="white speakers">
         <a name="speakers"></a>
-        <div class="inner">
+
             <h2>Speakers</h2>
-            <p>We are thrilled to have these fantastic speakers for this years ColdFront.</p>
 
-            <ul>
+            <ul class="speaker-list">
 
-            <% schedule.filter(function(item) { return item.speaker === true; }).forEach(function(item) { %>
+            <% speakers.forEach(function(item) { %>
 
-                <li class="<%- item.speaker === true ? 'state-speaker' : '' %>">
+                <li class="Media">
+                    <a name="<%= item.slug%>"></a>
+                    <div class="image media-figure">
+                        <img src="/images/speakers/<%= item.avatar %>">
 
-                    <div class="corner-ribbon top-right sticky blue"><%= item.category %></div>
-                    <% if (item.avatar) { %>
-                    <div class="image">
-                        <img src="<%= item.avatar %>">
-                    </div>
-                    <% } %>
-
-                    <div class="intro vertical-center-align">
-                        <h3><%- item.name %></h3>
                     </div>
 
-                    <% if (item.speaker === true) { %>
-                    <div class="session-info ">
-
-                        <p><%- item.title %></p>
-
-                        <div class="profile">
-                            <p><%- item.intro %></p>
+                    <div class="media-body vertical-center-align">
+                        <div class="bio">
+                            <h3><%- item.name %></h3>
+                            <p><%- item.bio %></p>
                         </div>
                     </div>
-
-                    <% } %>
                 </li>
             <% }) %>
 
             </ul>
 
-        </div>
 
     </section>
 </div>
