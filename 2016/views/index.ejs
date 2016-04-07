@@ -40,11 +40,18 @@
 
             <p>This year ColdFront will be themed around the <strong>change</strong>, and we are planning to host speakers to enlighten us within these areas: CSS, performance, tooling, mobile, the web platform, IoT, JavaScript and emerging markets.
 
-            <p>Previous speakers includes, amoung many: Jeremy Keith, Lea Verou, Christian Heilmann, Vitaly Friedman and Paul Kinlan.</p>
-
-            <p>We'll announce our wonderful speaker line-up, as we get closer towards ColdFront, so sit tight!</p>
-
-            <p><a href="mailto:hello@coldfrontconf.com" class="btn btn-suggest">Suggest a speaker</a></p>
+            <ul class="speaker-list">
+            <% speakers.forEach(function(item) { %>
+                <li class="<%= item.placeholder ? 'state-placeholder' : '' %>">
+                    <a href="/speakers#<%= item.slug %>">
+                        <div class="image">
+                            <img src="/images/speakers/<%= item.avatar %>">
+                            <span class="name"><%= item.name %></span>
+                        </div>
+                    </a>
+                </li>
+            <% }) %>
+            </ul>
         </div>
     </section>
 

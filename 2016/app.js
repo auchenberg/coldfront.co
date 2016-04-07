@@ -29,7 +29,7 @@ server.use(express.static(__dirname + '/assets'))
 
 server.get('/', function (req, res) {
   res.render('index', {
-    schedule: require('./schedule'),
+    speakers: require('./speakers'),
     pageClass: ''
   })
 })
@@ -57,7 +57,7 @@ server.get('/live', function (req, res) {
 server.get('/speakers', function (req, res) {
   res.render('speakers', {
     pageClass: 'page-speakers',
-    schedule: require('./schedule'),
+    speakers: require('./speakers'),
   })
 })
 

@@ -38,16 +38,16 @@ header {
     }
 
     .navbar {
-        background: #000;
         color: #fff;
         border: 0;
         z-index: 10;
+        padding: 40px;
         text-align: center;
     }
 
     .nav > li {
         display: inline-block;
-        padding: 10px 0;
+        padding: 15px 0;
         float: none;
         text-align: center;
         text-transform: uppercase;
@@ -57,10 +57,11 @@ header {
         &.highlight > a {
             color: #fff;
             font-size: 18px;
+            border: 2px solid #fff;
         }
 
         > a {
-            color: rgba(255,255,255, 0.75);
+            color: rgba(255,255,255, 1);
 
             &:hover,
             &:focus {
@@ -495,104 +496,53 @@ section.black {
         float: left;
         margin: 20px 2% 0 0;
         padding: 0;
-        background: #000;
         line-height: 0;
+        border: 1px solid #bebebe;
 
-        &:hover {
-
-            .session-info {
-                background:rgba(108,156,178, 0.6);
-            }
-
-            p {
-                opacity: 1;
-            }
-
-            .corner-ribbon {
-                opacity: 0;
-            }
-        }
-
-        > div {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-        }
-
-        .corner-ribbon {
-          width: 200px;
-          height: 50px;
-          background: rgba(42, 149, 197, 0.6);
-          position: absolute;
-          top: 25px;
-          right: -50px;
-          left: auto;
-          bottom: auto;
-          text-align: center;
-          line-height: 50px;
-          font-size: 15px;
-          letter-spacing: 1px;
-          color: #f0f0f0;
-          transform: rotate(45deg);
-          z-index: 2;
-
-          transition: opacity 0.05s;
-        }
-
-        .session-info {
-            transition: background 0.1s;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            display: block;
+        .image {
+            position: relative;
         }
 
         img {
             width: 100%;
         }
 
-        h3 {
+        .name {
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
             position: absolute;
             bottom: 0;
-            width: 100%;
+            background: rgba(255,255,255, 0.6);
+            background: linear-gradient(180deg, transparent, rgba(0,0,0,0.7));
             left: 0;
+            right: 0;
+            width: 100%;
+            height: 70px;
+            line-height: 90px;
             text-align: center;
-            font-size: 24px;
             color: #fff;
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000 100%);
-            margin: 0;
-            padding: 100px 0 20px 0;
-        }
-
-        p {
-            opacity: 0;
-            position: absolute;
-            top: 10px;
-            color: #fff;
-            font-size: 16px;
-            padding: 20px;
-            line-height: 24px;
         }
 
         @media (min-width: 1200px) {
-            width: 23.5%; padding-bottom: 23.5%; &:nth-child(4n) {
+            width: 23.5%;
+
+            &:nth-child(4n) {
                 margin-right: 0;
             }
         }
 
 
         @media (min-width: 650px) and (max-width:1200px) {
-            width: 32%; padding-bottom: 32%; &:nth-child(3n) {
+            width: 32%;
+            &:nth-child(3n) {
                 margin-right: 0;
             }
         }
 
         @media (max-width: 650px) {
-            width: 49%; padding-bottom: 49%; &:nth-child(2n) {
+            width: 49%;
+            &:nth-child(2n) {
                 margin-right: 0;
             }
         }
@@ -981,18 +931,64 @@ section.black {
 .page-workshop,
 .page-speakers {
 
-    .page {
-        margin-top: 80px;
-    }
 
     header {
-        background: #000;
+        .nav>li>a {
+            color: #000;
+        }
+
+        .nav>li.highlight a{
+            border-color: #000;
+        }
     }
 }
 
 .page-speakers {
     .page {
-        margin: 100px 0;
+        margin: 180px 0;
+    }
+
+    .speaker-list {
+        margin-top: 100px;
+
+        > li {
+            width: 100%;
+            background: #EFEFEF;
+            border:  0;
+            padding: 40px 80px;
+            text-align: left;
+            margin-bottom: 20px;
+
+            .image {
+                width: 350px;
+                img {
+                    height: 350px;
+                    width: auto;
+                }
+            }
+
+            .speaker-meta {
+
+                > li {
+                    display: inline-block;
+                    margin-right: 1em;
+                    line-height: 1.5;
+                    text-align: left;
+                    border: 0;
+                }
+            }
+
+            .bio {
+
+                h3 {
+                    font-size: 50px;
+                }
+
+                line-height: 30px;
+                padding-left: 40px;
+            }
+
+        }
     }
 }
 
@@ -1018,3 +1014,20 @@ section.black {
     animation-delay: 3.0s
 }
 
+
+.state-placeholder {
+    opacity: 0.15
+}
+
+.Media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Media-figure {
+  margin-right: 1em;
+}
+
+.Media-body {
+  flex: 1;
+}
