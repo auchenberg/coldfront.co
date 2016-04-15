@@ -24,10 +24,12 @@
 		"github": "robertnyman"
 	},
 	{
-		"name": "To be announced",
-		"bio": "",
-		"avatar": "place2.png",
-		"placeholder": true
+		"name": "Bruce Lawson",
+		"slug" : "bruce-lawson",
+		"bio": "Opera’s Deputy Chief Technology Officer.",
+		"avatar": "bruce-lawson.png",
+		"twitter" : "brucel",
+		"github" : "brucel"
 	},
 	{
 		"name": "To be announced",
