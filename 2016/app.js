@@ -40,6 +40,12 @@ server.get('/partners', function (req, res) {
   })
 })
 
+server.get('/diversity', function (req, res) {
+	res.render('diversity', {
+		pageClass: ''
+	})
+})
+
 server.get('/workshop', function (req, res) {
   res.render('workshop', {
     pageClass: 'page-workshop'
