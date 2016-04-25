@@ -42,7 +42,7 @@ server.get('/partners', function (req, res) {
 
 server.get('/diversity', function (req, res) {
 	res.render('diversity', {
-		pageClass: ''
+		pageClass: 'page-diversity'
 	})
 })
 
