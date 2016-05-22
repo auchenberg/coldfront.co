@@ -32,10 +32,12 @@
 		"github" : "brucel"
 	},
 	{
-		"name": "To be announced",
-		"bio": "",
-		"avatar": "place3.png",
-		"placeholder": true
+		"name": "Mathias Bynens",
+		"slug" : "mathias-bynens",
+		"bio": "Mathias is a Belgian web standards enthusiast. He likes HTML, CSS, JavaScript, Unicode, performance, and security. At Opera Software he’s a member of the Developer Relations team.",
+		"avatar": "mathias-bynens.jpg",
+		"twitter" : "mathias",
+		"github" : "mathias"
 	},
 	{
 		"name": "To be announced",
