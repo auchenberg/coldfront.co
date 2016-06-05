@@ -953,7 +953,7 @@ section.black {
 
 .page-diversity {
 	.page {
-		margin: 180px 0 0 0;
+		margin: 250px 0 0 0;
 	}	
 	
 	.white {
@@ -966,8 +966,9 @@ section.black {
 }
 
 .page-speakers {
+	
 	.page {
-		margin: 180px 0 0 0;
+		margin: 250px 0 0 0;
 	}
 
 	.speaker-list {
@@ -1011,7 +1012,28 @@ section.black {
 				padding-left: 40px;
 			}
 		}
+			
+		@media (max-width: 900px) {
+			li {
+				padding: 40px;
+				
+				.bio {
+					padding: 10px 0 0 0;
+				}
+				
+				.image {
+					width: 100%;
+				
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+			}
+		}
+						
 	}
+	
 }
 
 
@@ -1058,3 +1080,13 @@ section.black {
 .Media-body {
 	flex: 1;
 }
+
+
+@media (max-width: 900px) {
+	
+	.Media {
+		display: block;
+	}
+}
+
+
