@@ -51,7 +51,10 @@ document.querySelector('.splash').addEventListener('mousemove', function (e) {
     var centroY = screenHeight - (e.clientY + 13)
 
     splashDegX = centroX * 0.1
+    splashDegX = splashDegX > 0 ? Math.min(splashDegX, 20) : Math.max(splashDegX, -20)
+
     splashDegY  = centroY * 0.1
+    splashDegY = splashDegY > 0 ? Math.min(splashDegY, 20) : Math.max(splashDegY, -20)
 })
 
 function animation() {
