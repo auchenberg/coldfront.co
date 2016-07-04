@@ -11,5 +11,13 @@
 		"time": "09:00 - 09:10",
 		"avatar": "/images/welcome.png",
 		"speaker": false
-	}
+	},
+	{
+		"name": "The future of the web platformOpening",
+		"time": "09:10 - 09:55",
+		"abstract": "Taking a bird's-eye view on the web platform, how it fits in and relates to native mobile platforms, where it's going and how to make sure it stays relevant.",
+		"avatar": "robert-nyman.png",
+		"who": "robert-nyman",
+		"speaker": true
+	}	
 ]
