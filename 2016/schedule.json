@@ -13,7 +13,7 @@
 		"speaker": false
 	},
 	{
-		"name": "The future of the web platformOpening",
+		"name": "The future of the web platform",
 		"time": "09:10 - 09:55",
 		"abstract": "Taking a bird's-eye view on the web platform, how it fits in and relates to native mobile platforms, where it's going and how to make sure it stays relevant.",
 		"avatar": "robert-nyman.png",
@@ -27,8 +27,13 @@
 		"avatar": "bruce-lawson.png",
 		"who": "bruce-lawson",
 		"speaker": true
-	}			
-
-
-	
+	},
+	{
+		"name": "The Internet of Things is for People",
+		"time": "11:15 - 12:00",
+		"abstract": "If the company you work for doesn’t build fitness trackers, or robots, or smart light bulbs, or a cloud service that aims to connect all these things, you could be forgiven for not caring all that much about today's Internet of Things. My aim with this talk is to shift the conversation away from things and back to people. In doing so, I hope to also arm you with tools to better understand, and find your place, within this complex but fascinating landscape.",
+		"avatar": "stephanie-rieger.png",
+		"who": "stephanie-rieger",
+		"speaker": true
+	}
 ]
