@@ -29,6 +29,11 @@
 		"speaker": true
 	},
 	{
+		"name": "Break",
+		"time": "10:45 - 11:15",
+		"speaker": false
+	},		
+	{
 		"name": "The Internet of Things is for People",
 		"time": "11:15 - 12:00",
 		"abstract": "If the company you work for doesn’t build fitness trackers, or robots, or smart light bulbs, or a cloud service that aims to connect all these things, you could be forgiven for not caring all that much about today's Internet of Things. My aim with this talk is to shift the conversation away from things and back to people. In doing so, I hope to also arm you with tools to better understand, and find your place, within this complex but fascinating landscape.",
@@ -36,6 +41,11 @@
 		"who": "stephanie-rieger",
 		"speaker": true
 	},
+	{
+		"name": "Lunch",
+		"time": "12:00 - 13:00",
+		"speaker": false
+	},	
 	{
 		"name": "Immersion in the Browser: Building the VR Web",
 		"time": "13:00 - 13:45",
@@ -52,4 +62,9 @@
 		"who": "mathias-bynens",
 		"speaker": true
 	},
+	{
+		"name": "Break",
+		"time": "14:30- 14:45",
+		"speaker": false
+	}
 ]
