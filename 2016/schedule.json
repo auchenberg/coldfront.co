@@ -43,5 +43,13 @@
 		"avatar": "liv-erickson.png",
 		"who": "liv-erickson",
 		"speaker": true
-	}	
+	},
+	{
+		"name": "Front-End Performance: The Dark Side",
+		"time": "13:45 - 14:30",
+		"abstract": " Instead of talking about techniques that lead to better client-side performance, this presentation focuses on security-sensitive situations in which performance can actually be a bug rather than a feature.",
+		"avatar": "mathias-bynens.png",
+		"who": "mathias-bynens",
+		"speaker": true
+	},
 ]
