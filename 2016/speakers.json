@@ -8,14 +8,6 @@
 		"github" :"geelen"
 	},
 	{
-		"name": "Stephanie Rieger",
-		"slug" : "stephanie-rieger",
-		"bio": "Stephanie is a designer, researcher and closet anthropologist with a passion for the many ways people interact with technology. A mobile industry veteran with a keen eye on emerging technologies, Stephanie speaks at conferences and teaches workshops on design and strategy all over the world. She is also co-founder and principal at <a href='https://yiibu.com'>yiibu</a>, a small yet perfectly-formed design consultancy that explores the human impact of embedding technology into every day life.",
-		"avatar" : "stephanie-rieger.png",
-		"twitter": "stephanierieger",
-		"github": "stephrieger"
-	},
-	{
 		"name": "Robert Nyman",
 		"slug" : "robert-nyman",
 		"bio": "Robert is a strong believer in the Open Web, and has been working since 1999 with Front End development in Sweden and in New York City. He's currently at Google, being the Global Lead for Developer Feedback & Communities for the Web Platform, and working with making the web the best platform for developers. He also loves to travel and meet people. Robert has presented in 36 countries, and holds claim to the title of most well-travelled speaker on Lanyrd. He is listed by Twitter as one of 23 Swedes to follow and 5th best developer in Sweden. He has also run Geek Meet in Stockholm since 2006 – one of the first of its kind for web developers in Sweden.",
@@ -40,6 +32,14 @@
 		"github" : "mathias"
 	},
 	{
+		"name": "Stephanie Rieger",
+		"slug" : "stephanie-rieger",
+		"bio": "Stephanie is a designer, researcher and closet anthropologist with a passion for the many ways people interact with technology. A mobile industry veteran with a keen eye on emerging technologies, Stephanie speaks at conferences and teaches workshops on design and strategy all over the world. She is also co-founder and principal at <a href='https://yiibu.com'>yiibu</a>, a small yet perfectly-formed design consultancy that explores the human impact of embedding technology into every day life.",
+		"avatar" : "stephanie-rieger.png",
+		"twitter": "stephanierieger",
+		"github": "stephrieger"
+	},	
+	{
 		"name": "Liv Erickson",
 		"slug": "liv-erickson",
 		"bio": "Liv Erickson is a Virtual and Augmented Reality Developer and Evangelist at Microsoft based out of the San Francisco Bay Area. She is the creator and host of Just A/VR Show, a web show for aspiring VR and AR developers, developer of KittenVR, and the author of The Matrix is My Office blog. Liv is passionate about making immersive technologies accessible to everyone, and teaching new developers how to create their own VR & AR experiences. She is a co-organizer of ARVR Women, and is a frequent speaker on virtual and augmented reality development in addition to developing projects across desktop, mobile, and web virtual reality platforms.",
@@ -48,10 +48,12 @@
 		"github" : "missLiviRose"
 	},
 	{
-		"name": "To be announced",
-		"bio": "",
-		"avatar": "place5.png",
-		"placeholder": true
+		"name": "Soledad Penadés",
+		"slug": "soledad-penades",
+		"bio": "Sole has been building realtime stuff for longer than she can remember. She works at Mozilla, helping making the Web the best platform (in general) and the best platform for realtime (in particular). She writes demos to test and spread awareness about new features, often involving Web Audio, WebGL, GIFs and/or cats, and breaks various browsers and reports an unspeakable number of strange edge cases in the process, all in pursuit of a robust platform that is a joy to develop for.",
+		"avatar": "soledad-penades.png",
+		"twitter" : "supersole",
+		"github" : "sole"
 	},
 	{
 		"name": "To be announced",
