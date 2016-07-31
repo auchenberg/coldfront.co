@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Breakfast & registration",
+		"name": "Breakfast </br> & registration",
 		"time": "08:00 - 08:45",
 		"avatar": "registration.png",
 		"speaker": false,
@@ -94,10 +94,11 @@
 		"speaker": true
 	},
 	{
-		"name": "",
+		"name": "Estelle Weyl",
+		"title": "You don’t need a framework for that",
 		"time": "16:30 - 17:15",
-		"abstract": "",
-		"avatar": "estelle.png",
+		"abstract": "Instead of talking about the latest and greatest new JS or CSS feature, I think 'Inclusive Code', which  is my REACTion to REACT, is what would be most interesting to me and hopefully the attendees: To look forward you have to look back. It’s about going back to the basics to handle the modern challenge of ensuring accessibility in an era of RDD (Resume Driven Development). I cover fieldset, radio buttons, the input element’s newer types, summary and details. I’ll like have code, a little bit of how to in terms of ARIA, input masking, and a few of my github repos, but mainly it’s about building with performance, semantics and accessibility in mind, instead of focusing on the newest frameworks and tools. Caring about the user experience instead of your resume. ",
+		"avatar": "estelle-weyl.png",
 		"who": "estelle",
 		"speaker": true
 	},
