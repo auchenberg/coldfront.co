@@ -2,27 +2,29 @@
 	{
 		"name": "Breakfast & registration",
 		"time": "08:00 - 08:45",
-		"avatar": "/images/registration.png",
+		"avatar": "registration.png",
 		"speaker": false,
 		"info": "We'll be serving coffees and croissants for the early birds, so join us in the morning."
 	},
 	{
 		"name": "Opening",
 		"time": "09:00 - 09:10",
-		"avatar": "/images/welcome.png",
+		"avatar": "welcome.png",
 		"speaker": false
 	},
 	{
-		"name": "The future of the web platform",
+		"name": "Robert Nyman",
 		"time": "09:10 - 09:55",
+		"title": "Keynote: The future of the web platform",
 		"abstract": "Taking a bird's-eye view on the web platform, how it fits in and relates to native mobile platforms, where it's going and how to make sure it stays relevant.",
 		"avatar": "robert-nyman.png",
 		"who": "robert-nyman",
 		"speaker": true
 	},
 	{
-		"name": "Immersion in the Browser: Building the VR Web",
+		"name": "Liv Erickson",
 		"time": "10:00 - 10:45",
+		"title": "Immersion in the Browser: Building the VR Web",
 		"abstract": "As virtual and augmented reality devices begin making their way into our lives, how we experience data and information is shifting into 3D. Today’s web technologies are shaping the future of the VR web and bringing immersive experiences to support cross-platform, device-agnostic virtual reality experiences right in the browser. In this talk, we’ll cover the experimental WebVR API and how new libraries and frameworks are developing to support immersive technologies that work on devices from Google Cardboard to the Oculus Rift. ",
 		"avatar": "liv-erickson.png",
 		"who": "liv-erickson",
@@ -31,10 +33,12 @@
 	{
 		"name": "Break",
 		"time": "10:45 - 11:15",
+		"avatar": "break.png",
 		"speaker": false
 	},
 	{
-		"name": "The Internet of Things is for People",
+		"name": "Stephanie Rieger",
+		"title": "The Internet of Things is for People",
 		"time": "11:15 - 12:00",
 		"abstract": "If the company you work for doesn’t build fitness trackers, or robots, or smart light bulbs, or a cloud service that aims to connect all these things, you could be forgiven for not caring all that much about today's Internet of Things. My aim with this talk is to shift the conversation away from things and back to people. In doing so, I hope to also arm you with tools to better understand, and find your place, within this complex but fascinating landscape.",
 		"avatar": "stephanie-rieger.png",
@@ -42,7 +46,8 @@
 		"speaker": true
 	},
 	{
-		"name": "WWW: WORLD WIDE WEB, NOT WEALTHY WESTERNERS' WEB",
+		"name": "Bruce Lawson",
+		"title": "WWW: WORLD WIDE WEB, NOT WEALTHY WESTERNERS' WEB",
 		"time": "12:00 - 12:45",
 		"abstract": "As the population and economies of the West stay static, the developing economies are seeing huge expansion, and a rising youthful population that have grown up with the Web. But there are challenges to web access in Asia and Africa that we need to understand if we want to reach the next 4 billion people with fast, performant sites. Bruce will bring facts, figures and research from his years living in Asia and from working for Opera (often the only browser that people can use) to show you how to bring your brands to new markets. ",
 		"avatar": "bruce-lawson.png",
@@ -50,12 +55,14 @@
 		"speaker": true
 	},	
 	{
-		"name": "Lunch",
+		"name": "Lunch time!",
 		"time": "12:45 - 14:00",
+		"avatar": "lunch.png",
 		"speaker": false
 	},
 	{
-		"name": "Front-End Performance: The Dark Side",
+		"name": "Mathias Bynes",
+		"title": "Front-End Performance: The Dark Side",
 		"time": "14:00 - 14:45",
 		"abstract": " Instead of talking about techniques that lead to better client-side performance, this presentation focuses on security-sensitive situations in which performance can actually be a bug rather than a feature.",
 		"avatar": "mathias-bynens.png",
@@ -63,7 +70,8 @@
 		"speaker": true
 	},
 	{
-		"name": "Servo: a browser engine for the 21st century ",
+		"name": "Soledad Penadés",
+		"title": "Servo: a browser engine for the 21st century ",
 		"time": "14:45 - 15:30",
 		"abstract": " Introducing Servo. Written in a new language, Rust, Servo is a browser developed with efficiency, performance and safety in mind. In this talk we’ll look at how Servo is addressing these architectural and environmental changes, and most crucially, what this means for browse vendors, web developers and users.  We’ll also look at ways in which other browsers and projects can benefit from our work on Servo and how we’ve developed an extremely active community of contributors in just a few years time.",
 		"avatar": "soledad-penadés.png",
@@ -73,10 +81,12 @@
 	{
 		"name": "Break",
 		"time": "15:30- 15:45",
+		"avatar": "break.png",
 		"speaker": false
 	},	
 	{
-		"name": "The Future of Reusable CSS",
+		"name": "Glenn Maddern",
+		"title": "The Future of Reusable CSS",
 		"time": "15:45 - 16:30",
 		"abstract": "Last year, myself and a few others started discussing ideas about how we could enhance CSS — ideas about isolation of styling information, reuse of visual traits, and improving developer experience. Some projects had already suggested a solution by converting CSS into JavaScript in some form, but we didn't want to lose what we loved about CSS. We discovered that by making CSS files local instead of global, a huge class of problems disappeared, and the CSS Modules project was born. \n But there's another core problem in CSS — sharing. What's the best way you could publish a CSS framework like Bootstrap? How could publish a suite of React components with styling that is customisable yet consistent? Where do Web Components fit into the mix? Despite all the progress we and other teams have made, these questions remain unanswered. \nBut there is a change coming. Native CSS Variables are now supported in a majority of browsers and have the power to completely upend the way we write and share CSS. This is a talk about what that might look like.",
 		"avatar": "glenn-maddern.png",
@@ -92,13 +102,15 @@
 		"speaker": true
 	},
 	{
-		"name": "Closing remarks",
+		"name": "Closing + <br />Family Photo",
+		"avatar": "closing.png",
 		"time": "17:15- 17:30",
 		"speaker": false
 	},
 	{
 		"name": "Party!",
 		"time": "17:30- 24:00",
-		"speaker": false
+		"speaker": false,
+		"avatar": "party.png"
 	}
 ]
