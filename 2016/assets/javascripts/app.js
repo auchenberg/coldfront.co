@@ -44,8 +44,8 @@ var splashDegX = 0;
 var splashDegY = 0;
 
 document.querySelector('.splash').addEventListener('mousemove', function (e) {
-    var screenWidth = window.screen.width / 2
-    var screenHeight = window.screen.height / 2
+    var screenWidth = document.body.clientWidth / 2
+    var screenHeight = document.body.clientHeight / 2
 
     var centroX = e.clientX - screenWidth
     var centroY = screenHeight - (e.clientY + 13)
