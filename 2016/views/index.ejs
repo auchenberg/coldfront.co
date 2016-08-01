@@ -55,6 +55,67 @@
         </div>
     </section>
 
+  <section class="schedule">
+        <a name="schedule"></a>
+        <div class="inner">
+            <h2>Schedule</h2>
+            <h3>Sit back and get inspired.</h3>
+
+            <ul>
+
+            <% schedule.forEach(function(item) { %>
+
+                <li class="<%- item.speaker === true ? 'state-speaker' : '' %>">
+
+                    <span class="date vertical-center-align"><%- item.time %></span>
+
+                    <div class="image">
+                        <img src="/images/<%- item.speaker === true ? 'speakers/' : '' %><%= item.avatar %>">
+                    </div>
+
+
+                    <div class="intro vertical-center-align">
+                        <h3><%- item.name %></h3>
+                    </div>
+
+                    <% if (item.speaker === true || item.info) { %>
+                    <div class="session-info ">
+
+                        <% if (item.speaker === true) { %>
+                            <% if (item.url) { %>
+                                <a class="web" href="<%= item.url %>" target="_blank"><i class="fa fa-link"></i></a>
+                            <% } else { %>
+                                <span class="spacer"></span>
+                            <% } %>
+
+                            <% if (item.twitter) { %>
+                                <a class="twitter" href="https://twitter.com/<%= item.twitter %>" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <% } else { %>
+                                <span class="spacer"></span>
+                            <% } %>
+
+                            <p><%- item.name %></p>
+
+                            <div class="session">
+                                <h4>talks about</h4>
+                                <h3><%- item.title %></h3>
+                                <%- item.abstract %>
+                            </div>
+                        <% } %>
+
+                        <p><%- item.info %></p>
+
+                    </div>
+
+                    <% } %>
+                </li>
+            <% }) %>
+
+            </ul>
+
+        </div>
+    </section>
+
     <section class="white align-left venue">
         <a name="venue"></a>
         <div class="inner">

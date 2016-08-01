@@ -30,6 +30,7 @@ server.use(express.static(__dirname + '/assets'))
 server.get('/', function (req, res) {
   res.render('index', {
     speakers: require('./speakers'),
+    schedule: require('./schedule'),
     pageClass: ''
   })
 })
