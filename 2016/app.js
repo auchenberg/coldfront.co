@@ -47,9 +47,9 @@ server.get('/diversity', function (req, res) {
 	})
 })
 
-server.get('/workshop', function (req, res) {
-  res.render('workshop', {
-    pageClass: 'page-workshop'
+server.get('/workshops', function (req, res) {
+  res.render('workshops', {
+    pageClass: 'page-workshops'
   })
 })
 
