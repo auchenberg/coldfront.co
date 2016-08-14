@@ -53,6 +53,12 @@ server.get('/workshops', function (req, res) {
   })
 })
 
+server.get('/roadbook', function (req, res) {
+  res.render('roadbook', {
+    pageClass: 'page-roadbook'
+  })
+})
+
 server.get('/live', function (req, res) {
   res.render('live', {
     pageClass: 'page-live',
