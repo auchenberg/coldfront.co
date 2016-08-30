@@ -61,7 +61,7 @@
 		"speaker": false
 	},
 	{
-		"name": "Mathias Bynes",
+		"name": "Mathias Bynens",
 		"title": "Front-End Performance: The Dark Side",
 		"time": "14:00 - 14:45",
 		"abstract": " Instead of talking about techniques that lead to better client-side performance, this presentation focuses on security-sensitive situations in which performance can actually be a bug rather than a feature.",
