@@ -12,30 +12,30 @@
 		"avatar": "welcome.png",
 		"speaker": false
 	},
-	{
-		"name": "Robert Nyman",
-		"time": "09:10 - 09:55",
-		"title": "Keynote: The future of the web platform",
-		"abstract": "Taking a bird's-eye view on the web platform, how it fits in and relates to native mobile platforms, where it's going and how to make sure it stays relevant.",
-		"avatar": "robert-nyman.png",
-		"who": "robert-nyman",
-		"speaker": true
-	},
-	{
-		"name": "Break",
-		"time": "10:00 - 10:15",
-		"avatar": "break.png",
-		"speaker": false
-	},
-	{
+		{
 		"name": "Liv Erickson",
-		"time": "10:15 - 11:00",
+		"time": "09:30 - 10:15",
 		"title": "Immersion in the Browser: Building the VR Web",
 		"abstract": "As virtual and augmented reality devices begin making their way into our lives, how we experience data and information is shifting into 3D. Today’s web technologies are shaping the future of the VR web and bringing immersive experiences to support cross-platform, device-agnostic virtual reality experiences right in the browser. In this talk, we’ll cover the experimental WebVR API and how new libraries and frameworks are developing to support immersive technologies that work on devices from Google Cardboard to the Oculus Rift. ",
 		"avatar": "liv-erickson.png",
 		"who": "liv-erickson",
 		"speaker": true
 	},	
+	{
+		"name": "Break",
+		"time": "10:15 - 10:30",
+		"avatar": "break.png",
+		"speaker": false
+	},	
+	{
+		"name": "Robert Nyman",
+		"time": "10:30 - 11:15",
+		"title": "Keynote: The future of the web platform",
+		"abstract": "Taking a bird's-eye view on the web platform, how it fits in and relates to native mobile platforms, where it's going and how to make sure it stays relevant.",
+		"avatar": "robert-nyman.png",
+		"who": "robert-nyman",
+		"speaker": true
+	},
 	{
 		"name": "Stephanie Rieger",
 		"title": "The Internet of Things is for People",
