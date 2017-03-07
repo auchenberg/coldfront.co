@@ -19,7 +19,7 @@ server.use(vhost('2014.coldfront.co', app2014))
 server.use(vhost('2015.coldfront.co', app2015))
 server.use(vhost('2016.coldfront.co', app2016))
 server.use(vhost('2017.coldfront.co', appSplash))
-server.use(vhost('coldfrontconf.com', redirect))
+server.use(vhost('coldfront.co', redirect))
 server.use(vhost('localhost', app2016))
 
 server.listen(server.get('port'), function () {
