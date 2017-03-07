@@ -9,15 +9,16 @@ var appSplash = require('./splash/app')
 var redirect = express()
 
 redirect.get('/', function (req, res) {
- res.redirect(301, 'https://2016.coldfrontconf.com')
+ res.redirect(301, 'https://2017.coldfront.co')
 })
 
 var server = express()
 server.set('port', process.env.PORT || 8080)
 
-server.use(vhost('2014.coldfrontconf.com', app2014))
-server.use(vhost('2015.coldfrontconf.com', app2015))
-server.use(vhost('2016.coldfrontconf.com', app2016))
+server.use(vhost('2014.coldfront.co', app2014))
+server.use(vhost('2015.coldfront.co', app2015))
+server.use(vhost('2016.coldfront.co', app2016))
+server.use(vhost('2017.coldfront.co', appSplash))
 server.use(vhost('coldfrontconf.com', redirect))
 server.use(vhost('localhost', app2016))
 
