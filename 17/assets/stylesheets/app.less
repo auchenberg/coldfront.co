@@ -1,9 +1,3 @@
-.vertical-center-align {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 html,
 body {
 	height: 100%;
@@ -19,6 +13,10 @@ body {
 	background: #faf5f7;
 	background-image: url(/images/pattern.svg);
 	background-size: 1500px;
+}
+
+a, a:link {
+	color: #092CE2;
 }
 
 h1, h2, h3, h4, h5 {
@@ -131,7 +129,7 @@ section {
 	}
 
 	@media (max-width: 720px) {
-		padding: 20px;
+		padding: 40px;
 
 		h2 {
 			font-size: 35px;
@@ -145,17 +143,6 @@ section {
 		p {
 			font-size: 16px;
 		}
-	}
-}
-
-.page {
-	color: #fff;
-
-	.register {
-		background-color: #2A95C5;
-		padding: 20px;
-		display: inline-block;
-		color: #fff;
 	}
 }
 
@@ -222,490 +209,19 @@ section.align-left {
 	}
 }
 
-.partners {
-
-	.logos {
-		margin: 0;
-		padding: 0;
-
-		li {
-			list-style: none;
-			display: inline-block;
-		}
-	}
-
-	img {
-		display: inline-block;
-		padding: 20px;
-		max-width: 200px;
-		filter: grayscale(100%);
-
-		&:hover {
-			filter: none;
-		}
-	}
-
-	@media (max-width: 720px) {
-
-		.logos {
-			text-align: center;
-
-			a {
-				display: inline-block;
-				width: 40%;
-			}
-		}
-
-		img {
-			max-width: 150px;
-			height: auto;
-		}
-	}
-}
-
-.info-box {
-
-	.info {
-		padding: 40px;
-		text-align: left;
-		background: #EFEFEF;
-		margin: 40px 0 0 0;
-
-		p {
-			font-size: 16px;
-		}
-
-		h1 {
-			line-height: 140%;
-		}
-
-		h2 {
-			font-size: 28px;
-			font-weight: bold;
-			margin-top: 40px;
-		}
-
-		h3 {
-			font-weight: bold;
-			font-size: 20px;
-		}
-
-		img {
-			width: 100%;
-			margin: 20px 0;
-		}
-
-		li {
-			list-style: initial;
-		}
-
-	}
-
-	.text {
-		margin-top: 60px;
-		font-size: 18px;
-
-		p {
-			font-size: 18px;
-		}
-	}
-
-	@media (max-width: 720px) {
-
-		.info {
-			margin: 20px 0 0 0;
-			padding: 20px;
-
-			h2 {
-				font-size: 20px;
-				text-align: center;
-			}
-
-			.intro {
-				margin: 0 auto 0 auto;
-				font-size: 16px;
-
-				p {
-					font-size: 16px;
-				}
-
-				img {
-					float: none;
-					margin: 0 0 20px 0;
-					width: 100%;
-				}
-			}
-		}
-	}
-}
-
-.ticket {
-	color: #000;
-
-	.inner {
-		max-width: 900px;
-		margin: 0 auto;
-	}
-
-	p {
-		margin-bottom: 20px;
-
-		&:last-child {
-			margin: 0;
-		}
-	}
-}
-
-.partners {
-	color: #000;
-
-	.intro {
-		padding: 0;
-
-		.inner {
-			margin: 0 auto;
-			padding: 100px 20px 60px 20px;
-			max-width: 700px;
-			text-align: center;
-			z-index: -1;
-		}
-
-		.wrapper {
-			background: rgba(0,0,0, 0.75);
-			height: 100%;
-			width: 100%;
-			position: relative;
-		}
-
-		video {
-			background-size: cover;
-			background-position: 50% 50%;
-			filter: blur(1px);
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			z-index: 1;
-			width: 100%;
-			height: 100%;
-		}
-
-		.image {
-			background: url('/images/2015.mp4');
-			background-size: cover;
-			background-position: 50% 50%;
-			filter: blur(1px);
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-		}
-
-		.logo {
-			width: 30%;
-			margin-bottom: 5%;
-		}
-	}
-
-	.packages {
-		overflow: hidden;
-		height: auto;
-		position: relative;
-		width: 100%;
-		padding: 0;
-
-		&.right {
-
-			.img {
-				float: right;
-			}
-
-			.inner {
-				float: right;
-				width: 50%;
-			}
-		}
-
-		.img {
-			width: 50%;
-			height: 550px;
-			float: left;
-		}
-
-		.inner {
-			float: right;
-			width: 50%;
-			max-width: 100%;
-			text-align: left;
-			padding: 40px;
-			position: relative;
-
-			ul {
-				margin-bottom: 40px;
-			}
-
-			h2 {
-				text-align: center;
-			}
-		}
-	}
-
-
-	.cupcake .img {
-		background: url(/images/partners/2016/cups.jpg) no-repeat 0 0;
-		background-size: cover;
-	}
-
-	.lunch .img {
-		background: url(/images/partners/2016/food.jpg) no-repeat 0 0;
-		background-size: cover;
-	}
-
-	.video .img {
-		background: url(/images/partners/2016/theater.jpg) no-repeat 0 0;
-		background-size: cover;
-	}
-
-	.ice .img {
-		background: url(/images/partners/2015/ice.jpg) no-repeat 0 0;
-		background-size: cover;
-	}
-
-	.swag .img {
-		background: url(/images/partners/2015/swag.jpg) no-repeat 0 0;
-		background-size: cover;
-	}
-
-	.community .img {
-		background: url(/images/partners/2016/community.jpg) no-repeat 0 0;
-		background-size: cover;
-	}
-
-	.job .img {
-		background: url(/images/partners/2016/thejob.jpg) no-repeat 0 0;
-		background-size: cover;
-	}
-
-	.party .img {
-		background: url(/images/partners/2016/party.jpg) no-repeat 0 0;
-		background-size: cover;
-	}
-
-	.coffee .img {
-		background: url(/images/partners/2016/coffee.jpg) no-repeat 0 0;
-		background-size: cover;
-	}
-
-
-	.taken .overlay {
-		position: absolute;
-		bottom: 0;
-		top: 0;
-		right: 0;
-		left: 0;
-		z-index: 2;
-		background: rgba(255,255,255, 0.9);
-	}
-
-	.taken .company {
-		position: absolute;
-		top: 200px;
-		left: 0;
-		right: 0;
-		z-index: 3;
-		text-align: center;
-	}
-
-	.contact {
-		p {
-			font-size: 30px;
-		}
-	}
-
-	.existing-partners {
-
-		.inner {
-			max-width: 100%;
-		}
-
-		ul {
-			margin-top: 50px;
-		}
-
-		li {
-			display: inline-block;
-			margin: 0 40px 40px 0;
-		}
-
-		img {
-			max-width: 250px;
-		}
-	}
-
-	.whypartner {
-		.inner {
-			max-width: 100%;
-		}
-
-		.whyheader h2 {
-			text-align:center;
-		}
-
-		.whybody p {
-			text-align:center;
-		}
-	}
-}
-
 @import '_schedule';
 @import '_index';
 @import '_header';
-
-.page-workshops,
-.page-speakers,
-.page-diversity {
-
-	header {
-		.nav > li > a {
-			color: #000;
-		}
-
-		.nav > li.highlight a {
-			border-color: #000;
-		}
-	}
-}
-
-.page-roadbook {
-	.page {
-		margin: 250px 0 0 0;
-	}	
-	section {
-		text-align: left;
-	}
-
-	h3 {
-		font-weight: bold;
-		margin: 20px 0;
-	}
-}
-
-.page-diversity {
-	.page {
-		margin: 250px 0 0 0;
-	}	
-	
-	.white {
-		text-align: left;
-	}
-	
-	h3 {
-		font-weight: bold;
-	}
-}
-
-.page-speakers {
-	
-	.page {
-		margin: 250px 0 0 0;
-	}
-
-	.speaker-list {
-		margin-top: 100px;
-
-		> li {
-			width: 100%;
-			background: #EFEFEF;
-			border: 0;
-			padding: 40px 80px;
-			text-align: left;
-			margin-bottom: 20px;
-
-			.image {
-				min-width: 350px;
-
-				img {
-					height: 350px;
-					width: auto;
-				}
-			}
-
-			.speaker-meta {
-
-				> li {
-					display: inline-block;
-					margin-right: 1em;
-					line-height: 1.5;
-					text-align: left;
-					border: 0;
-				}
-			}
-
-			.bio {
-
-				h3 {
-					font-size: 50px;
-				}
-
-				line-height: 30px;
-				padding-left: 40px;
-			}
-		}
-			
-		@media (max-width: 900px) {
-			li {
-				padding: 40px;
-				
-				.bio {
-					padding: 10px 0 0 0;
-				}
-				
-				.image {
-					width: 100%;
-				
-					img {
-						width: 100%;
-						height: auto;
-					}
-				}
-			}
-		}
-						
-	}
-	
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
-}
-
-.fade-in {
-	opacity: 0;
-	animation: fadeIn ease-in 1;
-	animation-fill-mode: forwards;
-	animation-duration: 1s;
-	animation-delay: 0.5s;
-}
-
-.fade-in-two {
-	animation-delay: 2.0s;
-}
-
-.fade-in-three {
-	animation-delay: 3.0s;
-}
-
+@import '_roadbook';
 
 .state-placeholder {
 	opacity: 0.15;
+}
+
+.vertical-center-align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .Media {
@@ -720,7 +236,6 @@ section.align-left {
 .Media-body {
 	flex: 1;
 }
-
 
 @media (max-width: 900px) {
 	
