@@ -41,36 +41,9 @@ server.get('/partners', function (req, res) {
   })
 })
 
-server.get('/diversity', function (req, res) {
-	res.render('diversity', {
-		pageClass: 'page-diversity'
-	})
-})
-
-server.get('/workshops', function (req, res) {
-  res.render('workshops', {
-    pageClass: 'page-workshops'
-  })
-})
-
 server.get('/roadbook', function (req, res) {
   res.render('roadbook', {
     pageClass: 'page-roadbook'
-  })
-})
-
-server.get('/live', function (req, res) {
-  res.render('live', {
-    pageClass: 'page-live',
-    noFooter: true,
-    noHeader: true
-  })
-})
-
-server.get('/speakers', function (req, res) {
-  res.render('speakers', {
-    pageClass: 'page-speakers',
-    speakers: require('./speakers'),
   })
 })
 
