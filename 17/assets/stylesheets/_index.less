@@ -1,5 +1,5 @@
 .splash {
-	height: 95vh;
+	height: 650px;
     position: relative;
     overflow: hidden;
     padding: 20px;
@@ -153,4 +153,165 @@
 		width: 50%;
 		margin: 0 auto;
 	}	
+}
+
+
+.video {
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	background: url(/images/video-sample.png);
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: #092CE2;
+		opacity: 0.9;
+		z-index: 1;
+	}
+
+	.border-top {
+		background: url(/images/video-top.png);
+		height: 105px;
+    	background-size: cover;
+
+		position: absolute;
+		top:0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+	}
+
+	.border-bottom {
+		background: url(/images/video-bottom.png);
+		height: 116px;
+    	background-size: cover;
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+	}
+
+	.btn {
+		font-size: 20px;
+		margin-top: 70px;
+		margin-left: -65px;
+		position: absolute;
+		left: 50%;
+		z-index: 4;
+
+	}
+
+	.inner {
+		max-width: 100%;
+		padding: 60px 0 0 0;
+
+		iframe {
+			opacity: 0;
+		}
+	}
+}
+
+.venue-bubbles {
+	text-align: center;
+
+	p {
+		color: #fff;
+	}
+
+	.bubble {
+		width: 40%;
+		display: inline-block;
+
+		&.venue {
+			background: url(/images/blue-venue-with-pixels.png);
+			background-size: cover;
+			height: 360px;
+			box-sizing: border-box;
+			padding: 100px;
+			margin-right: 40px;
+
+			img {
+				width: auto;
+			}
+		}
+
+		img {
+			width: 100%;
+		}		
+	}
+}
+
+.section-dark {
+	background: #001153;
+
+ 	p {
+	 color: #fff
+ 	}
+}
+
+.section-blue {
+	background: #092CE3;
+
+ 	p {
+	 color: #fff
+ 	}	
+}
+
+.organizers,
+.collaboration {
+	text-transform: uppercase;	
+
+	p {
+		font-size: 13px;
+		font-weight: bold;
+	}
+}
+
+.collaboration {
+	padding: 20px;
+
+	img {
+		height: 20px;
+	}
+	p {
+		margin: 0;
+	}
+}
+
+.newsletter {
+
+	#mc_embed_signup {
+		overflow: auto;
+    	max-width: 350px;
+    	position: relative;
+		margin: 0 auto;	
+		padding: 50px 0;
+	}
+
+	input[type=email] {
+		padding: 20px;
+		border-radius: 40px;
+		background: #fff;
+		font-size: 14px;
+		border: 0;
+		width: 300px;
+		float: left;
+	}
+
+	.btn {
+		margin: 8px 0 0 0;
+		position: absolute;
+		right: 0;
+	}
+
+	.response {
+		padding-top: 100px;
+		font-size: 14px;
+	}
 }
