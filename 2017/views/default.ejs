@@ -5,14 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
 
-    <link rel="shortcut icon" href="/images/favicon.png" sizes="16x16 32x32 64x64 128x128 256x256" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<%= assetFingerprint('/stylesheets/bootstrap.min.css') %>">
     <link rel="stylesheet" href="<%= assetFingerprint('/stylesheets/app.css') %>" />
-
-    <script src="/bundle.js" async defer></script>
-
+    <link rel="shortcut icon" href="/images/favicon.png" sizes="16x16 32x32 64x64 128x128 256x256" />
     <meta name="description" content="" />
     <meta property="og:title" content="ColdFront, the front-end conference in Copenhagen." />
     <meta property="og:description" content="ColdFront is the front-end conference in Copenhagen." />
@@ -31,6 +25,10 @@
 
   <body>
 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<%= assetFingerprint('/stylesheets/bootstrap.min.css') %>">
+
     <header class="hidden-xs hidden-sm">
     <div class="navbar">
       <ul class="nav">
@@ -45,6 +43,7 @@
 
   </body>
 
+  <script src="/bundle.js" async defer></script
   <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
   <script type="text/javascript">twttr.conversion.trackPid('l6adh', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
   <noscript>
