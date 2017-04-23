@@ -2,6 +2,7 @@
   "name": "coldfront",
   "version": "0.0.1",
   "dependencies": {
+    "aos": "^2.1.1",
     "browserify-middleware": "^7.0.0",
     "compression": "^1.4.3",
     "ejs": "~0.8.5",
