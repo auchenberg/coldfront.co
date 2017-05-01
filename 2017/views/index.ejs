@@ -22,6 +22,40 @@
         </div>
     </section>
 
+    <section class="about" data-aos="fade-up">
+        <a name="about"></a>
+        <div class="inner">
+            <h2>A two-day conference</h2>
+            <p>ColdFront is the front-end conference in Copenhagen. A two day and single track conference with 12 talks by internationally renowned speakers, 2 panel debates, amazing food and networking with industry leaders.</p>
+            <p>Our focus is on the web, and where front-end world is headed. So sit tight, and get ready to be inspired.</p>
+    
+            <div class="newsletter" >
+                <h3>Don't miss out on any news, <br />join our mailinglist!</h3>
+            <div id="mc_embed_signup" >
+                <form action="//coldfrontconf.us8.list-manage.com/subscribe/post?u=cc078fd6eb28f04be591da615&amp;id=ff44bdceac" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group">
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="hello@there.com">
+                    </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cc078fd6eb28f04be591da615_ff44bdceac" tabindex="-1" value=""></div>
+                    
+                        <input type="submit" value="Notify me" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                </form>
+            </div>
+            </div>
+
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <!--End mc_embed_signup-->
+
+        </div>
+    </section>
+
     <section class="bubbles section-wide">
         <div class="inner">
             <div class="bubble pull-left" data-aos="fade-up">
@@ -36,12 +70,32 @@
         </div>
     </section>
 
-    <section class="about" data-aos="fade-up">
-        <a name="about"></a>
+    <section class="speakers section-wide" data-aos="fade-up">
+        <a name="speakers"></a>
         <div class="inner">
-            <h2>A two-day conference</h2>
-            <p>ColdFront is the front-end conference in Copenhagen. A two day and single track conference with 12 talks by internationally renowned speakers, 2 panel debates, amazing food and networking with industry leaders.</p>
-            <p>Our focus is on the web, and where front-end world is headed. So sit tight, and get ready to be inspired.</p>
+            <h2>The line-up</h2>
+          
+            <ul class="speaker-list">
+
+            <% speakers.forEach(function(item) { %>
+
+                <li>
+                    <a name="<%= item.slug%>"></a>
+                    <div class="image">
+                        <img src="/images/speaker_placeholder.png">
+                    </div>
+
+                    <div class="vertical-center-align">
+                        <div class="bio">
+                            <h3><%- item.name %></h3>
+                            <p><%- item.bio %></p>
+                        </div>
+                    </div>
+                </li>
+            <% }) %>
+
+            </ul>
+
         </div>
     </section>
 
@@ -53,14 +107,22 @@
             <a class="btn btn-shape4 video-link" target="_blank" href="https://www.youtube.com/watch?v=u7CV0vFO2sg"><i class="fa fa-play" aria-hidden="true"></i></a>
             <div class="border-bottom"></div>
         </div>
-
     </section>
-
 
     <section class="venue" data-aos="fade-up">
         <a name="venue"></a>
         <div class="inner">
-            <h2>Venue</h2>
+            <h2>Delicious food for your brain</h2>
+            <p>
+                We want you to have an great experience, and we believe food is big part of that. This year we are collaborating with a number of truly amazing foodtrucks, serving everything from fish tacos to decilious tapas. You can choose something new to eat every at every meal and in case you get craving you can always grab a snack.</p>
+            </p>
+        </div>
+    </section>
+
+    <section class="venue" data-aos="fade-up">
+        <a name="venue"></a>
+        <div class="inner">
+            <h2>In the heart of Copenhagen</h2>
             <p>
                 ColdFront will be held in VEGA, one of the leading concert stages in Europe. Showcasing original 50's design gives the building a unique atmosphere, and VEGA's decor with dark wood paneling, mahogany floors, friezes, and the many original details including railings, balustrades and lamps in typical Scandinavian style are the hallmarks of VEGA.
             </p>
@@ -84,39 +146,29 @@
         </div>
     </div>
 
-    <section class="newsletter" data-aos="fade-up">
-        <a name="newsletter"></a>
-        <div class="inner text-upper text-bold">
-            <p>We are working hard on the speaker program.</p>
-            <p class="text-highlight">Get notified as soon as we announce the speakers.</p>
-
-            <div id="mc_embed_signup" >
-                <form action="//coldfrontconf.us8.list-manage.com/subscribe/post?u=cc078fd6eb28f04be591da615&amp;id=ff44bdceac" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                    <div class="mc-field-group">
-                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="hello@there.com">
-                    </div>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cc078fd6eb28f04be591da615_ff44bdceac" tabindex="-1" value=""></div>
-                    
-                        <input type="submit" value="Notify me" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
-                    </div>
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>
-                </form>
-            </div>
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-            <!--End mc_embed_signup-->
+    <section class="venue" data-aos="fade-up">
+        <a name="venue"></a>
+        <div class="inner">
+            <h2>Collaborators</h2>
+            <p>
+                ColdFront is created in collaboration with
+            </p>
 
         </div>
     </section>
 
+    <section class="venue" data-aos="fade-up">
+        <a name="venue"></a>
+        <div class="inner">
+            <h2>Partners</h2>
+
+        </div>
+    </section>
+
+
     <section class="organizers section-dark">
         <a name="organizers"></a>
         <div class="inner">
-            <p>Event is presented by</p>
             <img alt="ColdFront logo" src="/images/logo.svg" class="logo"/>
             <p>By attending you accept our <a href="http://confcodeofconduct.com/">Code of Conduct</a></p>
         </div>

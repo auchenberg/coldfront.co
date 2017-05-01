@@ -315,6 +315,8 @@
 
 .newsletter {
 
+	margin-top: 50px;
+
 	#mc_embed_signup {
 		overflow: auto;
     	max-width: 350px;
@@ -352,4 +354,75 @@
 		font-size: 14px;
 	}
 
+}
+
+.speakers {
+	color: #000;
+
+	ul {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		position: relative;
+		top: 0;
+		overflow: hidden;
+		float: left;
+		margin: 20px 2% 0 0;
+		padding: 0;
+		line-height: 0;
+		border: 1px solid #bebebe;
+
+		.image {
+			position: relative;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		.name {
+			display: block;
+			font-size: 20px;
+			font-weight: bold;
+			position: absolute;
+			bottom: 0;
+			background: rgba(255,255,255, 0.6);
+			background: linear-gradient(180deg, transparent, rgba(0,0,0,0.7));
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: 70px;
+			line-height: 90px;
+			text-align: center;
+			color: #fff;
+		}
+
+		@media (min-width: 1200px) {
+			width: 23.5%;
+
+			&:nth-child(4n) {
+				margin-right: 0;
+			}
+		}
+
+
+		@media (min-width: 650px) and (max-width:1200px) {
+			width: 32%;
+
+			&:nth-child(3n) {
+				margin-right: 0;
+			}
+		}
+
+		@media (max-width: 650px) {
+			width: 49%;
+
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+		}
+	}
 }
