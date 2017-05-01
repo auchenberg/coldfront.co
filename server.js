@@ -22,6 +22,9 @@ server.use(vhost('2016.coldfront.co', app2016))
 server.use(vhost('2017.coldfront.co', app17))
 server.use(vhost('coldfront.co', redirect))
 server.use(vhost('localhost', app17))
+server.use(vhost('*.herokuapp.com', app17))
+
+
 
 server.listen(server.get('port'), function () {
   console.log('Express server listening on port %d in %s mode', server.get('port'), server.settings.env)
