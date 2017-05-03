@@ -1,34 +1,29 @@
 [
 	{
-		"name": "Christian Heilmann ",
-		"slug" : "ghristian-heilmann",
+		"name": "Ben Schwarz",
+		"slug" : "ben-schwarz",
+		"intro": "Caliberapp & organizer of JSCONF AU",
 		"bio": "",
-		"avatar" : "",
-		"twitter" :"",
-		"github" :""
+		"twitter" : "",
+		"github" : "benschwarz",
+		"subject": "Real world connectivity: Beyond the bubble (performance, emerging markets)"
+	},	
+	{
+		"name": "Evangelina Ferreira",
+		"slug" : "evangelina-ferreira",
+		"intro": "Front-end developer & organizer of CSS Argentina",
+		"bio": "",
+		"twitter" : "evaferreira92",
+		"github" : "",
+		"subject": "The Magic of Color (CSS variables, filters, blend-modes)"
 	},
 	{
 		"name": "Kenneth Roede Christensen",
 		"slug" : "kenneth-roede",
+		"intro": "Software engineer and architect, Intel",
 		"bio": "",
-		"avatar": "kenneth-roede",
 		"twitter": "kennethrohde",
-		"github": ""
-	},
-	{
-		"name": "Evangelina Ferreira",
-		"slug" : "bruce-lawson",
-		"bio": "",
-		"avatar": "",
-		"twitter" : "evaferreira92",
-		"github" : ""
-	},
-	{
-		"name": "Ben Schwarz",
-		"slug" : "mathias-bynens",
-		"bio": "",
-		"avatar": "",
-		"twitter" : "",
-		"github" : "benschwarz"
-	}
+		"github": "",
+		"subject": "Hardware for the web web (Web Bluetooth, Web NFC)"
+	}	
 ]

@@ -56,62 +56,58 @@
         </div>
     </section>
 
-    <section class="bubbles section-wide">
+    <section class="host" data-aos="fade-up">
+        <a name="host"></a>
         <div class="inner">
-            <div class="bubble pull-left" data-aos="fade-up">
-                <img src="/images/ladyspeaker-noise-with-pixels.png">
-            </div>
-            <div class="bubble pull-right" data-aos="fade-up">
-                <img src="/images/audience-with-pixels.png">
-            </div>
-            <div class="bubble bubble-center hidden-xs hidden-sm" data-aos="fade-up">
-                <img src="/images/cake-with-pixels.png">
-            </div>
+            <h2>Your host</h2>
+            <h3 class="text-highlight">Christian Heilmann</h3>
+            <p>This year ColdFront introduces a new concept by having <strong><a href="https://twitter.com/codepo8">Christian Heilmann</a></strong> as your host for the conference. Christian is an established authority in our industry, works for Microsoft, and we are proud to have him guiding you through the conference days, talks and panel debates.</p>
+            <img src="/images/speakers/host.png" />
         </div>
     </section>
 
     <section class="speakers section-wide" data-aos="fade-up">
         <a name="speakers"></a>
         <div class="inner">
-            <h2>The line-up</h2>
-          
-            <ul class="speaker-list">
-
-            <% speakers.forEach(function(item) { %>
-
-                <li>
-                    <a name="<%= item.slug%>"></a>
-                    <div class="image">
-                        <img src="/images/speaker_placeholder.png">
-                    </div>
-
-                    <div class="vertical-center-align">
-                        <div class="bio">
-                            <h3><%- item.name %></h3>
-                            <p><%- item.bio %></p>
-                        </div>
-                    </div>
-                </li>
-            <% }) %>
-
-            </ul>
-
-        </div>
-    </section>
-
-    <section class="video" data-aos="fade-up">
-        <a name="video"></a>
-        <div class="inner">
             <div class="border-top"></div>
-            <div class="overlay"></div>
-            <a class="btn btn-shape4 video-link" target="_blank" href="https://www.youtube.com/watch?v=u7CV0vFO2sg"><i class="fa fa-play" aria-hidden="true"></i></a>
+            <div class="content">
+                <h2>The line-up</h2>
+            
+                <ul class="speaker-list">
+
+                <% speakers.forEach(function(item) { %>
+
+                    <li>
+                        <a href="/speakers/<%= item.slug%>">
+                            <div class="image">
+                                <img src="/images/speakers/<%= item.slug%>.png">
+                            </div>
+
+                            <div class="vertical-center-align">
+                                <div class="bio">
+                                    <h3><%- item.name %></h3>
+                                    <h4 class="text-hightlight"><%- item.intro %></h4>
+                                    <h5><%- item.subject %></h5>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                <% }) %>
+
+                </ul>
+
+                <p>Pssst. we'll soon introduce more amazing speakers soon.</p>
+                <p>Stay tuned!</p>
+
+            </div>
             <div class="border-bottom"></div>
         </div>
     </section>
 
-    <section class="venue" data-aos="fade-up">
-        <a name="venue"></a>
-        <div class="inner">
+    <section class="food vertical-center-align" data-aos="fade-up">
+        <a name="food"></a>
+        <div class="overlay"></div>
+        <div class="inner ">
             <h2>Delicious food for your brain</h2>
             <p>
                 We want you to have an great experience, and we believe food is big part of that. This year we are collaborating with a number of truly amazing foodtrucks, serving everything from fish tacos to decilious tapas. You can choose something new to eat every at every meal and in case you get craving you can always grab a snack.</p>
@@ -119,65 +115,76 @@
         </div>
     </section>
 
-    <section class="venue" data-aos="fade-up">
+    <section class="venue section-wide" data-aos="fade-up">
         <a name="venue"></a>
         <div class="inner">
             <h2>In the heart of Copenhagen</h2>
-            <p>
-                ColdFront will be held in VEGA, one of the leading concert stages in Europe. Showcasing original 50's design gives the building a unique atmosphere, and VEGA's decor with dark wood paneling, mahogany floors, friezes, and the many original details including railings, balustrades and lamps in typical Scandinavian style are the hallmarks of VEGA.
-            </p>
-            <p>
-                <a class="text-bold text-upper" target="_blank" href="https://www.google.ca/maps/place/Vega/@55.668023,12.5418672,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539e80687c13:0xf5202e524e3eb86f!8m2!3d55.66802!4d12.5440612?hl=en">Google Map <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </p>
+            <div class="grid">
+                <div class="text">
+                    
+                    <h4>VEGA, Enghavevej 40, 1674 Copenhagen</h4>
+                    <p>
+                        ColdFront will be held in VEGA, one of the leading concert stages in Europe. Showcasing original 50's design gives the building a unique atmosphere, and VEGA's decor with dark wood paneling, mahogany floors, friezes, and the many original details including railings, balustrades and lamps in typical Scandinavian style are the hallmarks of VEGA.
+                    </p>
+                    <p>
+                        <a class="text-bold text-upper text-highlight" target="_blank" href="https://www.google.ca/maps/place/Vega/@55.668023,12.5418672,17z/data=!3m1!4b1!4m5!3m4!1s0x4652539e80687c13:0xf5202e524e3eb86f!8m2!3d55.66802!4d12.5440612?hl=en">Google Map <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+
+                <div class="image">
+                    <img src="/images/vega.png" />
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="venue-bubbles section-wide">
-        <a name="venue"></a>
+    <section class="techfest section-wide">
+        <a name="techfest"></a>
         <div class="inner">
-            <div class="bubble venue" data-aos="fade-up">
-                <img src="/images/vega-logo.png" />
-                <p>Enghavevej 40,<br /> 1674 Copenhagen</p>
-            </div>
-
-            <div class="bubble" data-aos="fade-up">
-                <img src="/images/vega-pixels.png" />
-            </div>
+            <h2>Copenhagen Tech festival, parties and more!</h2>
+            <div class="grid">
+                <div class="image">
+                    <img src="/images/tech-festival.png" />
+                </div>                
+                <div class="text">
+                    
+                    <h4>Part of something bigger!</h4>
+                    <p>
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium dui quam, eu efficitur quam efficitur eu. Nunc finibus elit vestibulum rutrum rutrum. Proin id mi justo. Donec varius est tempus metus pulvinar, non porttitor justo maximus. Vivamus at arcu sit amet magna malesuada semper sed vitae nulla.
+                    </p>
+                    <p>
+                        <a class="text-bold text-upper text-highlight" target="_blank" href="https://techfestival.co">Read more on Copenhagen Techfestival <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </p>
+                </div>  
+            </div>            
         </div>
-    </div>
+    </section>
 
-    <section class="venue" data-aos="fade-up">
-        <a name="venue"></a>
+    </section>
+
+    <section class="collaborators section-blue">
+        <a name="collaborators"></a>
         <div class="inner">
             <h2>Collaborators</h2>
-            <p>
-                ColdFront is created in collaboration with
-            </p>
-
+            <h3>ColdFront is organised in collaboration with:</h3>
+            <a href="https://zendesk.com" target="_blank" ><img src="/images/zendesk.svg" class="zendesk" /></a>
+            <a href="https://www.jayway.com/" target="_blank"><img src="/images/jayway.svg"/></a>
         </div>
     </section>
 
-    <section class="venue" data-aos="fade-up">
-        <a name="venue"></a>
+    <section class="contributors section-blue">
+        <a name="contributors"></a>
         <div class="inner">
             <h2>Partners</h2>
-
+            <h3>We wouldn't be able to make ColdFront awesome without you!</h3>
         </div>
     </section>
-
 
     <section class="organizers section-dark">
         <a name="organizers"></a>
         <div class="inner">
             <img alt="ColdFront logo" src="/images/logo.svg" class="logo"/>
             <p>By attending you accept our <a href="http://confcodeofconduct.com/">Code of Conduct</a></p>
-        </div>
-    </section>
-
-    <section class="collaboration section-blue">
-        <a name="organizers"></a>
-        <div class="inner">
-            <p>In close collaboration with <a href="https://zendesk.com" target="_blank" ><img src="/images/zendesk.svg" class="zendesk" /></a> &amp; <a href="https://www.jayway.com/" target="_blank"><img src="/images/jayway.svg"/></a></p>
         </div>
     </section>
 
