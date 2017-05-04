@@ -2,7 +2,7 @@
 	{
 		"name": "Ben Schwarz",
 		"slug" : "ben-schwarz",
-		"intro": "Caliberapp & organizer of JSCONF AU",
+		"intro": "Calibre & organizer of JSCONF AU",
 		"bio": "",
 		"twitter" : "",
 		"github" : "benschwarz",
@@ -24,6 +24,6 @@
 		"bio": "",
 		"twitter": "kennethrohde",
 		"github": "",
-		"subject": "Hardware for the web web (Web Bluetooth, Web NFC)"
+		"subject": "Hardware for the web (Web Bluetooth, Web NFC)"
 	}	
 ]
