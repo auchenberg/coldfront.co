@@ -1,0 +1,40 @@
+.speaker-details {
+    text-align: left;
+
+    .back {
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        padding: 0;
+
+        @media (max-width: 650px) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 10px;
+        }	
+
+        img {
+            width: 100%;
+        }
+
+        .bio {
+            text-align: left;
+        }
+
+        h4 {
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: underline;
+            padding-right: 15px;
+            text-transform: uppercase;
+        }
+
+    }
+}

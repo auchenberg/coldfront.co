@@ -1,0 +1,26 @@
+<div class="page" data-aos-delay="200">
+    <section class="speaker-details section-wide" data-aos="fade-up">
+        <div class="wrapper">
+            <div class="inner"> 
+
+                <a class="back text-highlight" href="/">Back</a>
+
+                <div class="grid">       
+                    <div class="image">
+                        <img src="/images/speakers/<%= speaker.slug%>.png">
+                    </div>
+
+                    <div class="bio">
+                        <h2><%- speaker.name %></h2>
+                        <h3><%- speaker.intro %></h3>
+                        <h4>Talk: <%- speaker.subject %></h4>
+
+                        <a class="text-highlight" href="https://twitter.com/<%- speaker.twitter %>">Twitter</a>
+                        <a class="text-highlight" href="https://github.com/<%- speaker.github %>">github</a>
+                        <a class="text-highlight" href="<%- speaker.web %>"><%- speaker.web %></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

@@ -35,6 +35,16 @@ server.get('/', function (req, res) {
   })
 })
 
+server.get('/speakers/:slug', function (req, res) {
+
+  var speaker = require('./speakers').find((s) => s.slug == req.params.slug)
+  res.render('speaker', {
+    pageClass: 'page-speaker',
+    speaker: speaker
+  })
+
+})
+
 server.get('/partners', function (req, res) {
   res.render('partners', {
     pageClass: ''
