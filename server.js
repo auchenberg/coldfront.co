@@ -10,7 +10,7 @@ var appSplash = require('./splash/app')
 var redirect = express()
 
 redirect.get('/', function (req, res) {
-  res.redirect(301, 'https://2017.coldfront.co')
+  res.send(`<!doctype html><meta http-equiv="refresh" content="0;url=https://2017.coldfront.co">`)
 })
 
 var server = express()
@@ -23,8 +23,6 @@ server.use(vhost('2017.coldfront.co', app17))
 server.use(vhost('coldfront.co', redirect))
 server.use(vhost('localhost', app17))
 server.use(vhost('*.herokuapp.com', app17))
-
-
 
 server.listen(server.get('port'), function () {
   console.log('Express server listening on port %d in %s mode', server.get('port'), server.settings.env)
