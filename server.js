@@ -23,8 +23,6 @@ var root2014 = express().get('/', function (req, res) {
   res.send(`<!doctype html><meta http-equiv="refresh" content="0;url=https://2014.coldfront.co">`)
 })
 
-redirect
-
 var server = express()
 server.set('port', process.env.PORT || 8080)
 
