@@ -35,5 +35,13 @@
 		"github": "poshaughnessy",
 		"subject": "Why is Samsung building their own browser?"
 	},
-	}		
+	{
+		"name": "Ken Wheeler",
+		"slug" : "ken-wheeler",
+		"intro": "Director of Open Source at Formidable",
+		"bio": "Ken Wheeler is the Director of Open Source at Formidable and the author of open source libraries such as Slick Carousel, Spectacle, webpack-dashboard and react-music.",
+		"twitter": "ken_wheeler",
+		"github": "kenwheeler",
+		"subject": "Is React and React Native the next browser?"
+	}			
 ]
