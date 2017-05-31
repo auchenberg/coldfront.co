@@ -25,5 +25,14 @@
 		"twitter": "kennethrohde",
 		"github": "",
 		"subject": "Hardware for the web (Web Bluetooth, Web NFC)"
-	}	
+	},
+	{
+		"name": "Peter O'Shaughnessy",
+		"slug" : "peter-shaughnessy",
+		"intro": "Web developer advocate at Samsung",
+		"bio": "I'm a web developer advocate at Samsung - part of the team focused on our web browser, the imaginatively titled "Samsung Internet"! I help to share the latest possibilities for web apps by coding demos, writing articles and speaking. Previously I was a full stack developer back before “full stack” was a thing, gradually focusing more on the front-end as browsers grew more advanced. In Pearson's Future Technologies team, I helped the world's biggest education company to innovate with new web and native technologies. At pebble {code} I led the development of a hybrid Bluetooth app for a global logistics company. But my biggest tech love is the web - I got very excited about HTML5 around 2010 and I've been mostly geeking out about web APIs ever since!",
+		"twitter": "poshaughnessy",
+		"github": "poshaughnessy",
+		"subject": "Why Samsung Internet"
+	}		
 ]
