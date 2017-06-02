@@ -5,6 +5,7 @@ var expressLayouts = require('express-ejs-layouts')
 var compression = require('compression')
 var staticAsset = require('static-asset')
 var browserify = require('browserify-middleware')
+var markdown = require( "markdown" ).markdown;
 
 var server = express()
 
@@ -38,9 +39,11 @@ server.get('/', function (req, res) {
 server.get('/speakers/:slug', function (req, res) {
 
   var speaker = require('./speakers').find((s) => s.slug == req.params.slug)
+  speaker.bio = markdown.toHTML(speaker.bio)
+  
   res.render('speaker', {
     pageClass: 'page-speaker',
-    speaker: speaker
+    speaker: speaker,
   })
 
 })
