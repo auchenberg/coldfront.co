@@ -7,14 +7,15 @@
     "compression": "^1.4.3",
     "ejs": "~0.8.5",
     "ejs-locals": "~1.0.2",
-    "express": "~4.0.0",
+    "express": "^4.0.0",
     "express-autoprefixer": "0.0.7",
     "express-ejs-layouts": "~1.1.0",
     "express-redirect": "^1.2.2",
     "jquery": "^2.2.0",
-    "less-middleware": "^1.0.3",
+    "less-middleware": "^1.0.4",
+    "markdown": "^0.5.0",
     "static-asset": "^0.6.0",
-    "vhost": "~3.0.0",
+    "vhost": "^3.0.2",
     "vivus": "^0.3.0"
   },
   "scripts": {

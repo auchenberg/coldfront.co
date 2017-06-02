@@ -2,7 +2,7 @@
 	{
 		"name": "Ben Schwarz",
 		"slug" : "ben-schwarz",
-		"intro": "Calibre & organizer of JSCONF AU",
+		"intro": "Founder of Calibre & organizer of JSCONF AU",
 		"bio": "",
 		"twitter" : "",
 		"github" : "benschwarz",
@@ -20,10 +20,37 @@
 	{
 		"name": "Kenneth Rohde Christiansen",
 		"slug" : "kenneth-rohde",
-		"intro": "Software engineer and architect, Intel",
+		"intro": "Software engineer and architect at Intel",
 		"bio": "",
 		"twitter": "kennethrohde",
 		"github": "",
 		"subject": "Hardware for the web (Web Bluetooth, Web NFC)"
-	}	
+	},
+	{
+		"name": "Peter O'Shaughnessy",
+		"slug" : "peter-shaughnessy",
+		"intro": "Web developer advocate at Samsung",
+		"bio": "I'm a web developer advocate at Samsung - part of the team focused on our web browser, the imaginatively titled 'Samsung Internet'! I help to share the latest possibilities for web apps by coding demos, writing articles and speaking. Previously I was a full stack developer back before “full stack” was a thing, gradually focusing more on the front-end as browsers grew more advanced. In Pearson's Future Technologies team, I helped the world's biggest education company to innovate with new web and native technologies. At pebble {code} I led the development of a hybrid Bluetooth app for a global logistics company. But my biggest tech love is the web - I got very excited about HTML5 around 2010 and I've been mostly geeking out about web APIs ever since!",
+		"twitter": "poshaughnessy",
+		"github": "poshaughnessy",
+		"subject": "Why is Samsung building their own browser?"
+	},
+	{
+		"name": "Ken Wheeler",
+		"slug" : "ken-wheeler",
+		"intro": "Director of Open Source at Formidable",
+		"bio": "Ken Wheeler is the Director of Open Source at Formidable and the author of open source libraries such as Slick Carousel, Spectacle, webpack-dashboard and react-music.",
+		"twitter": "ken_wheeler",
+		"github": "kenwheeler",
+		"subject": "Is React and React Native the next browser?"
+	},
+	{
+		"name": "Una Kravets",
+		"slug" : "una-kravets",
+		"intro": "UI Engineer on the Front-end Infrastructure team at DigitalOcean",
+		"bio": "Una Kravets is an international speaker, (technical writer](https://una.im], [open source](https://github.com/una) advocate, and UI Engineer on the Front-end Infrastructure team at [DigitalOcean](http://digitalocean.com). She’s written for various online publications such as A List Apart, Smashing Magazine, and Sitepoint. Una also co-hosts the [Toolsday](http://toolsday) podcast and started both the DC and Austin Sass Meetups. She's a performance nerd, loves the open source community and listens to way too many audio books.",
+		"twitter": "una",
+		"github": "una",
+		"subject": "From Doodles to Dashboards, Data Flows, and Docs"
+	}			
 ]
