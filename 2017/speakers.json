@@ -12,7 +12,7 @@
 		"name": "Evangelina Ferreira",
 		"slug" : "evangelina-ferreira",
 		"intro": "Front-end developer & organizer of CSSConf Argentina",
-		"bio": "",
+		"bio": "Eva Ferreira is a Front-End Developer, professor at the National Technological University of Argentina and UI Developer in Aerolab. In her free time she also helps organize CSSConf Argentina.",
 		"twitter" : "evaferreira92",
 		"github" : "",
 		"subject": "The Magic of Color (CSS variables, filters, blend-modes)"
@@ -21,7 +21,7 @@
 		"name": "Kenneth Rohde Christiansen",
 		"slug" : "kenneth-rohde",
 		"intro": "Software engineer and architect at Intel",
-		"bio": "",
+		"bio": "Kenneth Rohde Christiansen is a Danish software engineer and architect, specialized in mobile and web technology. Working at Intel out of Copenhagen, Kenneth helps define Intel’s strategy and plans regarding the Web Platform, as well as puts it into action. Before joining Intel, Kenneth was employed by Nokia (Denmark and Brazil) where he worked on the Nokia N9 web browser, Qt, WebKit, as well as many other mobile projects. Currently working on Progressive Web Apps and emerging web standards like Web App Manifest, Generic Sensors, Web NFC, Web XR etc.",
 		"twitter": "kennethrohde",
 		"github": "",
 		"subject": "Hardware for the web (Web Bluetooth, Web NFC)"
