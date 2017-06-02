@@ -27,8 +27,8 @@ document.querySelectorAll('.movable').forEach((elm) => {
 
     let centroX = e.clientX - window.innerWidth / 2
     let centroY = window.innerHeight / 2 - (e.clientY + 100)
-    let degX = centroX * .10
-    let degY = centroY * .10
+    let degX = centroX * .05
+    let degY = centroY * .05
 
     e.target.style['transform'] = 'perspective(600px)' + 'rotateY('+ degX +'deg)  rotateX('+ degY +'deg)'    
   })
