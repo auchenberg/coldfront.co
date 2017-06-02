@@ -39,7 +39,7 @@ server.get('/', function (req, res) {
 server.get('/speakers/:slug', function (req, res) {
 
   var speaker = require('./speakers').find((s) => s.slug == req.params.slug)
-  speaker.bio = markdown.toHTML(speaker.bio)
+  speaker.bioHTML = markdown.toHTML(speaker.bio)
   
   res.render('speaker', {
     pageClass: 'page-speaker',
