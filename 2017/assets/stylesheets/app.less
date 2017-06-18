@@ -13,7 +13,18 @@ body {
 	background: #faf5f7;
 	background-image: url(/images/bg.svg);
 	background-size: 1500px;
+	animation: image-pulsate 10s infinite;
 }
+
+@keyframes image-pulsate {
+  0%, 100% {
+    background-size: 1500px;
+  }
+  50% {
+    background-size: 1400px;
+  }
+}
+
 
 a, a:link {
 	color: #092CE2;
