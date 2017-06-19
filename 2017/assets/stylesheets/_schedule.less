@@ -1,7 +1,61 @@
 .schedule {
-    background: #E9F0F5;
-    color: #000000;
-    text-align: center;
+	color: #fff;
+  	position: relative;
+	background: #002294;
+	overflow: visible;
+	margin: 220px 0;
+	z-index: 2;
+    
+    .inner {
+        max-width: 700px;
+    }
+
+	@media (max-width: 650px) {
+		margin: 110px 0;
+	}
+
+	.border-top {
+		background: url(/images/large-pixels.png);
+		height: 460px;
+    	background-size: cover;
+
+		position: absolute;
+		top: -288px;
+		left: 0;
+		right: 0;
+		z-index: 2;
+
+		@media (max-width: 650px) {
+			top: -150px;
+		}			
+	}
+
+	.border-bottom {
+		background: url(/images/large-pixels-flipped.png);
+		height: 460px;
+    	background-size: cover;
+		background-position: 100% 100%;
+
+		position: absolute;
+		bottom: -288px;
+		left: 0;
+		right: 0;
+		z-index: 2;
+
+		@media (max-width: 650px) {
+			bottom: -125px;
+		}			
+	}
+
+	.content {
+		position: relative;
+		z-index: 3;
+	}
+
+
+    h2 {
+        color: #fff;
+    }
 
     p {
         color: #333333;
@@ -22,7 +76,7 @@
             margin-left: -2px;
             height: 100%;
             width: 4px;
-            background: #2A95C5;
+            background: #7b1e83;
             z-index: 1;
         }
     }
@@ -43,7 +97,6 @@
         }
 
         .inner {
-          //border: 1px solid #ebebeb;
           height: 100%;
         }
 
@@ -116,8 +169,6 @@
             position: relative;
             border-radius: 50%;
             margin: 4px 0 0px 0;
-
-            box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
         }
 
         .intro,
@@ -129,6 +180,25 @@
             font-weight: bold;
             font-size: 1.6rem;
             text-align: center;
+
+            color: #fff;
+
+            a, h3 {
+                width: 100%;
+            }
+        }
+
+        .date {
+            padding-right: 120px;
+
+            div {
+                width: 100%;
+            }
+        }
+
+
+        .intro {
+            padding-left: 120px;
         }
 
         .session-info {

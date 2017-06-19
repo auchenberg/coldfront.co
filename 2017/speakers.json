@@ -5,8 +5,7 @@
 		"intro": "Founder of Calibre & organizer of JSCONF AU",
 		"bio": "",
 		"twitter" : "",
-		"github" : "benschwarz",
-		"subject": "Real world connectivity: Beyond the bubble (performance, emerging markets)"
+		"github" : "benschwarz"
 	},	
 	{
 		"name": "Evangelina Ferreira",
@@ -14,8 +13,7 @@
 		"intro": "Front-end developer & organizer of CSSConf Argentina",
 		"bio": "Eva Ferreira is a Front-End Developer, professor at the National Technological University of Argentina and UI Developer in Aerolab. In her free time she also helps organize CSSConf Argentina.",
 		"twitter" : "evaferreira92",
-		"github" : "",
-		"subject": "The Magic of Color (CSS variables, filters, blend-modes)"
+		"github" : ""
 	},
 	{
 		"name": "Kenneth Rohde Christiansen",
@@ -23,8 +21,7 @@
 		"intro": "Software engineer and architect at Intel",
 		"bio": "Kenneth Rohde Christiansen is a Danish software engineer and architect, specialized in mobile and web technology. Working at Intel out of Copenhagen, Kenneth helps define Intel’s strategy and plans regarding the Web Platform, as well as puts it into action. Before joining Intel, Kenneth was employed by Nokia (Denmark and Brazil) where he worked on the Nokia N9 web browser, Qt, WebKit, as well as many other mobile projects. Currently working on Progressive Web Apps and emerging web standards like Web App Manifest, Generic Sensors, Web NFC, Web XR etc.",
 		"twitter": "kennethrohde",
-		"github": "",
-		"subject": "Hardware for the web (Web Bluetooth, Web NFC)"
+		"github": ""
 	},
 	{
 		"name": "Peter O'Shaughnessy",
@@ -32,8 +29,7 @@
 		"intro": "Web developer advocate at Samsung",
 		"bio": "I'm a web developer advocate at Samsung - part of the team focused on our web browser, the imaginatively titled 'Samsung Internet'! I help to share the latest possibilities for web apps by coding demos, writing articles and speaking. Previously I was a full stack developer back before “full stack” was a thing, gradually focusing more on the front-end as browsers grew more advanced. In Pearson's Future Technologies team, I helped the world's biggest education company to innovate with new web and native technologies. At pebble {code} I led the development of a hybrid Bluetooth app for a global logistics company. But my biggest tech love is the web - I got very excited about HTML5 around 2010 and I've been mostly geeking out about web APIs ever since!",
 		"twitter": "poshaughnessy",
-		"github": "poshaughnessy",
-		"subject": "Why is Samsung building their own browser?"
+		"github": "poshaughnessy"
 	},
 	{
 		"name": "Ken Wheeler",
@@ -41,8 +37,7 @@
 		"intro": "Director of Open Source at Formidable",
 		"bio": "Ken Wheeler is the Director of Open Source at Formidable and the author of open source libraries such as Slick Carousel, Spectacle, webpack-dashboard and react-music.",
 		"twitter": "ken_wheeler",
-		"github": "kenwheeler",
-		"subject": "Is React and React Native the next browser?"
+		"github": "kenwheeler"
 	},
 	{
 		"name": "Una Kravets",
@@ -50,7 +45,22 @@
 		"intro": "UI Engineer on the Front-end Infrastructure team at DigitalOcean",
 		"bio": "Una Kravets is an international speaker, (technical writer](https://una.im], [open source](https://github.com/una) advocate, and UI Engineer on the Front-end Infrastructure team at [DigitalOcean](http://digitalocean.com). She’s written for various online publications such as A List Apart, Smashing Magazine, and Sitepoint. Una also co-hosts the [Toolsday](http://toolsday) podcast and started both the DC and Austin Sass Meetups. She's a performance nerd, loves the open source community and listens to way too many audio books.",
 		"twitter": "una",
-		"github": "una",
-		"subject": "From Doodles to Dashboards, Data Flows, and Docs"
-	}			
+		"github": "una"
+	},
+	{
+		"name": "Jessica Lord",
+		"slug" : "jessica-lord",
+		"intro": "Urban-designer-turned-developer @ MongoDB",
+		"bio": "Jessica Lord is an urban-designer-turned-developer currently working on tools in Node.js at MongoDB. Previously, she was at GitHub where she started the Electron team and grew her passion for open source and making tools to enable others to build on the web.",
+		"twitter": "jllord",
+		"github": "jllord"
+	},
+	{
+		"name": "Sam Richard",
+		"slug" : "sam-richard",
+		"intro": "Lead engineering and strategy for IBM’s team experience",
+		"bio": "Sam Richard, better known as Snugug throughout the Internet, is a developer with design tendencies and a love of building open source tools to help with both. Sam geeks out on content strategy, team process, and cultural transformation. When not at work, he is the author of North, a co-founder of SassConf, and an accomplished bacon connoisseur.",
+		"twitter": "jllord",
+		"github": "jllord"
+	}	
 ]
