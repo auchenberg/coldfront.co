@@ -52,5 +52,29 @@
 		"twitter": "una",
 		"github": "una",
 		"subject": "From Doodles to Dashboards, Data Flows, and Docs"
-	}			
+	},
+    {
+        "name": "Jessica Lord",
+        "slug" : "jessica-lord",
+        "intro": "Urban-designer-turned-developer @ MongoDB",
+        "bio": "Jessica Lord is an urban-designer-turned-developer currently working on tools in Node.js at MongoDB. Previously, she was at GitHub where she started the Electron team and grew her passion for open source and making tools to enable others to build on the web.",
+        "twitter": "jllord",
+        "github": "jllord"
+    },
+    {
+        "name": "Sam Richard",
+        "slug" : "sam-richard",
+        "intro": "Lead engineering and strategy for IBM’s team experience",
+        "bio": "Sam Richard, better known as Snugug throughout the Internet, is a developer with design tendencies and a love of building open source tools to help with both. Sam geeks out on content strategy, team process, and cultural transformation. When not at work, he is the author of North, a co-founder of SassConf, and an accomplished bacon connoisseur.",
+        "twitter": "Snugug",
+        "github": "snugug"
+    },
+    {
+        "name": "LiveJS: Ruth, Martin and Matt!",
+        "slug" : "livejs",
+        "intro": "A collective of audio and visual artists who build live experiences, shows and installations.",
+        "bio": "A collective of audio and visual artists who build live experiences, shows and installations. Why JS? Because that's the main technology we use: JavaScript. Read more about them on [livejs.net](http://livejs.network/)",
+        "twitter": "",
+        "github": ""
+    }					
 ]
