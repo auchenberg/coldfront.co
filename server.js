@@ -37,6 +37,7 @@ server.use(vhost('2016.coldfrontconf.com', root2016))
 
 server.use(vhost('2017.coldfrontconf.com', root))
 server.use(vhost('2017.coldfront.co', app17))
+server.use(vhost('preview.coldfront.co', app17))
 
 server.use(vhost('coldfront.co', root))
 server.use(vhost('localhost', app17))

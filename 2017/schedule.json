@@ -1,123 +1,154 @@
 [
 	{
-		"name": "Breakfast </br> & registration",
-		"time": "08:00 - 08:45",
-		"avatar": "registration.png",
-		"speaker": false,
-		"info": "We'll be serving coffees and croissants for the early birds, so join us in the morning."
+		"title": "Tuesday Sep 5th, day 1",
+		"program": [
+			{
+				"time": "08:00 - 09:00",
+				"name": "Breakfast </br> & registration",
+				"icon": "registration.png",
+				"info": "We'll be serving coffees and croissants for the early birds. Join us in the morning, grab your badge and avoid the queue!"
+			},
+			{
+				"time": "09:00 - 09:15",
+				"name": "Magical opening",
+				"icon": "welcome.png"
+			},
+			{
+				"time": "09:15 - 10:00",
+				"name": "The Magic of Color",
+				"abstract": "'The Magic of Color' and how you can use variables, filters, blend-modes and 'CSS4' color functions to create wonderful layouts and organize your code better; and how you can use all this today with PostCSS.",
+				"who": "evangelina-ferreira"
+			},
+			{
+				"time": "10:00 - 10:45",
+				"name": "Why is Samsung building their own browser?",
+				"abstract": "",
+				"who": "peter-shaughnessy"
+			},
+			{
+				"time": "10:45 - 11:00",
+				"name": "Break",
+				"icon": "break.png"
+			},
+			{
+				"time": "11:00 - 11:45",
+				"name": "Real world connectivity: Beyond the bubble (performance, emerging markets)",
+				"abstract": "Every talk you’ll hear about ‘web performance’ will tell you that shaving 100ms from response time produced a 1% sales yield for Amazon, or maybe that 40% of web visitors will abandon your site when it takes more then 3 seconds to load? While those are impressive, there are some more interesting metrics that we need to talk about.\n\n Did you know that 43% of the humans on this planet have access to the internet, but 57% do not? Did you know that in 2016 India brought 100 million NEW users to the internet for the very first time? When you take a glance into the current state of global connectivity, you might realise that the internet you think you know so well exists on an entirely different plane.\n\n Through the guise of user-experience and empathy, we’ll study the state of global connectivity, connection speeds, population, and the costs of data in order to re-centre how we think about our role as designers and developers for the web today.",
+				"who": "ben-schwarz"
+			},
+			{
+				"time": "11:45 - 12:30",
+				"name": "Will React and React Native become the next browser?",
+				"abstract": "",
+				"who": "ken-wheeler"
+			},			
+			{
+				"name": "Lunch time!",
+				"time": "12:30 - 14:00",
+				"icon": "lunch.png"
+			},
+			{
+				"time": "14:00 - 14:45",
+				"name": "Scale Down, People Up: Making the Web More Approachable",
+				"abstract": "",
+				"who": "jessica-lord"
+			},
+			{
+				"time": "14:45 - 15:30",
+				"name": "Magic Tricks with CSS Houdini",
+				"abstract": "This talk will focus on the working being done by the CSS Houdini Task Force to provide us with the ability to extend the browser's render engine with JavaScript, above and beyond simply running JS on the main thread or a web worker. \n\nThis talk will focus on the following:\n\nWhat is the Houdini Task Force?\n\nWhat types of things can we expect to see coming from them?\n\nWhat's available today and where, what's going to be available in the future\n\nPractical examples, with code, that can be played with today\n\n\nAs what is available is currently being worked on, this talk with be as up-to- date of an overview of what's available and coming in the future as can be provided. This stuff is definitely in the future type stuff, but learning about it now will prepare attendees for what they can expect browsers to be capable of doing in the upcoming years.",
+				"who": "sam-richard"
+			},
+			{
+				"name": "Break",
+				"time": "15:30- 15:45",
+				"icon": "break.png"
+			},
+			{
+				"time": "15:45 - 16:30",
+				"name": "LiveJS: Making Music with JavaScript",
+				"abstract": "We are proud to have Martin Schuhfuss, Matt McKegg and Ruth John joining us to show what's possible with WebMIDI, and JavaScript to generate music, visualizations and lightning. Our venue VEGA is the centerstage for many bands in Copenhagen, and with LiveJS we are showing that JavaScript can play music too!  ",
+				"who": "livejs"
+			},
+			{
+				"name": "Panel debate: Day 1",
+				"time": "16:30- 17:15",
+				"icon": "debate.svg"
+			},
+			{
+				"name": "Techfestival closing keynote and party!",
+				"time": "17:15 - 24:00",
+				"icon": "party.png"
+			}
+		]
 	},
 	{
-		"name": "Opening",
-		"time": "09:00 - 09:10",
-		"avatar": "welcome.png",
-		"speaker": false
-	},
-		{
-		"name": "Liv Erickson",
-		"time": "09:30 - 10:15",
-		"title": "Immersion in the Browser: Building the VR Web",
-		"abstract": "As virtual and augmented reality devices begin making their way into our lives, how we experience data and information is shifting into 3D. Today’s web technologies are shaping the future of the VR web and bringing immersive experiences to support cross-platform, device-agnostic virtual reality experiences right in the browser. In this talk, we’ll cover the experimental WebVR API and how new libraries and frameworks are developing to support immersive technologies that work on devices from Google Cardboard to the Oculus Rift. ",
-		"avatar": "liv-erickson.png",
-		"who": "liv-erickson",
-		"speaker": true
-	},	
-	{
-		"name": "Break",
-		"time": "10:15 - 10:30",
-		"avatar": "break.png",
-		"speaker": false
-	},	
-	{
-		"name": "Robert Nyman",
-		"time": "10:30 - 11:15",
-		"title": "Keynote: The future of the web platform",
-		"abstract": "Taking a bird's-eye view on the web platform, how it fits in and relates to native mobile platforms, where it's going and how to make sure it stays relevant.",
-		"avatar": "robert-nyman.png",
-		"who": "robert-nyman",
-		"speaker": true
-	},
-	{
-		"name": "Break",
-		"time": "11:15 - 11:30",
-		"avatar": "break.png",
-		"speaker": false
-	},		
-	{
-		"name": "Stephanie Rieger",
-		"title": "The Internet of Things is for People",
-		"time": "11:30 - 12:15",
-		"abstract": "If the company you work for doesn’t build fitness trackers, or robots, or smart light bulbs, or a cloud service that aims to connect all these things, you could be forgiven for not caring all that much about today's Internet of Things. My aim with this talk is to shift the conversation away from things and back to people. In doing so, I hope to also arm you with tools to better understand, and find your place, within this complex but fascinating landscape.",
-		"avatar": "stephanie-rieger.png",
-		"who": "stephanie-rieger",
-		"speaker": true
-	},
-	{
-		"name": "Bruce Lawson",
-		"title": "WWW: WORLD WIDE WEB, NOT WEALTHY WESTERNERS' WEB",
-		"time": "12:15 - 13:00",
-		"abstract": "As the population and economies of the West stay static, the developing economies are seeing huge expansion, and a rising youthful population that have grown up with the Web. But there are challenges to web access in Asia and Africa that we need to understand if we want to reach the next 4 billion people with fast, performant sites. Bruce will bring facts, figures and research from his years living in Asia and from working for Opera (often the only browser that people can use) to show you how to bring your brands to new markets. ",
-		"avatar": "bruce-lawson.png",
-		"who": "bruce-lawson",
-		"speaker": true
-	},	
-	{
-		"name": "Lunch time!",
-		"time": "13:00 - 14:00",
-		"avatar": "lunch.png",
-		"speaker": false
-	},
-	{
-		"name": "Mathias Bynens",
-		"title": "Front-End Performance: The Dark Side",
-		"time": "14:00 - 14:45",
-		"abstract": " Instead of talking about techniques that lead to better client-side performance, this presentation focuses on security-sensitive situations in which performance can actually be a bug rather than a feature.",
-		"avatar": "mathias-bynens.png",
-		"who": "mathias-bynens",
-		"speaker": true
-	},
-	{
-		"name": "Soledad Penadés",
-		"title": "Servo: a browser engine for the 21st century ",
-		"time": "14:45 - 15:30",
-		"abstract": " Introducing Servo. Written in a new language, Rust, Servo is a browser developed with efficiency, performance and safety in mind. In this talk we’ll look at how Servo is addressing these architectural and environmental changes, and most crucially, what this means for browse vendors, web developers and users.  We’ll also look at ways in which other browsers and projects can benefit from our work on Servo and how we’ve developed an extremely active community of contributors in just a few years time.",
-		"avatar": "soledad-penades.png",
-		"who": "soledad-penadés",
-		"speaker": true
-	},
-	{
-		"name": "Break",
-		"time": "15:30- 16:00",
-		"avatar": "break.png",
-		"speaker": false
-	},	
-	{
-		"name": "Glenn Maddern",
-		"title": "The Future of Reusable CSS",
-		"time": "16:00 - 16:45",
-		"abstract": "Last year, myself and a few others started discussing ideas about how we could enhance CSS — ideas about isolation of styling information, reuse of visual traits, and improving developer experience. Some projects had already suggested a solution by converting CSS into JavaScript in some form, but we didn't want to lose what we loved about CSS. We discovered that by making CSS files local instead of global, a huge class of problems disappeared, and the CSS Modules project was born. \n But there's another core problem in CSS — sharing. What's the best way you could publish a CSS framework like Bootstrap? How could publish a suite of React components with styling that is customisable yet consistent? Where do Web Components fit into the mix? Despite all the progress we and other teams have made, these questions remain unanswered. \nBut there is a change coming. Native CSS Variables are now supported in a majority of browsers and have the power to completely upend the way we write and share CSS. This is a talk about what that might look like.",
-		"avatar": "glenn-maddern.png",
-		"who": "glenn-maddern",
-		"speaker": true
-	},
-	{
-		"name": "Estelle Weyl",
-		"title": "You Don’t Need a Framework for That",
-		"time": "16:45 - 17:30",
-		"abstract": "<p>While the latest and greatest JS or CSS features can make development fast and fun, they can also lead to poor performing, inaccessible bloat that's impossible for the next developer, even one who is familiar with the frameworks used, to decipher. Development doesn't have to be so complicated.</p><p>While it's important to keep up to date on new tools and trends, it's even more important to remember where we came from and code inclusively. To move forward you have to look back. Do you really need a framework or can the standards handle your modern challenge while ensuring accessibility. With a little semantic creativity, vanilla code is the best tool in your tool box.</p>",
-		"avatar": "estelle-weyl.png",
-		"who": "estelle",
-		"speaker": true
-	},
-	{
-		"name": "Closing + <br />Family Photo",
-		"avatar": "closing.png",
-		"time": "17:30- 17:45",
-		"speaker": false
-	},
-	{
-		"name": "Party!",
-		"time": "18:00- 24:00",
-		"speaker": false,
-		"avatar": "party.png"
-	}
+		"title": "Wednesday Sep 6th, day 2",
+		"program": [
+			{
+				"time": "09:00 - 09:15",
+				"name": "Opening",
+				"icon": "welcome.png"
+			},
+			{
+				"time": "09:15 - 10:00",
+				"name": "Hardware for the web (Web Bluetooth, Web NFC)",
+				"abstract": "",
+				"who": "kenneth-rohde"
+			},
+			{
+				"time": "10:00 - 10:45",
+				"name": "From Doodles to Dashboards, Data Flows, and Docs",
+				"abstract": "",
+				"who": "una-kravets"
+			},
+			{
+				"time": "10:45 - 11:00",
+				"name": "Break",
+				"icon": "break.png"
+			},
+			{
+				"time": "11:00 - 11:45",
+				"name": "Why Mailchimp loves the web",
+				"abstract": "",
+				"who": "eric-muntz"
+			},
+			{
+				"time": "11:45 - 12:30",
+				"name": "TBA",
+				"icon": "unknown.svg"
+			},			
+			{
+				"name": "Lunch time!",
+				"time": "12:30 - 14:00",
+				"icon": "lunch.png"
+			},
+			{
+				"name": "Live JavaScript Artistic Performance",
+				"abstract": "LiveJS, a collective of audio and visual artists, will perform a live experiences with sound, visualizations and lights. All powered by JavaScript! \n\nWhy JS? Because that's the main technology we use: JavaScript.",
+				"who": "livejs",
+				"time": "14:00- 15:00"
+			},
+			{
+				"time": "15:00 - 15:45",
+				"name": "Closing keynote",
+				"icon": "ghost.svg"
+			},		
+			{
+				"name": "Panel debate: Day 2",
+				"time": "15:45- 16:30",
+				"icon": "debate.svg"
+			},			
+			{
+				"name": "Family photo!",
+				"time": "16:30 17:00",
+				"icon": "closing.png"
+			},
+			{
+				"name": "Tech festival party!",
+				"time": "17:30- 24:00",
+				"icon": "party.png"
+			}
+		]
+	}	
 ]
