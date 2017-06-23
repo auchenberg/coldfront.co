@@ -72,7 +72,7 @@
             <div class="border-top"></div>
             <div class="content">
 
-                <h2>Schedule</h2>
+                <h2>The Programme</h2>
                 
                 <% schedule.forEach(function(day) { %>
                     <h3><%- day.title %></h3>
@@ -113,7 +113,7 @@
                                     <div class="session">
                                         <h4>talks about</h4>
                                         <h3><%- item.name %></h3>
-                                        <%- item.abstract %>
+                                        <%- item.abstractHTML %>
                                     </div>
                                 <% } %>
 

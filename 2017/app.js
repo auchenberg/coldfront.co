@@ -29,9 +29,21 @@ server.use(staticAsset(__dirname + '/assets'))
 server.use(express.static(__dirname + '/assets'))
 
 server.get('/', function (req, res) {
+
+  var schedule = require('./schedule').map(d => {
+    d.program = d.program.map(s => { 
+      if(s.abstract) {
+        s.abstractHTML =  markdown.toHTML(s.abstract)
+      }
+      console.log('s', s)
+      return s;
+    })
+    return d
+  })
+
   res.render('index', {
     speakers: require('./speakers'),
-    schedule: require('./schedule'),
+    schedule: schedule,
     pageClass: ''
   })
 })

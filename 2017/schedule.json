@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Tuesday, day 1",
+		"title": "Tuesday Sep 5th, day 1",
 		"program": [
 			{
 				"time": "08:00 - 09:00",
@@ -10,7 +10,7 @@
 			},
 			{
 				"time": "09:00 - 09:15",
-				"name": "Opening",
+				"name": "Magical opening",
 				"icon": "welcome.png"
 			},
 			{
@@ -33,7 +33,7 @@
 			{
 				"time": "11:00 - 11:45",
 				"name": "Real world connectivity: Beyond the bubble (performance, emerging markets)",
-				"abstract": "",
+				"abstract": "Every talk you’ll hear about ‘web performance’ will tell you that shaving 100ms from response time produced a 1% sales yield for Amazon, or maybe that 40% of web visitors will abandon your site when it takes more then 3 seconds to load? While those are impressive, there are some more interesting metrics that we need to talk about.\n\n Did you know that 43% of the humans on this planet have access to the internet, but 57% do not? Did you know that in 2016 India brought 100 million NEW users to the internet for the very first time? When you take a glance into the current state of global connectivity, you might realise that the internet you think you know so well exists on an entirely different plane.\n\n Through the guise of user-experience and empathy, we’ll study the state of global connectivity, connection speeds, population, and the costs of data in order to re-centre how we think about our role as designers and developers for the web today.",
 				"who": "ben-schwarz"
 			},
 			{
@@ -56,29 +56,34 @@
 			{
 				"time": "14:45 - 15:30",
 				"name": "Magic Tricks with CSS Houdini",
-				"abstract": "",
+				"abstract": "This talk will focus on the working being done by the CSS Houdini Task Force to provide us with the ability to extend the browser's render engine with JavaScript, above and beyond simply running JS on the main thread or a web worker. \n\nThis talk will focus on the following:\n\nWhat is the Houdini Task Force?\n\nWhat types of things can we expect to see coming from them?\n\nWhat's available today and where, what's going to be available in the future\n\nPractical examples, with code, that can be played with today\n\n\nAs what is available is currently being worked on, this talk with be as up-to- date of an overview of what's available and coming in the future as can be provided. This stuff is definitely in the future type stuff, but learning about it now will prepare attendees for what they can expect browsers to be capable of doing in the upcoming years.",
 				"who": "sam-richard"
 			},
 			{
 				"name": "Break",
 				"time": "15:30- 15:45",
 				"icon": "break.png"
-			},	
+			},
 			{
-				"name": "LiveJS performance",
+				"time": "15:45 - 16:30",
+				"name": "LiveJS: Making Music with JavaScript",
 				"abstract": "",
-				"who": "live-js",
-				"time": "15:45- 16:30"
+				"who": "live-js"
+			},
+			{
+				"name": "Panel debate: Day 1",
+				"time": "16:30- 17:15",
+				"icon": "debate.svg"
 			},
 			{
 				"name": "Techfestival keynote and party!",
-				"time": "17:00- 24:00",
+				"time": "17:15 - 24:00",
 				"icon": "party.png"
 			}
 		]
 	},
 	{
-		"title": "Wednesday, day 2",
+		"title": "Wednesday Sep 6th, day 2",
 		"program": [
 			{
 				"time": "09:00 - 09:15",
@@ -104,13 +109,13 @@
 			},
 			{
 				"time": "11:00 - 11:45",
-				"name": "LiveJS: How did we do it?",
+				"name": "Why Mailchimp loves the web",
 				"abstract": "",
-				"who": "live-js"
+				"who": "eric-muntz"
 			},
 			{
 				"time": "11:45 - 12:30",
-				"name": "To be announced",
+				"name": "TBA",
 				"abstract": "",
 				"who": ""
 			},			
@@ -120,31 +125,35 @@
 				"icon": "lunch.png"
 			},
 			{
-				"time": "14:00 - 14:45",
-				"name": "To be announced",
-				"abstract": "",
-				"who": ""
+				"name": "LiveJS: Live JavaScript Performance",
+				"abstract": "LiveJS, a collective of audio and visual artists will perform a live experiences with sound, visualizations and lights. All powered by JavaScript! \n\nWhy JS? Because that's the main technology we use: JavaScript.",
+				"who": "live-js",
+				"time": "14:00- 15:00"
 			},
 			{
-				"time": "14:45 - 15:30",
-				"name": "To be announced",
+				"time": "15:00 - 15:45",
+				"name": "Closing keynote",
 				"abstract": "",
 				"who": ""
 			},
 			{
 				"name": "Break",
-				"time": "15:30- 16:00",
+				"time": "15:45- 16:00",
 				"icon": "break.png"
-			},
-			{
-				"time": "16:00 - 16:45",
-				"name": "Keynote: Why Mailchimp loves the web?",
-				"abstract": "",
-				"who": "eric-muntz"
 			},			
 			{
+				"name": "Panel debate: Day 2",
+				"time": "16:00- 16:45",
+				"icon": "debate.svg"
+			},			
+			{
+				"name": "Family photo!",
+				"time": "16:45- 17:15",
+				"icon": "closing.png"
+			},
+			{
 				"name": "Tech festival party!",
-				"time": "17:00- 24:00",
+				"time": "18:00- 24:00",
 				"icon": "party.png"
 			}
 		]

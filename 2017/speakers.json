@@ -62,5 +62,13 @@
 		"bio": "Sam Richard, better known as Snugug throughout the Internet, is a developer with design tendencies and a love of building open source tools to help with both. Sam geeks out on content strategy, team process, and cultural transformation. When not at work, he is the author of North, a co-founder of SassConf, and an accomplished bacon connoisseur.",
 		"twitter": "jllord",
 		"github": "jllord"
-	}	
+	},
+	{
+		"name": "Eric muntz",
+		"slug" : "eric-muntz",
+		"intro": "VP of Product, Mailchimp",
+		"bio": "",
+		"twitter": "",
+		"github": ""
+	}		
 ]
