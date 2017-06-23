@@ -70,5 +70,13 @@
 		"bio": "",
 		"twitter": "",
 		"github": ""
-	}		
+	},
+    {
+        "name": "LiveJS: Ruth, Martin and Matt!",
+        "slug" : "livejs",
+        "intro": "A collective of audio and visual artists who build live experiences, shows and installations.",
+        "bio": "A collective of audio and visual artists who build live experiences, shows and installations. Why JS? Because that's the main technology we use: JavaScript. Read more about them on [livejs.net](http://livejs.network/)",
+        "twitter": "",
+        "github": ""
+    }
 ]

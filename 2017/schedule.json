@@ -16,7 +16,7 @@
 			{
 				"time": "09:15 - 10:00",
 				"name": "The Magic of Color",
-				"abstract": "(CSS variables, filters, blend-modes)",
+				"abstract": "'The Magic of Color' and how you can use variables, filters, blend-modes and 'CSS4' color functions to create wonderful layouts and organize your code better; and how you can use all this today with PostCSS.",
 				"who": "evangelina-ferreira"
 			},
 			{
@@ -38,7 +38,7 @@
 			},
 			{
 				"time": "11:45 - 12:30",
-				"name": "Is React and React Native the next browser?",
+				"name": "Will React and React Native become the next browser?",
 				"abstract": "",
 				"who": "ken-wheeler"
 			},			
@@ -67,8 +67,8 @@
 			{
 				"time": "15:45 - 16:30",
 				"name": "LiveJS: Making Music with JavaScript",
-				"abstract": "",
-				"who": "live-js"
+				"abstract": "We are proud to have Martin Schuhfuss, Matt McKegg and Ruth John joining us to show what's possible with WebMIDI, and JavaScript to generate music, visualizations and lightning. Our venue VEGA is the centerstage for many bands in Copenhagen, and with LiveJS we are showing that JavaScript can play music too!  ",
+				"who": "livejs"
 			},
 			{
 				"name": "Panel debate: Day 1",
@@ -76,7 +76,7 @@
 				"icon": "debate.svg"
 			},
 			{
-				"name": "Techfestival keynote and party!",
+				"name": "Techfestival closing keynote and party!",
 				"time": "17:15 - 24:00",
 				"icon": "party.png"
 			}
@@ -116,8 +116,7 @@
 			{
 				"time": "11:45 - 12:30",
 				"name": "TBA",
-				"abstract": "",
-				"who": ""
+				"icon": "unknown.svg"
 			},			
 			{
 				"name": "Lunch time!",
@@ -125,35 +124,29 @@
 				"icon": "lunch.png"
 			},
 			{
-				"name": "LiveJS: Live JavaScript Performance",
-				"abstract": "LiveJS, a collective of audio and visual artists will perform a live experiences with sound, visualizations and lights. All powered by JavaScript! \n\nWhy JS? Because that's the main technology we use: JavaScript.",
-				"who": "live-js",
+				"name": "Live JavaScript Artistic Performance",
+				"abstract": "LiveJS, a collective of audio and visual artists, will perform a live experiences with sound, visualizations and lights. All powered by JavaScript! \n\nWhy JS? Because that's the main technology we use: JavaScript.",
+				"who": "livejs",
 				"time": "14:00- 15:00"
 			},
 			{
 				"time": "15:00 - 15:45",
 				"name": "Closing keynote",
-				"abstract": "",
-				"who": ""
-			},
-			{
-				"name": "Break",
-				"time": "15:45- 16:00",
-				"icon": "break.png"
-			},			
+				"icon": "ghost.svg"
+			},		
 			{
 				"name": "Panel debate: Day 2",
-				"time": "16:00- 16:45",
+				"time": "15:45- 16:30",
 				"icon": "debate.svg"
 			},			
 			{
 				"name": "Family photo!",
-				"time": "16:45- 17:15",
+				"time": "16:30 17:00",
 				"icon": "closing.png"
 			},
 			{
 				"name": "Tech festival party!",
-				"time": "18:00- 24:00",
+				"time": "17:30- 24:00",
 				"icon": "party.png"
 			}
 		]
