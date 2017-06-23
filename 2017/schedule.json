@@ -11,7 +11,7 @@
 			{
 				"time": "09:00 - 09:15",
 				"name": "Magical opening",
-				"icon": "welcome.png"
+				"icon": "opening.svg"
 			},
 			{
 				"time": "09:15 - 10:00",
@@ -49,15 +49,15 @@
 			},
 			{
 				"time": "14:00 - 14:45",
-				"name": "Scale Down, People Up: Making the Web More Approachable",
-				"abstract": "",
-				"who": "jessica-lord"
-			},
-			{
-				"time": "14:45 - 15:30",
 				"name": "Magic Tricks with CSS Houdini",
 				"abstract": "This talk will focus on the working being done by the CSS Houdini Task Force to provide us with the ability to extend the browser's render engine with JavaScript, above and beyond simply running JS on the main thread or a web worker. \n\nThis talk will focus on the following:\n\nWhat is the Houdini Task Force?\n\nWhat types of things can we expect to see coming from them?\n\nWhat's available today and where, what's going to be available in the future\n\nPractical examples, with code, that can be played with today\n\n\nAs what is available is currently being worked on, this talk with be as up-to- date of an overview of what's available and coming in the future as can be provided. This stuff is definitely in the future type stuff, but learning about it now will prepare attendees for what they can expect browsers to be capable of doing in the upcoming years.",
 				"who": "sam-richard"
+			},
+			{
+				"time": "14:45 - 15:30",
+				"name": "Scale Down, People Up: Making the Web More Approachable",
+				"abstract": "",
+				"who": "jessica-lord"
 			},
 			{
 				"name": "Break",
