@@ -14,7 +14,7 @@ body {
 	background-image: url(/images/bg.svg);
 	background-size: 1500px;
 	animation: image-pulsate 7s infinite;
-}
+}	
 
 a, a:link {
 	color: #092CE2;
@@ -236,13 +236,6 @@ section.align-left {
 	}
 }
 
-@import '_schedule';
-@import '_index';
-@import '_header';
-@import '_roadbook';
-@import '_aos';
-@import '_speaker_details';
-
 .state-placeholder {
 	opacity: 0.15;
 }
@@ -250,9 +243,8 @@ section.align-left {
 .vertical-center-align {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
-
-
 
 .Media {
 	display: flex;
@@ -273,5 +265,14 @@ section.align-left {
 		display: block;
 	}
 }
+
+@import '_schedule';
+@import '_index';
+@import '_header';
+@import '_roadbook';
+@import '_aos';
+@import '_speaker_details';
+@import '_diversity';
+
 
 

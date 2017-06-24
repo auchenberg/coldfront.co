@@ -60,8 +60,8 @@ server.get('/speakers/:slug', function (req, res) {
 
 })
 
-server.get('/partners', function (req, res) {
-  res.render('partners', {
+server.get('/diversity-scholarships', function (req, res) {
+  res.render('diversity-scholarship', {
     pageClass: ''
   })
 })

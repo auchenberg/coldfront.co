@@ -3,6 +3,9 @@
         <loc>https://2017.coldfront.co/</loc>
     </url>
     <url>
+        <loc>https://2017.coldfront.co/#program</loc>
+    </url>    
+    <url>
         <loc>https://2017.coldfront.co/speakers/ben-schwarz</loc>
     </url>
     <url>
@@ -12,7 +15,12 @@
         <loc>https://2017.coldfront.co/speakers/kenneth-rohde</loc>
     </url>
     <url>
+        <loc>https://2017.coldfront.co/diversity-scholarship</loc>
+    </url>
+
+    <url>
         <loc>https://2017.coldfront.co/downloads/ColdFront%2017%20-%205%20reasons%20to%20convince%20Your%20Boss.pdf</loc>
         <lastmod>2017-05-23T05:01:03+00:00</lastmod>
     </url>
+    
 </urlset>

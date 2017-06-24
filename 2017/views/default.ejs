@@ -30,7 +30,26 @@
     <link rel="stylesheet" href="<%= assetFingerprint('/stylesheets/bootstrap.min.css') %>">
     <link rel="stylesheet" href="<%= assetFingerprint('/stylesheets/app.css') %>" />
 
+    <header class="hidden-xs hidden-sm">
+        <div class="navbar">
+            <ul class="nav">
+                <li><a href="/#program">The Program</a></li>
+                <li><a href="https://ti.to/coldfront/coldfront-2017">Tickets</a></li>
+                <li><a href="/diversity-scholarships">Diversity Scholarships</a></li>
+                <li><a href="mailto:hello@coldfront.co" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
     <%- body %>
+
+    <section class="organizers section-dark">
+        <a name="organizers"></a>
+        <div class="inner">
+            <img alt="ColdFront logo" src="/images/logo.svg" class="logo"/>
+            <p>By attending you accept our <a href="http://confcodeofconduct.com/">Code of Conduct</a></p>
+        </div>
+    </section>    
 
   </body>
 
