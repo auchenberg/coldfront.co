@@ -35,7 +35,6 @@ server.get('/', function (req, res) {
       if(s.abstract) {
         s.abstractHTML =  markdown.toHTML(s.abstract)
       }
-      console.log('s', s)
       return s;
     })
     return d
