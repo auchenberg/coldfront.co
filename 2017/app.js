@@ -61,6 +61,7 @@ server.get('/speakers/:slug', function (req, res) {
 
 server.get('/diversity-scholarships', function (req, res) {
   res.render('diversity-scholarship', {
+    pageTitle: 'Diversity Scholarships',
     pageClass: ''
   })
 })
