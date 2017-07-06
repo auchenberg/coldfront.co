@@ -49,6 +49,7 @@ server.get('/', function (req, res) {
 
 server.get('/speakers', (req, res) => {
   res.render('speakers', {
+    pageTitle: 'Speakers',
     pageClass: 'page-speakers',
     speakers: require('./speakers'),
   })
@@ -66,6 +67,7 @@ server.get('/program', (req, res) => {
   })
 
   res.render('program', {
+    pageTitle: 'Program',
     pageClass: 'page-program',
     speakers: require('./speakers'),
     schedule: schedule
@@ -78,6 +80,7 @@ server.get('/speakers/:slug', (req, res) => {
   speaker.bioHTML = markdown.toHTML(speaker.bio)
   
   res.render('speaker', {
+    pageTitle: 'Speakers',
     pageClass: 'page-speaker',
     speaker: speaker,
   })
@@ -87,6 +90,13 @@ server.get('/speakers/:slug', (req, res) => {
 server.get('/diversity-scholarships', (req, res) => {
   res.render('diversity-scholarship', {
     pageTitle: 'Diversity Scholarships',
+    pageClass: ''
+  })
+})
+
+server.get('/about', (req, res) => {
+  res.render('about', {
+    pageTitle: 'About',
     pageClass: ''
   })
 })
