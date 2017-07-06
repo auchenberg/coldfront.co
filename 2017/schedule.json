@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Tuesday Sep 5th, day 1",
+		"title": "Tuesday Sep 5th: Day 1",
 		"program": [
 			{
 				"time": "08:00 - 09:00",
@@ -68,22 +68,33 @@
 				"time": "15:45 - 16:30",
 				"name": "LiveJS: Making Music with JavaScript",
 				"abstract": "We are proud to have Martin Schuhfuss, Matt McKegg and Ruth John joining us to show what's possible with WebMIDI, and JavaScript to generate music, visualizations and lightning. Our venue VEGA is the centerstage for many bands in Copenhagen, and with LiveJS we are showing that JavaScript can play music too!  ",
-				"who": "livejs"
+				"who": ["ruth-john","martin-schuhfuss","matt-mckegg"]
 			},
 			{
 				"name": "Panel debate: Day 1",
 				"time": "16:30- 17:15",
-				"icon": "debate.svg"
+				"icon": "debate.svg",
+				"who" : "*"
 			},
 			{
-				"name": "Techfestival closing keynote and party!",
-				"time": "17:15 - 24:00",
+				"name": "ColdFront social",
+				"time": "17:30 - 20:00",
+				"icon": "party.png"
+			},
+			{
+				"name": "Techfestival keynote: TBA",
+				"time": "20:00 - 21:00",
+				"who" : "*"
+			},
+			{
+				"name": "Techfestival afterparty!",
+				"time": "21:00 - 24:00",
 				"icon": "party.png"
 			}
 		]
 	},
 	{
-		"title": "Wednesday Sep 6th, day 2",
+		"title": "Wednesday Sep 6th: Day 2",
 		"program": [
 			{
 				"time": "09:00 - 09:15",
@@ -125,7 +136,7 @@
 			{
 				"name": "Live JavaScript Artistic Performance",
 				"abstract": "LiveJS, a collective of audio and visual artists, will perform a live experiences with sound, visualizations and lights. All powered by JavaScript! \n\nWhy JS? Because that's the main technology we use: JavaScript.",
-				"who": "livejs",
+				"who": ["ruth-john","martin-schuhfuss","matt-mckegg"],
 				"time": "14:00- 15:00"
 			},
 			{
@@ -136,15 +147,31 @@
 			{
 				"name": "Panel debate: Day 2",
 				"time": "15:45- 16:30",
-				"icon": "debate.svg"
+				"icon": "debate.svg",
+				"who" : "*"
+			},			
+			{
+				"name": "Closing",
+				"time": "16:30 - 16:45",
+				"icon": "party.png"
 			},			
 			{
 				"name": "Family photo!",
-				"time": "16:30 17:00",
+				"time": "16:34 - 17:00",
 				"icon": "closing.png"
 			},
 			{
-				"name": "Tech festival party!",
+				"name": "ColdFront social",
+				"time": "17:00 - 20:00",
+				"icon": "closing.png"
+			},			
+			{
+				"name": "Techfestival keynote: Charles Adler",
+				"time": "20:00 - 21:00",
+				"who": "charles-adler"
+			},		
+			{
+				"name": "Techfestival party!",
 				"time": "17:30- 24:00",
 				"icon": "party.png"
 			}
