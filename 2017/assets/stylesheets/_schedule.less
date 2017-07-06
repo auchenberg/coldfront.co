@@ -58,8 +58,8 @@
     }
 
     p {
-        color: #333333;
-        font-size: 18px;
+        color: #fff;
+        font-size: 14px;
     }
 
     ul {
@@ -67,45 +67,66 @@
         padding: 0;
         overflow: hidden;
         position: relative;
-
-        &::before {
-            /* this is the vertical line */
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 50%;
-            margin-left: -2px;
-            height: 100%;
-            width: 4px;
-            background: #7b1e83;
-            z-index: 1;
-        }
     }
 
     li {
-        min-height: 250px;
-
         text-align: left;
         list-style: none;
-        overflow: hidden;
-
-        position:relative;
-        z-index: 2;
-        text-align: center;
+        color: #fff;
+        position: relative;
+        padding-bottom: 20px;
 
         &.state-speaker {
-            min-height: 650px;
+            background: url(/images/wavy.png);
+            background-repeat: repeat-x;
+            background-position: 100% 100%;
+            cursor: pointer;
 
-            .image {
-                width: 200px;
-                height: 200px;
-                margin-left: -100px;
-                margin-top: 0;
-            }            
+            p,
+            .title,
+            .date {
+                font-size: 20px;
+            }
+
+            .title {
+                color: #fff;
+            }
         }
 
-        .inner {
-          height: 100%;
+        &.state-expanded  { 
+            .details {
+                display: flex;
+            }
+
+            .action .up {
+                display: block;
+            }
+
+            .action .down {
+                display: none;
+            }
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .details {
+            display: none;
+            padding: 20px 0;
+        }
+
+        .action {
+            font-size: 20px;
+            color: #F5236C;
+
+            .up {
+                display: none;
+            }
+
+            .down {
+                display: block;
+            }            
         }
 
         .spacer {
@@ -156,69 +177,40 @@
         }
 
         .image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 2;
-
-            border-radius: 50%;
-
-
-            width: 150px;
-            height: 150px;
-            left: 50%;
-            margin-left: -75px;
-            margin-top: 25px;
+            width: 160px;
+            height: 140px;
+            padding-right: 20px;
         }
 
         .image img {
             display: block;
             width: 100%;
             height: 100%;
-            position: relative;
-            border-radius: 50%;
-            margin: 4px 0 0px 0;
         }
 
-        .intro,
         .date {
-            height: 205px;
-            width: 50%;
-            float: left;
-
+            width: 120px;
+            color: #00a9df;
+            text-align: right;
+            margin-right: 40px;
+            font-size: 14px;
             font-weight: bold;
-            font-size: 1.6rem;
-            text-align: center;
-
-            color: #fff;
 
             a, h3 {
                 width: 100%;
             }
         }
 
-        .date {
-            padding-right: 120px;
-
-            div {
-                width: 100%;
-            }
-        }
-
-
-        .intro {
-            padding-left: 120px;
+        .title {
+            flex: 1;
+            text-align: left;
+            color: #00edff;
+            font-size: 14px;
+            font-weight: bold;
         }
 
         .session-info {
-            background: #fff;
-            box-shadow: 0 3px 0 #D7E4ED;
-            border-radius: 0.25em;
-
-            margin: 260px auto 50px auto;
-            padding: 30px;
-            max-width: 600px;
-            padding: 40px;
+            flex: 1;
         }
 
 
@@ -231,46 +223,26 @@
 
     .schedule ul li {
 
-        margin-bottom: 50px;
-        min-height: 315px;
-
-        &.state-speaker {
-            min-height: 700px;
-        }
-
-        .intro,
         .date {
-            height: 70px;
-            width: 100%;
-            float: none;
-
-            position: absolute;
-
-            background: #002294;
+            width: 76px;
+            font-size: 12px !important;
+            margin-right: 15px;
         }
-
 
         .image {
-            top: 100px;
+            float: right;
         }
 
-        .date {
-            top: -15px;
-            padding: 0;
+        &.state-expanded {
+            .details {
+                display: block;
+            }
         }
 
-        .intro {
-            top: 40px;
-            padding: 0;
+        .session h3 {
+            margin-bottom: 50px;
         }
-        
-        .session-info {
-            width: 100%;
-            margin-left: 0;
 
-            top: 280px;
-            left: 0;
-        }
     }
 
 }

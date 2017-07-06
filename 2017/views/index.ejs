@@ -56,6 +56,27 @@
         </div>
     </section>
 
+    <section class="speakers section-wide" data-aos="fade-up">
+        <a name="speakers"></a>
+        <div class="inner">
+            <div class="content">
+                <h2>The speakers</h2>
+                <ul>
+                    <% speakers.forEach(function(speaker) { %>               
+                        <li>
+                            <a href="/speakers/<%= speaker.slug%>">
+                                <img src="/images/speakers/<%= speaker.slug %>.png">
+                                <h3><%- speaker.name %></h3>
+                                <p><%- speaker.intro %></p>
+                            </a>
+                        </li>   
+                    <% }) %>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
   <section class="schedule" data-aos="fade-up">
         <a name="program"></a>
         <div class="inner">
@@ -71,46 +92,44 @@
                         <% var speaker = speakers.find( (s) => s.slug === item.who) %>
 
                         <li class="<%- speaker ? 'state-speaker' : '' %>">
-                            <div class="date vertical-center-align">
-                                <div><%- item.time %></div>
-                            </div>
 
-                            <div class="image">
-                                 <% if (speaker) { %>
-                                <a href="/speakers/<%= speaker.slug%>">
-                                    <img src="/images/speakers/<%= speaker.slug %>.png">
-                                </a>
-                                <% } else { %>
-                                <img src="/images/<%= item.icon %>">
-                                <% } %>
-                            </div>
-
-                            <div class="intro vertical-center-align">
+                            <div class="flex">
+                                <div class="date"><%- item.time %></div>
+                                <div class="title"><%- item.name %></div>
                                 <% if (speaker) { %>
-                                <a href="/speakers/<%= speaker.slug%>">
-                                    <h3><%- speaker.name %></h3>
-                                </a>
-                                <% } else { %>
-                                    <h3><%- item.name %></h3>
+                                <div class="action">
+                                    <div class="down">&#11015;</div>
+                                    <div class="up">&#11014;</div>
+                                </div>
                                 <% } %>
                             </div>
 
-                            <% if (speaker || item.info) { %>
-                            <div class="session-info ">
-                                <% if (speaker) { %>
-                                    <p><%- speaker.name %></p>
-                                    
-                                    <div class="session">
-                                        <h4>talks about</h4>
-                                        <h3><%- item.name %></h3>
-                                        <%- item.abstractHTML %>
-                                    </div>
-                                <% } %>
+                            <div class="details flex">
 
-                                <p><%- item.info %></p>
+                                <div class="image">
+                                    <% if (speaker) { %>
+                                    <a href="/speakers/<%= speaker.slug%>">
+                                        <img src="/images/speakers/<%= speaker.slug %>.png">
+                                    </a>
+                                    <% } else { %>
+                                    <img src="/images/<%= item.icon %>">
+                                    <% } %>
+                                </div>
 
+                                <% if (speaker || item.info) { %>
+                                <div class="session-info ">
+                                    <% if (speaker) { %>
+                                        <p><%- speaker.name %></p>
+                                        
+                                        <div class="session">
+                                            <h3>talks about</h3>
+                                            <%- item.abstractHTML %>
+                                        </div>
+                                    <% } %>
+
+                                    <p><%- item.info %></p>
+                                </div>
                             </div>
-
                             <% } %>
                         </li>
                     <% }) %>

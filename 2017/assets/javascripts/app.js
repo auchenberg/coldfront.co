@@ -34,3 +34,18 @@ document.querySelectorAll('.movable').forEach((elm) => {
   })
   
 })
+
+
+document.querySelectorAll('.schedule li.state-speaker').forEach((elm) => {
+  
+  elm.addEventListener('click', (e) => {
+    var elmLi = e.target;
+
+    if(elm.classList.contains('state-expanded')) {
+      elm.classList.remove('state-expanded')
+    } else {
+      elm.classList.add('state-expanded')
+    }  
+  })
+  
+})

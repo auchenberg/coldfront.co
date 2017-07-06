@@ -64,11 +64,27 @@
 		"github": "jllord"
 	},
     {
-        "name": "LiveJS: Ruth, Martin and Matt!",
-        "slug" : "livejs",
-        "intro": "A collective of audio and visual artists who build live experiences, shows and installations.",
-        "bio": "A collective of audio and visual artists who build live experiences, shows and installations. Why JS? Because that's the main technology we use: JavaScript. Read more about them on [livejs.net](http://livejs.network/)",
-        "twitter": "",
-        "github": ""
+        "name": "Ruth John",
+        "slug" : "ruth-john",
+        "intro": "Ruth is a digital artist and projectoralist.",
+        "bio": "She mixes video and other abstract coded clips with her own hand coded software: Vixxrr. A collective of audio and visual artists who build live experiences, shows and installations. Why JS? Because that's the main technology we use: JavaScript. Read more about them on [livejs.net](http://livejs.network/)",
+        "twitter": "Rumyra",
+        "github": "Rumyra"
+    },
+    {
+        "name": "Martin Schuhfuss",
+        "slug" : "martin-schuhfuss",
+        "intro": "Martin loves working with JavaScript and self-made electronics",
+        "bio": "Martin loves working with JavaScript and self-made electronics, like lighting contraptions and DMX-interfaces. Creator of the fivetwelve-library to control professional lighting using CSS.",
+        "twitter": "usefulthink",
+        "github": "usefulthink"
+	},
+    {
+        "name": "Matt Mckegg",
+        "slug" : "matt-mckegg",
+        "intro": "Matt is a JavaScript hacker and backyard musician.",
+        "bio": "Matt is a JavaScript hacker and backyard musician. He built the awesome Loop Drop, an open source tool for live electronic music with Electron and Web Audio.",
+        "twitter": "MattMckeggefulthink",
+        "github": "mmckegg"
     }
 ]
