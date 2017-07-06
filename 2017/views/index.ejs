@@ -25,7 +25,7 @@
     <section class="about" data-aos="fade-up">
         <a name="about"></a>
         <div class="inner">
-            <h2>A two-day conference</h2>
+            <h2>Two-days + week long festival</h2>
             <p>ColdFront is the front-end conference in Copenhagen. A two day and single track conference with 12 talks by internationally renowned speakers, 2 panel debates, amazing food and networking with industry leaders.</p>
             <p>Our focus is on the web, and where front-end world is headed. So sit tight, and get ready to be inspired.</p>
     
@@ -89,7 +89,22 @@
                     <h3><%- day.title %></h3>
                     <ul>
                     <% day.program.forEach(function(item) { %>
-                        <% var speaker = speakers.find( (s) => s.slug === item.who) %>
+                        <% 
+
+                        var speaker;
+
+                        if(item.who == '*') {
+                            speaker = speakers[0]
+                        } else {
+                            speaker = speakers.find( (s) => {
+                                if( typeof item.who === 'object') {
+                                    return s.slug === item.who[0]
+                                } else {
+                                    return s.slug === item.who
+                                }
+                            })
+                        }
+                        %>
 
                         <li class="<%- speaker ? 'state-speaker' : '' %>">
 

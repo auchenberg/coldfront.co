@@ -76,6 +76,22 @@ server.get('/program', (req, res) => {
 
 server.get('/speakers/:slug', (req, res) => {
 
+  let schedule = require('./schedule').map(d => {
+      d.program = d.program.map(s => { 
+        if(s.abstract) {
+          s.abstractHTML =  markdown.toHTML(s.abstract)
+        }
+        return s;
+      })
+
+      return d;
+  });
+
+  let talk = schedule[0].program.find(i => i.who === req.params.slug);
+  if(!talk) {
+    talk = schedule[1].program.find(i => i.who === req.params.slug);
+  }
+  
   var speaker = require('./speakers').find((s) => s.slug == req.params.slug)
   speaker.bioHTML = markdown.toHTML(speaker.bio)
   
@@ -83,6 +99,7 @@ server.get('/speakers/:slug', (req, res) => {
     pageTitle: 'Speakers',
     pageClass: 'page-speaker',
     speaker: speaker,
+    talk: talk
   })
 
 })

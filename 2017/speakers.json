@@ -84,7 +84,15 @@
         "slug" : "matt-mckegg",
         "intro": "Matt is a JavaScript hacker and backyard musician.",
         "bio": "Matt is a JavaScript hacker and backyard musician. He built the awesome Loop Drop, an open source tool for live electronic music with Electron and Web Audio.",
-        "twitter": "MattMckeggefulthink",
+        "twitter": "MattMcKegg",
         "github": "mmckegg"
+    },
+    {
+        "name": "Charles Adler",
+        "slug" : "charles-adler",
+        "intro": "Kickstarter Co-Founder & Founder of Lost Arts",
+        "bio": "founder @lostartscenter, co-founder @kickstarter, @chidm exec board; Nomadic designer, cyclist, runner, environmentalist...",
+        "twitter": "cadler",
+        "github": "cadler"
     }
 ]
