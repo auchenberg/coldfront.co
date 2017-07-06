@@ -73,7 +73,7 @@
 			{
 				"name": "Panel debate: Day 1",
 				"time": "16:30- 17:15",
-				"icon": "debate.svg",
+				"abstract": "A summary of Day 1 talks, facilicated by our lovely host. Open QA.",
 				"who" : "*"
 			},
 			{
@@ -147,7 +147,7 @@
 			{
 				"name": "Panel debate: Day 2",
 				"time": "15:45- 16:30",
-				"icon": "debate.svg",
+				"abstract": "A summary of Day 2 talks, facilicated by our lovely host. Open QA.",
 				"who" : "*"
 			},			
 			{
