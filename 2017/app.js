@@ -47,7 +47,32 @@ server.get('/', function (req, res) {
   })
 })
 
-server.get('/speakers/:slug', function (req, res) {
+server.get('/speakers', (req, res) => {
+  res.render('speakers', {
+    pageClass: 'page-speakers',
+    speakers: require('./speakers'),
+  })
+})
+
+server.get('/program', (req, res) => {
+  var schedule = require('./schedule').map(d => {
+    d.program = d.program.map(s => { 
+      if(s.abstract) {
+        s.abstractHTML =  markdown.toHTML(s.abstract)
+      }
+      return s;
+    })
+    return d
+  })
+
+  res.render('program', {
+    pageClass: 'page-program',
+    speakers: require('./speakers'),
+    schedule: schedule
+  })
+})
+
+server.get('/speakers/:slug', (req, res) => {
 
   var speaker = require('./speakers').find((s) => s.slug == req.params.slug)
   speaker.bioHTML = markdown.toHTML(speaker.bio)
@@ -59,14 +84,14 @@ server.get('/speakers/:slug', function (req, res) {
 
 })
 
-server.get('/diversity-scholarships', function (req, res) {
+server.get('/diversity-scholarships', (req, res) => {
   res.render('diversity-scholarship', {
     pageTitle: 'Diversity Scholarships',
     pageClass: ''
   })
 })
 
-server.get('/roadbook', function (req, res) {
+server.get('/roadbook', (req, res) => {
   res.render('roadbook', {
     pageClass: 'page-roadbook'
   })

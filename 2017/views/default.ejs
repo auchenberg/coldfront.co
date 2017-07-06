@@ -31,14 +31,20 @@
     <link rel="stylesheet" href="<%= assetFingerprint('/stylesheets/app.css') %>" />
 
     <header class="hidden-xs hidden-sm">
-        <div class="navbar">
+        <div class="navbar pull-left">
             <ul class="nav">
-                <li><a href="/#program">The Program</a></li>
+                <li><a href="/program">Program</a></li>
+                <li><a href="/speakers">Speakers</a></li>
                 <li><a href="https://ti.to/coldfront/coldfront-2017">Tickets</a></li>
                 <li><a href="/diversity-scholarships">Diversity Scholarships</a></li>
-                <li><a href="mailto:hello@coldfront.co" target="_blank">Contact</a></li>
             </ul>
         </div>
+        <div class="navbar nav-right pull-right">
+            <ul class="nav">
+                <li><a href="/about">About</a></li>
+                <li><a href="mailto:hello@coldfront.co" target="_blank">Contact</a></li>
+            </ul>
+        </div>        
     </header>
 
     <%- body %>
