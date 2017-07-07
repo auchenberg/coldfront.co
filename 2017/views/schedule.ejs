@@ -3,7 +3,6 @@
     <ul>
     <% day.program.forEach(function(item) { %>
         <% 
-
         var speaker = [];
 
         if(item.who == '*') {
@@ -11,15 +10,7 @@
                 "slug" : 'all'
             }]
         } else {
-            speaker = speakers.filter((s) => {
-                if(Array.isArray(item.who)) {
-                    return item.who.includes(s.slug)
-                } else {
-                    return s.slug === item.who
-                }
-            })
-
-            console.log('speaker', speaker)
+            speaker = speakers.filter((s) => Array.isArray(item.who) ? item.who.includes(s.slug) : s.slug === item.who)
         }
         %>
 
