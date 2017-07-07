@@ -91,27 +91,31 @@
                     <% day.program.forEach(function(item) { %>
                         <% 
 
-                        var speaker;
+                        var speaker = [];
 
                         if(item.who == '*') {
-                            speaker = speakers[0]
+                            speaker = [{
+                                "slug" : 'all'
+                            }]
                         } else {
-                            speaker = speakers.find( (s) => {
-                                if( typeof item.who === 'object') {
-                                    return s.slug === item.who[0]
+                            speaker = speakers.filter((s) => {
+                                if(Array.isArray(item.who)) {
+                                    return item.who.includes(s.slug)
                                 } else {
                                     return s.slug === item.who
                                 }
                             })
+
+                            console.log('speaker', speaker)
                         }
                         %>
 
-                        <li class="<%- speaker ? 'state-speaker' : '' %>">
+                        <li class="<%- speaker.length ? 'state-speaker' : '' %>">
 
                             <div class="flex">
                                 <div class="date"><%- item.time %></div>
                                 <div class="title"><%- item.name %></div>
-                                <% if (speaker) { %>
+                                <% if (speaker.length) { %>
                                 <div class="action">
                                     <div class="down">&#11015;</div>
                                     <div class="up">&#11014;</div>
@@ -122,10 +126,12 @@
                             <div class="details flex">
 
                                 <div class="image">
-                                    <% if (speaker) { %>
-                                    <a href="/speakers/<%= speaker.slug%>">
-                                        <img src="/images/speakers/<%= speaker.slug %>.png">
-                                    </a>
+                                    <% if (speaker.length) { %>
+                                        <% speaker.forEach(s => { %>
+                                            <a href="/speakers/<%= s.slug%>">
+                                                <img src="/images/speakers/<%= s.slug %>.png">
+                                            </a>
+                                        <% }) %>
                                     <% } else { %>
                                     <img src="/images/<%= item.icon %>">
                                     <% } %>
@@ -134,7 +140,7 @@
                                 <% if (speaker || item.info) { %>
                                 <div class="session-info ">
                                     <% if (speaker) { %>
-                                        <p><%- speaker.name %></p>
+                                        <p><%- speaker.map(s => s.name).join(', ') %></p>
                                         
                                         <div class="session">
                                             <h3>talks about</h3>
