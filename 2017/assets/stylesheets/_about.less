@@ -1,6 +1,5 @@
 .page-about {
-
-    margin-top: 100px;
+    margin-top: 70px;
 
     section {
         text-align: left;
@@ -14,14 +13,49 @@
         text-align: center;
     }
 
-    .logos {
-        background: #fff;
-        padding: 40px;
-        margin: 40px 0;
+    h3 {
+        padding: 20px 0;
+    }
 
-        img {
-            max-width: 200px;
+    h4 {
+        padding: 20px 0;
+    }
+
+    ul {
+        li {
+            list-style-type: circle;
         }
     }
+
+    .organizers {
+        padding: 40px;
+        background: #fff;
+
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 30px;
+
+        .logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            margin-right: 0;
+            width: 100%;
+
+        }
+
+        h3 {
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        p {
+            color: #000;
+            font-weight: normal;
+        }
+        
+    }    
 
 }
