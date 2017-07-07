@@ -82,80 +82,8 @@
         <div class="inner">
             <div class="border-top"></div>
             <div class="content">
-
                 <h2>The Program</h2>
-                
-                <% schedule.forEach(function(day) { %>
-                    <h3><%- day.title %></h3>
-                    <ul>
-                    <% day.program.forEach(function(item) { %>
-                        <% 
-
-                        var speaker = [];
-
-                        if(item.who == '*') {
-                            speaker = [{
-                                "slug" : 'all'
-                            }]
-                        } else {
-                            speaker = speakers.filter((s) => {
-                                if(Array.isArray(item.who)) {
-                                    return item.who.includes(s.slug)
-                                } else {
-                                    return s.slug === item.who
-                                }
-                            })
-
-                            console.log('speaker', speaker)
-                        }
-                        %>
-
-                        <li class="<%- speaker.length ? 'state-speaker' : '' %>">
-
-                            <div class="flex">
-                                <div class="date"><%- item.time %></div>
-                                <div class="title"><%- item.name %></div>
-                                <% if (speaker.length) { %>
-                                <div class="action">
-                                    <div class="down">&#11015;</div>
-                                    <div class="up">&#11014;</div>
-                                </div>
-                                <% } %>
-                            </div>
-
-                            <div class="details flex">
-
-                                <div class="image">
-                                    <% if (speaker.length) { %>
-                                        <% speaker.forEach(s => { %>
-                                            <a href="/speakers/<%= s.slug%>">
-                                                <img src="/images/speakers/<%= s.slug %>.png">
-                                            </a>
-                                        <% }) %>
-                                    <% } else { %>
-                                    <img src="/images/<%= item.icon %>">
-                                    <% } %>
-                                </div>
-
-                                <% if (speaker || item.info) { %>
-                                <div class="session-info ">
-                                    <% if (speaker) { %>
-                                        <p><%- speaker.map(s => s.name).join(', ') %></p>
-                                        
-                                        <div class="session">
-                                            <h3>talks about</h3>
-                                            <%- item.abstractHTML %>
-                                        </div>
-                                    <% } %>
-
-                                    <p><%- item.info %></p>
-                                </div>
-                            </div>
-                            <% } %>
-                        </li>
-                    <% }) %>
-                    </ul>
-                <% }) %>
+                <%- include schedule %>
             </div>
             <div class="border-bottom"></div>
         </div>

@@ -1,79 +1,11 @@
 <div class="page">
-
   <section class="schedule" data-aos="fade-up">
         <a name="program"></a>
         <div class="inner">
             <div class="content">
-
                 <h2>The Program</h2>
-                
-                <% schedule.forEach(function(day) { %>
-                    <h3><%- day.title %></h3>
-                    <ul>
-                    <% day.program.forEach(function(item) { %>
-                        <% 
-
-                        var speaker;
-
-                        if(item.who == '*') {
-                            speaker = speakers[0]
-                        } else {
-                            speaker = speakers.find( (s) => {
-                                if( typeof item.who === 'object') {
-                                    return s.slug === item.who[0]
-                                } else {
-                                    return s.slug === item.who
-                                }
-                            })
-                        }
-                        %>
-
-                        <li class="<%- speaker ? 'state-speaker' : '' %>">
-
-                            <div class="flex">
-                                <div class="date"><%- item.time %></div>
-                                <div class="title"><%- item.name %></div>
-                                <% if (speaker) { %>
-                                <div class="action">
-                                    <div class="down">&#11015;</div>
-                                    <div class="up">&#11014;</div>
-                                </div>
-                                <% } %>
-                            </div>
-
-                            <div class="details flex">
-
-                                <div class="image">
-                                    <% if (speaker) { %>
-                                    <a href="/speakers/<%= speaker.slug%>">
-                                        <img src="/images/speakers/<%= speaker.slug %>.png">
-                                    </a>
-                                    <% } else { %>
-                                    <img src="/images/<%= item.icon %>">
-                                    <% } %>
-                                </div>
-
-                                <% if (speaker || item.info) { %>
-                                <div class="session-info ">
-                                    <% if (speaker) { %>
-                                        <p><%- speaker.name %></p>
-                                        
-                                        <div class="session">
-                                            <h3>talks about</h3>
-                                            <%- item.abstractHTML %>
-                                        </div>
-                                    <% } %>
-
-                                    <p><%- item.info %></p>
-                                </div>
-                            </div>
-                            <% } %>
-                        </li>
-                    <% }) %>
-                    </ul>
-                <% }) %>
+                <%- include schedule %>
             </div>
         </div>
     </section>
-
 </div>
