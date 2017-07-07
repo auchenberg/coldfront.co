@@ -11,7 +11,22 @@
                     <h3><%- day.title %></h3>
                     <ul>
                     <% day.program.forEach(function(item) { %>
-                        <% var speaker = speakers.find( (s) => s.slug === item.who) %>
+                        <% 
+
+                        var speaker;
+
+                        if(item.who == '*') {
+                            speaker = speakers[0]
+                        } else {
+                            speaker = speakers.find( (s) => {
+                                if( typeof item.who === 'object') {
+                                    return s.slug === item.who[0]
+                                } else {
+                                    return s.slug === item.who
+                                }
+                            })
+                        }
+                        %>
 
                         <li class="<%- speaker ? 'state-speaker' : '' %>">
 
