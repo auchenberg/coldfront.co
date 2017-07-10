@@ -118,6 +118,13 @@ server.get('/about', (req, res) => {
   })
 })
 
+server.get('/themes', (req, res) => {
+  res.render('themes', {
+    pageTitle: 'Themes',
+    pageClass: ''
+  })
+})
+
 server.get('/roadbook', (req, res) => {
   res.render('roadbook', {
     pageClass: 'page-roadbook'
