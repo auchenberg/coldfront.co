@@ -13,8 +13,10 @@
                     <div class="bio">
                         <h2><%- speaker.name %></h2>
                         <h3><%- speaker.intro %></h3>
+                        <% if(talk) { %>
                         <h4>Talk: <%- talk.name %></h4>
                         <%- talk.abstractHTML %>
+                        <% } %>
 
                         <%- speaker.bioHTML %>
 
