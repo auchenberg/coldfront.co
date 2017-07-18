@@ -61,7 +61,7 @@
 			},
 			{
 				"name": "Break",
-				"time": "15:30- 15:45",
+				"time": "15:30 - 15:45",
 				"icon": "break.png"
 			},
 			{
@@ -72,7 +72,7 @@
 			},
 			{
 				"name": "Panel debate: Day 1",
-				"time": "16:30- 17:15",
+				"time": "16:30 - 17:15",
 				"abstract": "A summary of Day 1 talks, facilicated by our lovely host. Open QA.",
 				"who" : "*"
 			},
@@ -82,13 +82,13 @@
 				"icon": "party.png"
 			},
 			{
-				"name": "Techfestival keynote: TBA",
-				"time": "20:00 - 21:00",
+				"name": "Techfestival keynote: Olafur Eliasson",
+				"time": "20:00 - 20:30",
 				"who" : "*"
 			},
 			{
 				"name": "Techfestival afterparty!",
-				"time": "21:00 - 24:00",
+				"time": "20:30 - 24:00",
 				"icon": "party.png"
 			}
 		]
@@ -134,11 +134,10 @@
 				"icon": "lunch.png"
 			},
 			{
-				"name": "Live JavaScript Artistic Performance",
-				"abstract": "LiveJS, a collective of audio and visual artists, will perform a live experiences with sound, visualizations and lights. All powered by JavaScript! \n\nWhy JS? Because that's the main technology we use: JavaScript.",
-				"who": ["ruth-john","martin-schuhfuss","matt-mckegg"],
-				"time": "14:00- 15:00"
-			},
+				"time": "14:00 - 15:00",
+				"name": "TBA",
+				"icon": "unknown.svg"
+			},					
 			{
 				"time": "15:00 - 15:45",
 				"name": "Closing keynote",
@@ -146,23 +145,29 @@
 			},		
 			{
 				"name": "Panel debate: Day 2",
-				"time": "15:45- 16:30",
+				"time": "15:45 - 16:30",
 				"abstract": "A summary of Day 2 talks, facilicated by our lovely host. Open QA.",
 				"who" : "*"
-			},			
+			},
 			{
-				"name": "Closing",
+				"name": "Closing + Family photo!",
 				"time": "16:30 - 16:45",
 				"icon": "party.png"
 			},			
 			{
-				"name": "Family photo!",
-				"time": "16:34 - 17:00",
+				"name": "Break",
+				"time": "16:45 - 17:00",
 				"icon": "closing.png"
 			},
 			{
+				"name": "LiveJS Artistic Performance",
+				"abstract": "LiveJS, a collective of audio and visual artists, will perform a live experiences with sound, visualizations and lights. All powered by JavaScript! \n\nWhy JS? Because that's the main technology we use: JavaScript.",
+				"who": ["ruth-john","martin-schuhfuss","matt-mckegg"],
+				"time": "17:00 - 18:00"
+			},			
+			{
 				"name": "ColdFront social",
-				"time": "17:00 - 20:00",
+				"time": "18:00 - 20:00",
 				"icon": "closing.png"
 			},			
 			{
@@ -172,7 +177,7 @@
 			},		
 			{
 				"name": "Techfestival party!",
-				"time": "17:30- 24:00",
+				"time": "21:30 - 24:00",
 				"icon": "party.png"
 			}
 		]
