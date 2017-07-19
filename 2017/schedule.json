@@ -133,11 +133,6 @@
 				"time": "12:30 - 14:00",
 				"icon": "lunch.png"
 			},
-			// {
-			// 	"time": "14:00 - 15:00",
-			// 	"name": "TBA",
-			// 	"icon": "unknown.svg"
-			// },					
 			{
 				"time": "14:00 - 15:00",
 				"name": "Closing keynote",
