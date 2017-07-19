@@ -55,10 +55,10 @@
 			},
 			{
 				"time": "14:45 - 15:30",
-				"name": "Scale Down, People Up: Making the Web More Approachable",
+				"name": "TBA",
 				"abstract": "",
-				"who": "jessica-lord"
-			},
+				"who": ""
+			},			
 			{
 				"name": "Break",
 				"time": "15:30 - 15:45",
@@ -120,8 +120,9 @@
 			},
 			{
 				"time": "11:00 - 11:45",
-				"name": "TBA",
-				"icon": "unknown.svg"
+				"name": "Scale Down, People Up: Making the Web More Approachable",
+				"abstract": "This talk is about ideas and existing tools—some you may take for granted, like spreadsheets—that can help make building on the web easier. These things reduce the barrier to going from idea to online and help make the web a better place for all, whether your a beginner or not.",
+				"who": "jessica-lord"
 			},
 			{
 				"time": "11:45 - 12:30",
