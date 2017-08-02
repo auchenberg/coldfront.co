@@ -48,15 +48,27 @@
             <div class="content">
                 <h2>The speakers</h2>
                 <ul>
-                    <% speakers.forEach(function(speaker) { %>
+                    <% speakers.filter(s => s.keynote !== true).forEach(function(speaker) { %>               
                         <li>
                             <a href="/speakers/<%= speaker.slug%>">
                                 <img src="/images/speakers/<%= speaker.slug %>.png">
                                 <h3><%- speaker.name %></h3>
                                 <p><%- speaker.intro %></p>
                             </a>
-                        </li>
-                        <% }) %>
+                        </li>   
+                    <% }) %>
+                </ul>
+                <h2>The keynotes</h2>
+                <ul class="keynotes">
+                    <% speakers.filter(s => s.keynote === true).forEach(function(speaker) { %>               
+                        <li>
+                            <a href="/speakers/<%= speaker.slug%>">
+                                <img src="/images/speakers/<%= speaker.slug %>.png">
+                                <h3><%- speaker.name %></h3>
+                                <p><%- speaker.intro %></p>
+                            </a>
+                        </li>   
+                    <% }) %>
                 </ul>
             </div>
         </div>
