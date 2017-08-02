@@ -88,23 +88,46 @@
         "github": "mmckegg"
     },
     {
-        "name": "Charles Adler",
-        "slug" : "charles-adler",
-        "intro": "Kickstarter Co-Founder & Founder of Lost Arts",
-        "bio": "founder @lostartscenter, co-founder @kickstarter, @chidm exec board; Nomadic designer, cyclist, runner, environmentalist...",
-        "twitter": "cadler",
-        "github": "cadler"
-    },
-    {
         "name": "Lars Gunder Knudsen",
         "slug" : "lars-gunder-knudsen",
         "intro": "Software engineer who created the last S30 Nokia Snake and worked on Nokia N9 web browser.",
         "bio": "Lars Gunder Knudsen is a software engineer and tech evangelist, usually moving around somewhere outside the box with others, combining people, music, graphics, games, IoT, mobile and web in new ways. He has been coding since childhood and among other things, created the last S30 Nokia Snake and worked on Nokia N9 web browser.  Currently, he is raising awareness of practical ways to web enable legacy hardware with traditional industries and for science education in developed and developing regions."
 	},
 	{
+		"name": "Jordan Santell",
+		"slug": "jordan-santell",
+		"intro": "Shaping the future of WebXR at Google",
+		"bio": "Jordan Santell is a software engineer, open web advocate, cat dad, and metalhead musician living in San Francisco. Currently, he's shaping the future of WebXR at Google, and previously worked on experimental browsers at Mozilla and lead the Firefox Performance DevTools team. He enjoys audio engineering, hacking on open source tooling, Web Audio, and daydreaming about how weird the future will be."
+	},
+	{
+		"name": "Eric Muntz",
+		"slug": "eric-muntz",
+		"intro": "VP of Product, Mailchimp",
+		"bio": "VP of Product, Mailchimp"
+	},	
+    {
+        "name": "Charles Adler",
+        "slug" : "charles-adler",
+        "intro": "Kickstarter Co-Founder & Founder of Lost Arts",
+        "bio": "founder @lostartscenter, co-founder @kickstarter, @chidm exec board; Nomadic designer, cyclist, runner, environmentalist...",
+        "twitter": "cadler",
+		"github": "cadler",
+		"keynote": true
+	},
+	{
+		"name": "Henrik Joreteg",
+		"slug": "henrik-joreteg",
+		"intro": "Henrik Joreteg is a JavaScript developer, author, speaker, and educator.",
+		"bio": "Henrik Joreteg is a JavaScript developer, author, speaker, and educator. He has pioneered many techniques and tools for building JavaScript apps especially those with a realtime aspect.",
+		"twitter": "HenrikJoreteg",
+		"keynote": true
+	},	
+	{
 		"name": "Olafur Eliasson",
 		"slug": "olafur-eliasson",
 		"intro": "Danish-Icelandic artist Olafur Eliasson",
-		"bio": "Olafur Eliasson’s art is driven by his interests in perception, movement, embodied experience, and feelings of self. Eliasson strives to make the concerns of art relevant to society at large. Art, for him, is a crucial means for turning thinking into doing in the world. Eliasson’s diverse works – in sculpture, painting, photography, film, and installations – have been exhibited widely throughout the world. Not limited to the confines of the museum and gallery, his practice engages the broader public sphere through architectural projects and interventions in civic space."
+		"bio": "Olafur Eliasson’s art is driven by his interests in perception, movement, embodied experience, and feelings of self. Eliasson strives to make the concerns of art relevant to society at large. Art, for him, is a crucial means for turning thinking into doing in the world. Eliasson’s diverse works – in sculpture, painting, photography, film, and installations – have been exhibited widely throughout the world. Not limited to the confines of the museum and gallery, his practice engages the broader public sphere through architectural projects and interventions in civic space.",
+		"twitter": "eliassonolafur",
+		"keynote": true
 	}
 ]

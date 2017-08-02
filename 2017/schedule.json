@@ -57,7 +57,7 @@
 				"time": "14:45 - 15:30",
 				"name": "TBA",
 				"abstract": "",
-				"who": ""
+				"who": "jordan-santell"
 			},			
 			{
 				"name": "Break",
@@ -126,7 +126,7 @@
 			},
 			{
 				"time": "11:45 - 12:30",
-				"name": "TBA",
+				"name": "Why MailChimp loves the web",
 				"abstract": "MailChimp supports more than 16 million users who deliver more than a billion emails per day. None of this would be possible without the web! MailChimp’s developers love the web because it allows them to efficiently provide high-quality tools carefully designed for their users. The web allows MailChimp and the small businesses MailChimp supports to be themselves, and that makes all the difference. This talk will focus on success stories and lessons learned from embracing the web and development practices to be successful using the web to provide high-quality software to small businesses.",
 				"who": "eric-muntz"
 			},			
@@ -137,8 +137,9 @@
 			},
 			{
 				"time": "14:00 - 15:00",
-				"name": "Closing keynote",
-				"icon": "ghost.svg"
+				"name": "Keynote: Why PWA's and the web are the future",
+				"abstract": "",
+				"who": "henrik-joreteg"
 			},		
 			{
 				"name": "Panel debate: Day 2",
