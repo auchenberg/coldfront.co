@@ -55,7 +55,7 @@
 			},
 			{
 				"time": "14:45 - 15:30",
-				"name": "TBA",
+				"name": "The future of Virtual and Argumented Realty for the web",
 				"abstract": "",
 				"who": "jordan-santell"
 			},			
@@ -137,8 +137,8 @@
 			},
 			{
 				"time": "14:00 - 15:00",
-				"name": "Keynote: Why PWA's and the web are the future",
-				"abstract": "",
+				"name": "Keynote: Betting on The Web",
+				"abstract": "For the good part of a a decade I’ve been building mobile web apps. I’ll explain why I believe, more than ever, that the web is the future of mobile and IoT.",
 				"who": "henrik-joreteg"
 			},		
 			{

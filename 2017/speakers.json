@@ -94,6 +94,12 @@
         "bio": "Lars Gunder Knudsen is a software engineer and tech evangelist, usually moving around somewhere outside the box with others, combining people, music, graphics, games, IoT, mobile and web in new ways. He has been coding since childhood and among other things, created the last S30 Nokia Snake and worked on Nokia N9 web browser.  Currently, he is raising awareness of practical ways to web enable legacy hardware with traditional industries and for science education in developed and developing regions."
 	},
 	{
+		"name": "Jordan Santell",
+		"slug": "jordan-santell",
+		"intro": "Shaping the future of WebXR at Google",
+		"bio": "Jordan Santell is a software engineer, open web advocate, cat dad, and metalhead musician living in San Francisco. Currently, he's shaping the future of WebXR at Google, and previously worked on experimental browsers at Mozilla and lead the Firefox Performance DevTools team. He enjoys audio engineering, hacking on open source tooling, Web Audio, and daydreaming about how weird the future will be."
+	},
+	{
 		"name": "Eric Muntz",
 		"slug": "eric-muntz",
 		"intro": "VP of Product, Mailchimp",
@@ -108,6 +114,14 @@
 		"github": "cadler",
 		"keynote": true
 	},
+	{
+		"name": "Henrik Joreteg",
+		"slug": "henrik-joreteg",
+		"intro": "Henrik Joreteg is a JavaScript developer, author, speaker, and educator.",
+		"bio": "Henrik Joreteg is a JavaScript developer, consultant, author, speaker, and educator.\n\nHe does independent contracting heavily focused on building Progressive Web Apps with tools like Redux and React/Preact. Currently he's working with Starbucks; before that Groove, Microsoft, and others.\n\nHenrik is a huge proponent of the web as a mobile app platform and wants to help developers push it to the next level. To that end, you may have seen his blog posts on topics such as abandoning iOS for the sake of the web or installng web apps or seen some of his talks, such as this one on pocket-sized JavaScript. He has also taught workshops for Frontend Masters and O'Reilly, co-developed the Ampersand.js framework, authored Human JavaScript, created Talky.io, and has open sourced libraries such as SimpleWebRTC, hjs-webpack, and many others.\n\nYou can follow him on Twitter at @HenrikJoreteg or keep an eye out for his posts at joreteg.com.",
+		"twitter": "HenrikJoreteg",
+		"keynote": true
+	},	
 	{
 		"name": "Olafur Eliasson",
 		"slug": "olafur-eliasson",
