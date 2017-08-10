@@ -129,5 +129,14 @@
 		"bio": "Olafur Eliasson’s art is driven by his interests in perception, movement, embodied experience, and feelings of self. Eliasson strives to make the concerns of art relevant to society at large. Art, for him, is a crucial means for turning thinking into doing in the world. Eliasson’s diverse works – in sculpture, painting, photography, film, and installations – have been exhibited widely throughout the world. Not limited to the confines of the museum and gallery, his practice engages the broader public sphere through architectural projects and interventions in civic space.",
 		"twitter": "eliassonolafur",
 		"keynote": true
+	},
+	{
+		"name": "Phil Hawksworth",
+		"slug": "phil-hawksworth",
+		"intro": "Technology Director at R/GA",
+		"bio": "Phil Hawksworth has a long history in web development, and a passion for browser technologies. As Technology Director at R/GA (https://rga.com), the global, connected design agency, his mission is to bring engaging and effective experiences to the widest audience possible.\n\n Based in London but working with clients around the world such as Nike, Google, Dyson and Samsung, Phil regularly flounces about as a conference speaker and MC who loves the \"corridor track\". Find him. Talk to him. He loves that.",
+		"twitter": "philhawksworth",
+		"hidden": true
 	}
+	
 ]

@@ -6,7 +6,7 @@
             <div class="content">
                 <h2>The speakers</h2>
                 <ul>
-                    <% speakers.filter(s => s.keynote !== true).forEach(function(speaker) { %>               
+                    <% speakers.filter(s => s.keynote !== true).filter(s => s.hidden !== true).forEach(function(speaker) { %>               
                         <li>
                             <a href="/speakers/<%= speaker.slug%>">
                                 <img src="/images/speakers/<%= speaker.slug %>.png">

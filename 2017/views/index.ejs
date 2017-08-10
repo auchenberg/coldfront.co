@@ -48,7 +48,7 @@
             <div class="content">
                 <h2>The speakers</h2>
                 <ul>
-                    <% speakers.filter(s => s.keynote !== true).forEach(function(speaker) { %>               
+                    <% speakers.filter(s => s.keynote !== true).filter(s => s.hidden !== true).forEach(function(speaker) { %>               
                         <li>
                             <a href="/speakers/<%= speaker.slug%>">
                                 <img src="/images/speakers/<%= speaker.slug %>.png">
@@ -114,10 +114,10 @@
         <a name="host"></a>
         <div class="inner">
             <h2>Your host</h2>
-            <h3 class="text-highlight">Christian Heilmann</h3>
-            <p>This year ColdFront introduces a new concept by having <strong><a href="https://twitter.com/codepo8">Christian Heilmann</a></strong>                as your host for the conference. Christian is an established authority in our industry, works for Microsoft,
-                and we are proud to have him guiding you through the conference days, talks and panel debates.</p>
-            <img src="/images/speakers/host.png" class="movable" />
+            <h3 class="text-highlight">Phil Hawksworth</h3>
+            <p>This year ColdFront introduces a new concept by having <strong><a href="/speakers/phil-hawksworth">Phil Hawksworth</a></strong> as your host for the conference. Phil spoke at the very first ColdFront, and has since hosted many of our favorite conferences such a <a href="https://fronteers.nl/congres">Fronteers</a> in Amsterdam.</p>
+            <p>We are proud to have him guiding you through the conference days, talks and panel debates.</p>
+            <a href="/speakers/phil-hawksworth"><img src="/images/speakers/phil-hawksworth.png"/></a>
         </div>
     </section>
 
