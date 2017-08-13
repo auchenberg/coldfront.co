@@ -38,8 +38,8 @@
 			},
 			{
 				"time": "11:45 - 12:30",
-				"name": "Will React and React Native become the next browser?",
-				"abstract": "",
+				"name": "Why we need a better browser",
+				"abstract": "In this talk, I will explain the challenges we face developing modern webapps on a platform that wasn't intended for application development. We will explore the problems, some potential solutions and what a next generation browser could look like",
 				"who": "ken-wheeler"
 			},			
 			{
