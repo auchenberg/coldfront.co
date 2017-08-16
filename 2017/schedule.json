@@ -87,8 +87,13 @@
 				"who" : "olafur-eliasson"
 			},
 			{
+				"name": "Techfestival: Ida Tin",
+				"time": "20:30 - 21:00",
+				"who" : "olafur-eliasson"
+			},			
+			{
 				"name": "Techfestival afterparty!",
-				"time": "20:30 - 24:00",
+				"time": "21:00 - 24:00",
 				"icon": "party.png"
 			}
 		]

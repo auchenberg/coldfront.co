@@ -131,6 +131,14 @@
 		"keynote": true
 	},
 	{
+		"name": "Ida Tin",
+		"slug": "ida-tin",
+		"intro": "Ida is the CEO and co-founder of the leading female health tracking app, Clue",
+		"bio": "Ida is the CEO and co-founder of the leading female health tracking app, Clue. Born in Copenhagen, Ida graduated from Denmark’s creative business school, the KaosPilots.\n\nA lifelong entrepreneur, she previously led motorcycle tours around the world and published a book about her experience, 'Direktøs' which became a Danish bestseller. She is recognized for coining the term 'Femtech' to describe the sector of technology focused on improving women’s health.",
+		"twitter": "idatin",
+		"keynote": true
+	},
+	{
 		"name": "Phil Hawksworth",
 		"slug": "phil-hawksworth",
 		"intro": "Technology Director at R/GA",
@@ -138,5 +146,4 @@
 		"twitter": "philhawksworth",
 		"hidden": true
 	}
-	
 ]
