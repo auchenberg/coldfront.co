@@ -141,31 +141,31 @@
 				"icon": "lunch.png"
 			},
 			{
-				"time": "14:00 - 15:00",
+				"time": "14:00 - 14:45",
 				"name": "Keynote: Betting on The Web",
 				"abstract": "For the good part of a a decade I’ve been building mobile web apps. I’ll explain why I believe, more than ever, that the web is the future of mobile and IoT.",
 				"who": "henrik-joreteg"
 			},		
 			{
 				"name": "Panel debate: Day 2",
-				"time": "15:00 - 15:45",
+				"time": "14:45 - 15:15",
 				"abstract": "A summary of Day 2 talks, facilicated by our lovely host. Open QA.",
 				"who" : "*"
 			},
 			{
 				"name": "Closing + Family photo!",
-				"time": "15:45 - 16:15",
+				"time": "15:15 - 15:45",
 				"icon": "party.png"
 			},
 			{
-				"name": "LiveJS Artistic Performance",
+				"name": "LiveJS Artistic Performance (Beers + Ice creme)",
 				"abstract": "LiveJS, a collective of audio and visual artists, will perform a live experiences with sound, visualizations and lights. All powered by JavaScript! \n\nWhy JS? Because that's the main technology we use: JavaScript.",
 				"who": ["ruth-john","martin-schuhfuss","matt-mckegg"],
-				"time": "16:15 - 17:00"
+				"time": "16:00 - 17:00"
 			},
 			{
 				"name": "Techfestival party!",
-				"time": "17:00 - 24:00",
+				"time": "17:00 - 20:00",
 				"icon": "closing.png"
 			},			
 			{
