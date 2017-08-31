@@ -4,7 +4,7 @@
 		"slug" : "ben-schwarz",
 		"intro": "Founder of Calibre & organizer of JSCONF AU",
 		"bio": "",
-		"twitter" : "",
+		"twitter" : "benschwarz",
 		"github" : "benschwarz"
 	},	
 	{
@@ -60,8 +60,8 @@
 		"slug" : "sam-richard",
 		"intro": "Lead engineering and strategy for IBM’s team experience",
 		"bio": "Sam Richard, better known as Snugug throughout the Internet, is a developer with design tendencies and a love of building open source tools to help with both. Sam geeks out on content strategy, team process, and cultural transformation. When not at work, he is the author of North, a co-founder of SassConf, and an accomplished bacon connoisseur.",
-		"twitter": "jllord",
-		"github": "jllord"
+		"twitter": "snugug",
+		"github": "snugug"
 	},
     {
         "name": "Ruth John",
@@ -97,13 +97,15 @@
 		"name": "Jordan Santell",
 		"slug": "jordan-santell",
 		"intro": "Shaping the future of WebXR at Google",
-		"bio": "Jordan Santell is a software engineer, open web advocate, cat dad, and metalhead musician living in San Francisco. Currently, he's shaping the future of WebXR at Google, and previously worked on experimental browsers at Mozilla and lead the Firefox Performance DevTools team. He enjoys audio engineering, hacking on open source tooling, Web Audio, and daydreaming about how weird the future will be."
+		"bio": "Jordan Santell is a software engineer, open web advocate, cat dad, and metalhead musician living in San Francisco. Currently, he's shaping the future of WebXR at Google, and previously worked on experimental browsers at Mozilla and lead the Firefox Performance DevTools team. He enjoys audio engineering, hacking on open source tooling, Web Audio, and daydreaming about how weird the future will be.",
+		"twitter": "jsantell"
 	},
 	{
 		"name": "Eric Muntz",
 		"slug": "eric-muntz",
 		"intro": "VP of Product, Mailchimp",
-		"bio": "VP of Product, Mailchimp"
+		"bio": "VP of Product, Mailchimp",
+		"twitter": "muntzen"
 	},	
     {
         "name": "Charles Adler",
