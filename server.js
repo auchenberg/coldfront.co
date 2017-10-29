@@ -39,8 +39,8 @@ server.use(vhost('2017.coldfrontconf.com', root))
 server.use(vhost('2017.coldfront.co', app17))
 server.use(vhost('preview.coldfront.co', app17))
 
-server.use(vhost('coldfront.co', root))
-server.use(vhost('localhost', app17))
+server.use(vhost('coldfront.co', appSplash))
+server.use(vhost('localhost', appSplash))
 
 server.listen(server.get('port'), function () {
   console.log('Express server listening on port %d in %s mode', server.get('port'), server.settings.env)

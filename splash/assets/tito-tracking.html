@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+  <head>
+    <title>Tito Event Tracking</title>
+
+  <!-- https://developers.google.com/adwords-remarketing-tag/asynchronous/ -->
+  <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=875681269219535&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+
+    <script src="https://js.tito.io/v1"></script>
+    <script>
+      if(!console){var console = function(){};}
+      Tito.on('event:landing', function(data){
+        console.log('[Tracking]', 'landing with', data)
+        fbq('init', '875681269219535');
+        fbq('track', 'PageView');
+
+        window.google_trackConversion({
+          google_conversion_id: 952972973, 
+          google_conversion_language: "en",
+          google_conversion_format: "3",
+          google_conversion_color: "ffffff",
+          google_conversion_label: "vR-MCIH3wHIQre20xgM",
+          google_remarketing_only: false
+        });
+
+      })
+
+      Tito.on('registration:started', function(data){
+        console.log('[Tracking]', 'registration started with', data)
+        fbq('track', 'AddToCart');
+      })
+      Tito.on('registration:filling', function(data){
+        console.log('[Tracking]', 'registration filling with', data)
+      })
+      Tito.on('registration:finished', function(data){
+        console.log('[Tracking]', 'finishing with', data)
+      })
+      Tito.on('registration:complete', function(data){
+        console.log('[Tracking]', 'completing with', data)
+        fbq('init', '875681269219535');
+        fbq('track', 'PageView');
+        fbq('track', 'Purchase');
+      });
+    </script>
+  </head>

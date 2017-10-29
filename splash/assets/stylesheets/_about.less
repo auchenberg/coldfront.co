@@ -1,0 +1,67 @@
+.page-about {
+    margin-top: 70px;
+    padding-bottom: 70px;
+
+    section {
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        padding: 20px 0;
+    }
+
+    h4 {
+        padding: 20px 0;
+    }
+
+    ul {
+        li {
+            list-style-type: circle;
+        }
+    }
+
+    .organizers {
+        padding: 40px;
+        background: #fff;
+        margin-bottom: 20px;
+
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 30px;
+
+        @media (max-width: 720px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            margin-right: 0;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        p {
+            color: #000;
+            font-weight: normal;
+        }
+        
+    }    
+
+}

@@ -1,0 +1,20 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://2017.coldfront.co/</loc>
+    </url>
+    <url>
+        <loc>https://2017.coldfront.co/about</loc>
+    </url>         
+    <url>
+        <loc>https://2017.coldfront.co/program</loc>
+    </url>
+    <url>
+        <loc>https://2017.coldfront.co/speakers</loc>
+    </url>
+    <url>
+        <loc>https://2017.coldfront.co/themes</loc>
+    </url>    
+    <url>
+        <loc>https://2017.coldfront.co/diversity-scholarship</loc>
+    </url>    
+</urlset>

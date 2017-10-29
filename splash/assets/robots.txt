@@ -1,0 +1,3 @@
+Sitemap: https://2017.coldfront.co/sitemap.xml
+User-agent: *
+Disallow: 
